@@ -1,2 +1,2 @@
 # webdesign
-about what I code
+code the web | code the world
