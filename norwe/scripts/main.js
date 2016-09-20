@@ -4,6 +4,9 @@ $(document).ready(function(){
     var screenWidth = screen.width;
     $(".logo").on('click', function(){
         console.log(this);
+        
+        // 點下後收合
+        
         if(a === 0){
             $("nav").animate({
                 "height":"160px",
@@ -13,6 +16,8 @@ $(document).ready(function(){
             $("hr").css("display","none");
             $(".menu").css("display","none");
             a = 1;
+        
+        // 點下後展開
         }else if(a === 1){
             $("nav").animate({
                 "height":"100vh",
