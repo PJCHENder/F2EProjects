@@ -1,12 +1,43 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>知域設計</title>
+    <meta charset="UTF-8">
+    <title>知域設計-作品集</title>
     <link rel="stylesheet" media="all" href="css/style.css" />
     <script src="scripts/respond.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <style>
+        .demo{
+            background-color: #EAEAEA;
+        }
+        .nav{
+            height: 100vh;
+            top: 0;
+        }
+        .nav .logo{
+            margin: 90px auto;
+        }
+        
+        .nav hr{
+            display: block;
+        }
+        .nav ul.menu{
+            display: block;
+        }
+        
+        @media ( max-width : 1680px ) {
+    
+            .logo{
+                margin: 30px auto;
+            }
+            .nav hr{
+                margin-bottom: 40px;
+            }
+
+        }     
+        
+    </style>
 </head>
 
 <body>
@@ -24,7 +55,15 @@
             <li class="menu_en">Coverage</li>
         </ul>
     </nav>
-    <main class="main index_bg">
+    <main class="main">
+        <div class="container">
+            <div class="row gutters">
+                <div class="demo col span_3">TEST</div>
+                <div class="demo col span_3">TEST</div>
+                <div class="demo col span_3">TEST</div>
+                <div class="demo col span_3">TEST</div>
+            </div>       
+        </div>
         <div class="intro">
             <ul class="cus-container">
                 <li class="icon_location">台北市大同區歸綏街86巷3號</li>
@@ -36,9 +75,6 @@
             </ul>
         </div>
     </main>
-    
-    <!--  JS File  -->
-    <script src="scripts/main.js"></script>
 </body>
 
 </html>
