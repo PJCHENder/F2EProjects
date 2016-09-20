@@ -3,95 +3,42 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Responsive.gs Example</title>
+    <title>知域設計</title>
     <link rel="stylesheet" media="all" href="css/style.css" />
     <script src="scripts/respond.min.js"></script>
-    <style>
-        main {
-            width: 100vw;
-            height: 100vh;
-            background-color: #333;
-            background: url('img/03-min.jpg') no-repeat center;
-            background-size: cover;
-            position: relative;
-        }
-        
-        .intro {
-            width: 100%;
-            height: 60px;
-            margin: 0 auto;
-            background-color: rgba(0, 0, 0, 0.5);
-            position: absolute;
-            bottom: 0;
-        }
-        
-        .cus-container {
-            margin: 0 auto;
-            width: 80%;
-        }
-        
-        .cus-container li {
-            font-size: 14px;
-            font-family: Helvetica, '微軟正黑體';
-            height: 60px;
-            line-height: 60px;
-            text-indent: 36px;
-            display: inline-block;
-            background-position: left center;
-            margin-left: 30px;
-        }
-        
-        .cus-container li.logo_location {
-            background-image: url("img/logo_location.png");
-            background-repeat: no-repeat;
-            background-size: 15%;
-        }
-        
-        .cus-container li.logo_phone {
-            background-image: url("img/logo_phone.png");
-            background-repeat: no-repeat;
-            background-size: 24%;
-        }
-        
-        .cus-container li.logo_mobile {
-            background-image: url("img/logo_mobile.png");
-            background-size: 24%;
-            background-repeat: no-repeat;
-        }
-        
-        .cus-container li.logo_email {
-            background-image: url("img/logo_email.png");
-            background-repeat: no-repeat;
-            background-size: 17%;
-        }
-        
-        .cus-container li.logo_line {
-            background-image: url("img/logo_line.png");
-            background-repeat: no-repeat;
-            background-size: 33%;
-        }
-        
-        .cus-container li.logo_fb {
-            background-image: url("img/logo_fb.png");
-            background-repeat: no-repeat;
-            background-size: 36%;
-        }
-    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <body>
+    <nav>
+        <div class="logo"></div>
+        <hr>
+        <ul class="menu">
+            <li>作品集</li>
+            <li class="menu_en">Projects</li>
+            <li>關於知域</li>
+            <li class="menu_en">About me</li>
+            <li>服務流程</li>
+            <li class="menu_en">Process</li>
+            <li>媒體報導</li>
+            <li class="menu_en">Coverage</li>
+        </ul>
+    </nav>
     <main>
         <div class="intro">
             <ul class="cus-container">
-                <li class="logo_location">台北市大同區歸綏街86巷3號</li>
-                <li class="logo_phone">T.02-25520208</li>
-                <li class="logo_mobile">0953-997-558</li>
-                <li class="logo_email">norwe.service@gmail.com</li>
-                <li class="logo_line">ruk9585t</li>
-                <li class="logo_fb">NorWe</li>
+                <li class="icon_location">台北市大同區歸綏街86巷3號</li>
+                <li class="icon_phone">T.02-25520208</li>
+                <li class="icon_mobile">0953-997-558</li>
+                <li class="icon_email">norwe.service@gmail.com</li>
+                <li class="icon_line">ruk9585t</li>
+                <li class="icon_fb">NorWe</li>
             </ul>
         </div>
     </main>
+    
+    <!--  JS File  -->
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
