@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
+<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
-    <title>知域設計-作品集</title>
+    <title>知域設計-關於知域</title>
     <link rel="stylesheet" media="all" href="css/style_index.css" />
     <link rel="stylesheet" media="all" href="css/style_subpage.css" />
     <!--  Add Jquery Library  -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <!--  Add fancyBox  -->
-    <link rel="stylesheet" href="/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    
+    <style>
+        .about_bg{
+            background: url("img/04-min.jpg");
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,30 +45,14 @@
             </a>
         </ul>
     </nav>
-    <main class="main projects_bg">
-        <div class="pj_projects_container container">
+    <main class="main about_bg">
+        <div class="container">
             <h3>作品01</h3>
             <hr>
             <div class="row">
                 <div class="image_container col-xs-12 col-sm-6 col-md-3">
                     <a href="img/projects/north_datong/image1_lg.jpg" class="fancybox" rel="group"> <img class="img-responsive" src="img/projects/north_datong/image1_min.jpg" alt=""> </a>
                 </div>
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image5_min.jpg" alt=""></div>
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image3_min.jpg" alt=""></div>
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image4_min.jpg" alt=""></div>
-            </div>
-            <div class="row">
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image1_min.jpg" alt=""></div>
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image5_min.jpg" alt=""></div>
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image3_min.jpg" alt=""></div>
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image4_min.jpg" alt=""></div>
-            </div>
-        </div>
-        <div class="pj_projects_container container">
-            <h3>作品02</h3>
-            <hr>
-            <div class="row">
-                <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image1_min.jpg" alt=""></div>
                 <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image5_min.jpg" alt=""></div>
                 <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image3_min.jpg" alt=""></div>
                 <div class="image_container col-xs-12 col-sm-6 col-md-3"><img class="img-responsive" src="img/projects/north_datong/image4_min.jpg" alt=""></div>
@@ -86,13 +75,8 @@
             </ul>
         </div>
     </main>
-    <!--  JS File  -->
+    <!--  Add JavaScript File  -->
     <script src="scripts/main_subpage.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".fancybox").fancybox();
-        });
-    </script>
 </body>
 
 </html>

@@ -1,0 +1,56 @@
+.nav {
+    position: fixed;
+}
+
+
+/*
+        .main.projects_bg{
+            height: auto;
+        }
+        */
+
+.intro {
+    position: fixed;
+    bottom: 0;
+}
+
+.pj_projects_container {
+    margin-bottom: 60px;
+}
+
+.pj_projects_container h3 {
+    font-family: helvetica, "微軟正黑體";
+    color: #BDA059;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 42px;
+}
+
+.pj_projects_container hr {
+    border: 1px solid #BDA059;
+    margin-bottom: 30px;
+}
+
+.image_container {
+    padding: 5px;
+}
+
+.image_container img {
+    /*            margin: 5px;*/
+    width: 100%;
+}
+
+@media ( max-width: 1680px) {
+    .nav {
+        width: 100px;
+        height: auto;
+    }
+    .nav .logo {
+        margin: 0 auto;
+        background-size: 50%;
+        background-position: center;
+    }
+    .nav hr {
+        margin-bottom: 40px;
+    }
+}
