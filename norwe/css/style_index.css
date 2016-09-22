@@ -25,6 +25,7 @@ body {
     right: 0;
     z-index: 10;
     top: 200px;
+    position: fixed;
 }
 
 .nav .logo {
@@ -73,7 +74,7 @@ body {
 /*        main area     */
 
 .main {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background-color: #000;
     background-size: cover;
@@ -89,13 +90,15 @@ body {
     height: 60px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    text-align: center;
+    position: fixed;
     bottom: 0;
 }
 
 .cus-container {
     margin: 0 auto;
-    width: 80%;
+/*    width: 80%;*/
+    display: inline-block;
 }
 
 .cus-container li {

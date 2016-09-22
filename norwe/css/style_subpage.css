@@ -1,18 +1,22 @@
-.nav {
-    position: fixed;
+/*  通用  */
+
+@media ( max-width: 1680px) {
+    .nav {
+        width: 100px;
+        height: auto;
+    }
+    .nav .logo {
+        margin: 0 auto;
+        background-size: 50%;
+        background-position: center;
+    }
+    .nav hr {
+        margin-bottom: 40px;
+    }
 }
 
 
-/*
-        .main.projects_bg{
-            height: auto;
-        }
-        */
-
-.intro {
-    position: fixed;
-    bottom: 0;
-}
+/* Project 頁面*/
 
 .pj_projects_container {
     margin-bottom: 60px;
@@ -40,17 +44,55 @@
     width: 100%;
 }
 
+
+/*    About 頁面    */
+
+.about_bg {
+    background: url("../img/04-min.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+
+.pj_about_container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.about_title {
+    color: #BDA059;
+    font-family: Helvetica, '微軟正黑體';
+    border-bottom: 1px solid #BDA059;
+    font-size: 2em;
+    letter-spacing: 2px
+}
+
+.about_content {
+    color: #FFF;
+    font-family: Helvetica, '微軟正黑體';
+    font-size: 1.5em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    line-height: 1.5em;
+}
+
+.about_contact {
+    color: #BDA059;
+    font-family: Helvetica, '微軟正黑體';
+    font-size: 2em;
+}
+
 @media ( max-width: 1680px) {
-    .nav {
-        width: 100px;
-        height: auto;
+    .about_content {
+        font-size: 1.3em;
+        margin-bottom: 20px;
     }
-    .nav .logo {
-        margin: 0 auto;
-        background-size: 50%;
-        background-position: center;
-    }
-    .nav hr {
-        margin-bottom: 40px;
+    .about_contact {
+        font-size: 1.8em;
     }
 }
