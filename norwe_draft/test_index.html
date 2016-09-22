@@ -29,7 +29,7 @@
     .nav .logo {
         width: 99px;
         height: 128px;
-        background: url("img/logo.png") no-repeat center;
+        background: url("./img/logo.png") no-repeat center;
         margin: 20px auto 0;
         cursor: pointer;
     }
@@ -102,7 +102,7 @@
     }
     
     .index_bg {
-        background-image: url('img/03-min.jpg');
+        background-image: url('./img/03-min.jpg');
     }
 </style>
 
@@ -130,6 +130,42 @@
         </ul>
     </nav>
     <main class="index_bg main"> </main>
+    <script>
+        $(document).ready(function () {
+            var a = 1;
+            var screenWidth = screen.width;
+            $(".logo").on('click', function () {
+                console.log(this);
+                // 點下後收合
+                if (a === 0) {
+                    $("nav").animate({
+                        "height": "160px"
+                        , "top": "200px"
+                    })
+                    $(".logo").css("margin", "20px auto 0");
+                    $("hr").css("display", "none");
+                    $(".menu").css("display", "none");
+                    a = 1;
+                    // 點下後展開
+                }
+                else if (a === 1) {
+                    $("nav").animate({
+                        "height": "100vh"
+                        , "top": "0"
+                    })
+                    if (screenWidth > 1680) {
+                        $(".logo").css("margin", "90px auto");
+                    }
+                    else {
+                        $(".logo").css("margin", "30px auto");
+                    }
+                    $("hr").css("display", "block");
+                    $(".menu").css("display", "block");
+                    a = 0;
+                }
+            })
+        });
+    </script>
 </body>
 
 </html>
