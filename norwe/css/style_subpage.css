@@ -96,3 +96,72 @@
         font-size: 1.8em;
     }
 }
+
+
+/* Process 部分 */
+
+.process_bg {
+    background: url("img/06-min.jpg")
+}
+
+.process_title {
+    color: #BDA059;
+    font-family: Helvetica, "微軟正黑體";
+    border-bottom: 1px solid;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.process_content {
+    color: #FFF;
+    font-family: Helvetica, "微軟正黑體";
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+}
+
+.process_icon {
+    width: 84px;
+    height: 84px;
+}
+
+.process_icon_ml {
+    margin-left: 15px;
+}
+
+.process_comunicate {
+    background: url("img/process_icon3.png") no-repeat center;
+}
+
+.process_measure {
+    background: url("img/process_icon4.png") no-repeat center;
+}
+
+.process_design {
+    background: url("img/process_icon1.png") no-repeat center;
+}
+
+.process_color {
+    background: url("img/process_icon5.png") no-repeat center;
+}
+
+.process_engineer {
+    background: url("img/process_icon2.png") no-repeat center;
+}
+
+.process_finish {
+    background: url("img/process_icon6.png") no-repeat center;
+}
+
+@media (max-width: 1680px) {
+    .process_title {
+        font-size: 1.5em;
+    }
+    .process_content {
+        color: #FFF;
+        font-family: Helvetica, "微軟正黑體";
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 1.7em;
+    }
+}
