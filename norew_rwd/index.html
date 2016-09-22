@@ -89,12 +89,6 @@
             font-size: 16px;
         }
     }
-    
-    @media ( max-width: 480px) {
-        .nav {
-/*            top: 0;*/
-        }
-    }
     /*    MAIN AREA    */
     
     .main {
@@ -109,76 +103,6 @@
     
     .index_bg {
         background-image: url('./img/03-min.jpg');
-    }
-    /*  Intro Area  */
-    
-    .intro {
-        width: 100%;
-        height: 60px;
-        margin: 0 auto;
-        background-color: rgba(0, 0, 0, 0.5);
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-    }
-    
-    .intro-container {
-        margin: 0 auto;
-        display: inline-block;
-    }
-    
-    .intro-container li {
-        font-size: 14px;
-        font-family: Helvetica, '微軟正黑體';
-        height: 60px;
-        line-height: 60px;
-        text-indent: 36px;
-        display: inline-block;
-        background-position: left center;
-        margin-left: 30px;
-        color: #FFF;
-    }
-    
-    .intro-container li.icon_location {
-        background-image: url("../img/icon_location.png");
-        background-repeat: no-repeat;
-        background-size: 15%;
-    }
-    
-    .intro-container li.icon_phone {
-        background-image: url("../img/icon_phone.png");
-        background-repeat: no-repeat;
-        background-size: 24%;
-    }
-    
-    .intro-container li.icon_mobile {
-        background-image: url("../img/icon_mobile.png");
-        background-size: 24%;
-        background-repeat: no-repeat;
-    }
-    
-    .intro-container li.icon_email {
-        background-image: url("../img/icon_email.png");
-        background-repeat: no-repeat;
-        background-size: 17%;
-    }
-    
-    .intro-container li.icon_line {
-        background-image: url("../img/icon_line.png");
-        background-repeat: no-repeat;
-        background-size: 33%;
-    }
-    
-    .intro-container li.icon_fb {
-        background-image: url("../img/icon_fb.png");
-        background-repeat: no-repeat;
-        background-size: 36%;
-    }
-    
-    @media ( max-width: 768px) {
-        .intro {
-            display: none;
-        }
     }
 </style>
 
@@ -205,18 +129,7 @@
             </a>
         </ul>
     </nav>
-    <main class="index_bg main">
-        <div class="intro">
-            <ul class="intro-container">
-                <li class="icon_location">台北市大同區歸綏街86巷3號</li>
-                <li class="icon_phone">T.02-25520208</li>
-                <li class="icon_mobile">0953-997-558</li>
-                <li class="icon_email">norwe.service@gmail.com</li>
-                <li class="icon_line">ruk9585t</li>
-                <li class="icon_fb">NorWe</li>
-            </ul>
-        </div>
-    </main>
+    <main class="index_bg main"> </main>
     <script>
         $(document).ready(function () {
             var a = 1;
@@ -232,7 +145,7 @@
                         })
                         $(".logo").css("margin", "20px auto 0");
                     }
-                    else if (screenWidth > 480) {
+                    else {
                         $(".nav").animate({
                             "width": "100px"
                             , "height": "128px"
@@ -243,21 +156,11 @@
                             , "background-size": "50%"
                         });
                     }
-                    else {
-                        $(".nav").animate({
-                            "width": "100px"
-                            , "height": "128px"
-                            , "top": "0"
-                        })
-                        $(".logo").css({
-                            "margin": "0 auto"
-                            , "background-size": "50%"
-                        });
-                    }
                     $(".nav hr").css("display", "none");
                     $(".menu").css("display", "none");
                     a = 1;
-                } // 點下後展開
+                    // 點下後展開
+                }
                 else if (a === 1) {
                     $("nav").animate({
                         "height": "100vh"
