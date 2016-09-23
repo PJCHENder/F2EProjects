@@ -5,6 +5,7 @@ $(document).ready(function () {
         console.log(this);
         // 點下後收合
         if (a === 0) {
+            //  給大螢幕
             if (screenWidth > 1200) {
                 $(".nav").animate({
                     "height": "160px"
@@ -12,6 +13,7 @@ $(document).ready(function () {
                 })
                 $(".logo").css("margin", "20px auto 0");
             }
+            //  給一般螢幕和平板
             else if (screenWidth > 480) {
                 $(".nav").animate({
                     "width": "100px"
@@ -23,6 +25,7 @@ $(document).ready(function () {
                     , "background-size": "50%"
                 });
             }
+            //  給手機
             else {
                 $(".nav").animate({
                     "width": "100px"

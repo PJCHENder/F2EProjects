@@ -1,22 +1,18 @@
 /*  通用  */
 
-@media ( max-width: 1680px) {
-    .nav {
-        width: 100px;
-        height: auto;
-    }
-    .nav .logo {
-        margin: 0 auto;
-        background-size: 50%;
-        background-position: center;
-    }
-    .nav hr {
-        margin-bottom: 40px;
-    }
+.nav {
+    width: 100px;
+    height: 128px;
+    top: 10px;
+}
+
+.nav .logo {
+    margin: 0 auto;
+    background-size: 50%;
 }
 
 
-/* Project 頁面*/
+/* Projects 作品集*/
 
 .pj_projects_container {
     margin-bottom: 60px;
@@ -42,8 +38,9 @@
 .image_container img {
     /*            margin: 5px;*/
     width: 100%;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px;
 }
-
 
 /*    About 頁面    */
 
@@ -128,6 +125,7 @@
     letter-spacing: 1px;
     line-height: 1.7em;
 }
+
 @media (max-width: 1680px) {
     .process_title {
         font-size: 1.6em;
