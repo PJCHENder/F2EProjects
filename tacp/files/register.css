@@ -1,0 +1,267 @@
+.wrapper{
+	width:90%;
+}
+/*Register Form*/
+.RegisterForm h2{
+	font-size: 24px;
+	color: #d51a1b;
+	font-family: 微軟正黑體;
+	height: 55px;
+	line-height: 55px;
+	border-bottom: 1px solid #CCC;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.RegisterForm p{
+	font-size: 16px;
+	line-height: 1.5em;
+	font-family: 微軟正黑體;
+	color: #333;
+}
+
+form{
+	color: #333;
+}
+
+form ul li{
+	list-style:none;
+	margin: 20px ;
+	text-align: left;
+}
+form ul li a{
+	text-decoration: none;
+	color: #C3C3C3;
+}
+form ul li a:hover{
+	color: #333333;
+}
+input[type="email"], input[type="text"], input[type="password"] {
+	font-family: '微軟正黑體','Droid Sans', sans-serif;
+	width: 90%;
+	margin-left: 1em;
+	padding: 0.5em 2em 0.5em 0.5em;
+	color: #314D68;
+	font-size:18px;
+	outline: none;
+	background: none;
+	border: 2px solid #e3e3e4;
+	border-radius: 0.3em;
+	-webkit-border-radius:0.3em;
+	-moz-border-radius:0.3em;
+	-o-border-radius:0.3em;
+}
+input[type="radio"]{
+	margin-left: 20px;
+}
+input[type="email"]:focus, input[type="text"]:focus, input[type="password"]:focus{
+	border: 2px ridge #2D81D2;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(138,169,197,0.7);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(138,169,197,0.7);
+	box-shadow: 0px 0px 10px 0px rgba(138,169,197,0.7);
+}
+
+.submit{
+	text-align:center;
+	margin-top: 15px;
+}
+
+.submit input[type="submit"] {
+	color: #fff;
+	cursor: pointer;
+	font-weight: 900;
+	outline: none;
+	font-family: '微軟正黑體','Raleway', sans-serif;
+	padding: 12px 0px;
+	width: 15%;
+	font-size: 18px;
+	background:#314D68;
+	border:2px solid #314D68;
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	-moz-border-radius:0.5em;
+	-o-border-radius:0.5em;
+}
+
+
+.submit input[type="submit"]:hover{
+	background: #4a749c;
+	color:#FFF;
+	border:2px solid #4a749c;
+}
+
+/*Radio Button CSS*/
+.radio {
+  position: relative;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+}
+.radio:before {
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	-moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	-webkit-transform: scale(0, 0);
+	-moz-transform: scale(0, 0);
+	-ms-transform: scale(0, 0);
+	-o-transform: scale(0, 0);
+	transform: scale(0, 0);
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0.125rem;
+	z-index: 1;
+	width: 0.75rem;
+	height: 0.75rem;
+	background: #2D81D2;
+	border-radius: 50%;
+}
+.radio:checked:before {
+	-webkit-transform: scale(1, 1);
+	-moz-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+.radio:after {
+	content: "";
+	position: absolute;
+	top: -0.25rem;
+	left: -0.125rem;
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border: 2px solid #e3e3e4;
+	border-radius: 50%;
+}
+
+/*Modal CSS*/
+/* Add animation (Chrome, Safari, Opera) */
+@-webkit-keyframes example {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+/* Add animation (Standard syntax) */
+@keyframes example {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 0.5s;
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+/* The button used to close the modal */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover, .closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ModalContainer {
+  padding: 20px 16px;
+}
+.ModalContainer p{
+	margin: 10px 0;
+}
+.modal-header{
+	background-color: #314D68;
+	padding: 10px 10px;
+}
+
+.modal-header h2 {
+	font-size: 25px;
+	color: white;
+	font-family: 微軟正黑體;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+.ModalFooter{
+  background-color: #5cb85c;
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+	input[type="email"], input[type="text"], input[type="password"]{
+		width:80%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.wrapper{
+		width: 95%;
+	}
+	input[type="email"], input[type="text"], input[type="password"]{
+		width:70%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.wrapper{
+		width: 100%;
+		padding: 0 5px;
+	}
+	input[type="email"], input[type="text"], input[type="password"]{
+		width:50%;
+	}
+	.submit input[type="submit"]{
+		width: 30%;
+	}
+}

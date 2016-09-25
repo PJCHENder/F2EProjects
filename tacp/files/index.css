@@ -1,0 +1,306 @@
+
+.slideShow{
+	margin: auto;
+}
+
+figure{
+	background-color: #333;
+}
+
+main{
+	margin: auto;
+	height: 100px;
+	width: 1180px;
+}
+
+main div h2{
+	font-family: 微軟正黑體;
+}
+
+.whiteSpace{
+	height: 10px;
+}
+
+main .innerSpace{
+	width:25px;
+	float: left;
+} 
+
+main ul li{
+	border-bottom: dashed 1px #b1b1b1;
+	line-height: 1.5em;
+	padding: 7px 0;
+}
+
+main ul li p{
+	border-left: solid 4px #333333;
+	font-size: 14px;
+	padding-left: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+main  ul li p a{
+	font-family:微軟正黑體;
+	text-decoration: none;
+	color: #333;
+}
+main ul li p a:hover{
+	color: #A62F0F;
+}
+
+main .col1 ul li p{
+	border-left: solid 4px #007A7C;
+	font-size: 14px;
+	padding-left: 5px;
+}
+main .col1 ul li p a{
+	text-decoration: none;
+	color: #333;
+}
+main .col1 ul li p a:hover{
+	color: #A62F0F;
+}
+
+main .col1{
+	width: 360px;
+	float: left;
+	border-bottom: 2px solid #007A7C;
+}
+main .col1 h2{
+	width: 360px;
+	font-size: 18px;
+	background-color: #007A7C;
+	color: #FFF;
+	padding: 5px 0 5px 5px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+main .col2{
+	width: 360px;
+	float: left;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #FA9B00;
+}
+
+main .col2 h2{
+	width: 360px;
+	font-size: 18px;
+	background-color: #FA9B00;
+	color: #FFF;
+	padding: 5px 0 5px 5px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+}
+main .col2 ul li p{
+	border-left: solid 4px #FA9B00;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+
+main .col3{
+	width: 360px;
+	float: left;
+	border-bottom: 2px solid #AD0000;
+}
+
+main .col3 h2{
+	width: 360px;
+	font-size: 18px;
+	background-color: #AD0000;
+	color: #FFF;
+	padding: 5px 0 5px 5px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+main .col3 ul li p{
+	border-left: solid 4px #AD0000;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+main div ul li:last-child{
+	border-bottom: 0px;
+}
+
+main div ul li:last-child p{
+	border-left: 0px;
+	text-align: right;
+}
+main div ul li:last-child p a{
+	color: #494949;
+	padding: 4px 8px;
+	background-color: #C8C8C8;
+	border-radius: 5px;
+	text-decoration: none;
+}
+main div ul li:last-child p a:hover{
+	color: #FFF;
+	background-color: #333;
+}
+
+
+/*jss image slider*/
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 {
+	position: absolute;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 12px;
+	height: 12px;
+	filter: alpha(opacity=70);
+	opacity: .7;
+	overflow: hidden;
+	cursor: pointer;
+	border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l                  (normal)
+.jssora05r                  (normal)
+.jssora05l:hover            (normal mouseover)
+.jssora05r:hover            (normal mouseover)
+.jssora05l.jssora05ldn      (mousedown)
+.jssora05r.jssora05rdn      (mousedown)
+*/
+.jssora05l, .jssora05r {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background: url('../img/a17.png') no-repeat;
+	overflow: hidden;
+}
+.jssora05l { background-position: -10px -40px; }
+.jssora05r { background-position: -70px -40px; }
+.jssora05l:hover { background-position: -130px -40px; }
+.jssora05r:hover { background-position: -190px -40px; }
+.jssora05l.jssora05ldn { background-position: -250px -40px; }
+.jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+/* jssor slider thumbnail navigator skin 09 css */
+
+.jssort09-600-45 .p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600px;
+	height: 45px;
+}
+
+.jssort09-600-45 .t {
+	font-family: 微軟正黑體,verdana;
+	font-weight: normal;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color:#fff;
+	line-height: 45px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+@media screen and (max-width:1180px){
+	
+	main{
+		margin: auto;
+		height: auto;
+		width: 95vw;
+	}
+
+	main .innerSpace{
+		float: none;
+	} 
+
+	main .col1{
+		width: auto;
+		float: none;
+		margin: auto;
+	}
+	main .col1 h2{
+		width: auto;
+	}
+
+	main .col2{
+		width: auto;
+		float: none;
+	}
+
+	main .col2 h2{
+		width: auto;
+	}
+
+	main .col3{
+		width: auto;
+		float: none;
+		margin: auto;
+	}
+
+	main .col3 h2{
+		width: auto;
+	}
+}
+
+@media screen and (max-width:768px){
+	
+	main{
+		margin: auto;
+		height: auto;
+		width: 90vw;
+	}
+
+	main .innerSpace{
+		float: none;
+	} 
+
+	main .col1{
+		width: auto;
+		float: none;
+		margin: auto;
+	}
+	main .col1 h2{
+		width: auto;
+	}
+
+	main .col2{
+		width: auto;
+		float: none;
+	}
+
+	main .col2 h2{
+		width: auto;
+	}
+
+	main .col3{
+		width: auto;
+		float: none;
+		margin: auto;
+	}
+
+	main .col3 h2{
+		width: auto;
+	}
+}
