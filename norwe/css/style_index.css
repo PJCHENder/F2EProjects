@@ -18,6 +18,12 @@
     z-index: 10;
     top: 200px;
     position: fixed;
+
+    /*
+    height: 100vh;
+    top: 0;
+    width: 250px;
+    */
 }
 
 .nav .logo {
@@ -32,14 +38,19 @@
     border: 1px solid #ADADAD;
     width: 150px;
     margin-bottom: 60px;
+    
     display: none;
+}
+.nav .second_hr{
+    margin-top: 60px;
 }
 
 .nav ul.menu {
     font-family: Helvetica, '微軟正黑體';
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     padding-left: 60px;
+
     display: none;
 }
 
@@ -57,9 +68,39 @@
 }
 
 .nav ul li.menu_en {
-    font-size: 18px;
+    font-size: 14px;
     color: #9F9F9F;
     margin-bottom: 10px;
+}
+
+.nav .social_icon{
+    margin-left: 70px;
+
+    display: none;
+}
+.nav .icon{
+    width: 47px;
+    height: 47px;
+    float: left;
+    margin: 0 6px;
+    background-position: 0 0;
+    cursor: pointer;
+}
+.nav .facebook{
+    background-image: url("../img/si_fb.png");
+}
+.nav .pixnet{
+    background-image: url("../img/si_pixnet.png");
+}
+.nav .qrcode{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 118px;
+    height: 118px;
+    background-image: url("../img/si_line.png");
+    background-position: 0 0;
+    cursor: pointer;
+    display: none;
 }
 
 /* 一般螢幕和平板 */
@@ -89,6 +130,12 @@
 @media ( max-width: 480px) {
     .nav {
         /*            top: 0;*/
+    }
+    .nav .logo{
+        margin: 0px auto;
+    }
+    .nav hr {
+        margin: 0px auto 25px;
     }
     .nav ul.menu {
         font-size: 20px;
