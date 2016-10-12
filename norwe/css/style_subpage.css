@@ -153,3 +153,91 @@
         margin: 120px auto;
     }
 }
+
+
+/*Coverage 部分*/
+
+.coverage_bg {
+    background: url("../img/01-min.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.pj_coverage_container {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+
+.coverage_title {
+    color: #BDA059;
+    font-family: Helvetica, '微軟正黑體';
+    /*border-bottom: 1px solid #BDA059;*/
+    font-size: 22px;
+    letter-spacing: 2px
+}
+
+@media ( max-width: 480px) {
+    .coverage_bg {
+        overflow: auto;
+    }
+    .pj_coverage_container {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 120px auto;
+    }
+}
+
+
+/*Contact 部分*/
+
+.contact_bg {
+    background: url("../img/02-min.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.pj_contact_container {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+
+.contact_info {
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    padding: 50px 0;
+    margin: 50px auto;
+}
+.contact_info .contact_content{
+    color: #FFF;
+}
+
+@media ( max-width: 480px) {
+    .contact_bg {
+        overflow: auto;
+    }
+    .pj_contact_container {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 120px auto;
+    }
+}
