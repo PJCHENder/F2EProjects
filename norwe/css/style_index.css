@@ -198,13 +198,13 @@
 .intro-container li.icon_location {
     background-image: url("../img/icon_location.png");
     background-repeat: no-repeat;
-    background-size: 15%;
+    background-size: 16%;
 }
 
 .intro-container li.icon_phone {
     background-image: url("../img/icon_phone.png");
     background-repeat: no-repeat;
-    background-size: 24%;
+    background-size: 15%;
 }
 
 .intro-container li.icon_mobile {
@@ -216,7 +216,7 @@
 .intro-container li.icon_email {
     background-image: url("../img/icon_email.png");
     background-repeat: no-repeat;
-    background-size: 17%;
+    background-size: 18%;
 }
 
 .intro-container li.icon_line {

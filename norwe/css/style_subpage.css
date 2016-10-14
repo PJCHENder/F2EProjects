@@ -14,6 +14,10 @@
 
 /* Projects 作品集*/
 
+.projects_bg{
+    overflow: auto;
+    height: 100%;
+}
 .pj_projects_container {
     margin-bottom: 60px;
 }
@@ -22,8 +26,8 @@
     font-family: helvetica, "微軟正黑體";
     color: #BDA059;
     text-align: center;
-    font-size: 26px;
-    margin-bottom: 42px;
+    font-size: 16px;
+    margin-bottom: 18px;
 }
 
 .pj_projects_container hr {
