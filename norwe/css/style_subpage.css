@@ -1,6 +1,7 @@
 /*  通用  */
 
-.nav {
+
+/*.nav {
     width: 100px;
     height: 128px;
     top: 10px;
@@ -9,15 +10,24 @@
 .nav .logo {
     margin: 0 auto;
     background-size: 50%;
+}*/
+
+@media only screen and (max-width: 480px) {
+    .nav {
+        width: 100px;
+        height: 128px;
+        top: 10px;
+    }
 }
 
 
 /* Projects 作品集*/
 
-.projects_bg{
+.projects_bg {
     overflow: auto;
     height: 100%;
 }
+
 .pj_projects_container {
     margin-bottom: 60px;
 }
@@ -90,7 +100,7 @@
     font-size: 2em;
 }
 
-@media ( max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .about_content {
         font-size: 10px;
         margin-bottom: 20px;
@@ -100,7 +110,7 @@
     }
 }
 
-@media ( max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .about_bg {
         overflow: auto;
     }
@@ -145,7 +155,7 @@
     line-height: 1.7em;
 }
 
-@media ( max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .process_bg {
         overflow: auto;
     }
@@ -188,7 +198,7 @@
     letter-spacing: 2px
 }
 
-@media ( max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .coverage_bg {
         overflow: auto;
     }
@@ -229,11 +239,12 @@
     padding: 50px 0;
     margin: 50px auto;
 }
-.contact_info .contact_content{
+
+.contact_info .contact_content {
     color: #FFF;
 }
 
-@media ( max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .contact_bg {
         overflow: auto;
     }
