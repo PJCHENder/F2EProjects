@@ -247,6 +247,7 @@
 @media only screen and (max-width: 480px) {
     .contact_bg {
         overflow: auto;
+        height: 100%;
     }
     .pj_contact_container {
         position: relative;
