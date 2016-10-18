@@ -15,14 +15,16 @@ $(document).ready(function() {
             })
             if (screenWidth > 1200) {
                 $(".logo").css("margin", "30px auto");
+                $(".social_icon").css("display", "block");
+                $(".qrcode").css("display", "block");
             } else {
                 $(".logo").css("margin", "0px auto");
+                $(".social_icon").css("display", "none");
+                $(".qrcode").css("display", "none");
             }
 
             $(".nav hr").css("display", "block");
             $(".menu").css("display", "block");
-            $(".social_icon").css("display", "block");
-            $(".qrcode").css("display", "block");
             a = 0;
         }
     })
