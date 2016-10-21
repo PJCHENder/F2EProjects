@@ -193,6 +193,9 @@
     padding-bottom: 7%;
     padding-top: 5%;
 }
+.pj_coverage_container a{
+    text-decoration: none;
+}
 
 .coverage_title {
     color: #BDA059;
