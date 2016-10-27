@@ -39,8 +39,12 @@
         </ul>
         <hr class="second_hr">
         <div class="social_icon clearfix">
-            <a href="https://www.facebook.com/ruk9585t/" target="_blank"><div class="icon facebook"></div></a>
-            <a href="http://nwdesign.pixnet.net/blog" target="_blank"><div class="icon pixnet"></div></a>
+            <a href="https://www.facebook.com/ruk9585t/" target="_blank">
+                <div class="icon facebook"></div>
+            </a>
+            <a href="http://nwdesign.pixnet.net/blog" target="_blank">
+                <div class="icon pixnet"></div>
+            </a>
         </div>
         <div class="qrcode"></div>
     </nav>
@@ -57,20 +61,33 @@
         </div>
     </main>
     <script src="./scripts/main_index.js"></script>
+    <script src="./scripts/jquery_preload.min"></script>
     <script>
-        $(document).ready(function(){
-            // 自動輪撥效果
-            setInterval(autoPlay, 4000);
-            n = 1;
-            function autoPlay(){
-                if(n >= 6){
-                    n = 1;
-                }
-                var bg = $(".index_bg").css("background-image","url(./img/0"+ n +"-min.jpg)");
-                console.log(bg);
-                n++;
+    $(document).ready(function() {
+
+        // 圖片預先載入
+        $.preload(
+            '/img/01-min.jpg',
+            '/img/02-min.jpg',
+            '/img/03-min.jpg',
+            '/img/04-min.jpg',
+            '/img/05-min.jpg',
+            '/img/06-min.jpg'
+        );
+
+        // 自動輪撥效果
+        setInterval(autoPlay, 4000);
+        n = 1;
+
+        function autoPlay() {
+            if (n >= 6) {
+                n = 1;
             }
-        })
+            var bg = $(".index_bg").css("background-image", "url(./img/0" + n + "-min.jpg)");
+            console.log(bg);
+            n++;
+        }
+    })
     </script>
 </body>
 
