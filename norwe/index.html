@@ -61,18 +61,17 @@
         </div>
     </main>
     <script src="./scripts/main_index.js"></script>
-    <script src="./scripts/jquery_preload.min"></script>
+    <script src="./scripts/jquery_preload.min.js"></script>
     <script>
     $(document).ready(function() {
-
         // 圖片預先載入
         $.preload(
-            '/img/01-min.jpg',
-            '/img/02-min.jpg',
-            '/img/03-min.jpg',
-            '/img/04-min.jpg',
-            '/img/05-min.jpg',
-            '/img/06-min.jpg'
+            './img/01-min.jpg',
+            './img/02-min.jpg',
+            './img/03-min.jpg',
+            './img/04-min.jpg',
+            './img/05-min.jpg',
+            './img/06-min.jpg'
         );
 
         // 自動輪撥效果
@@ -84,7 +83,6 @@
                 n = 1;
             }
             var bg = $(".index_bg").css("background-image", "url(./img/0" + n + "-min.jpg)");
-            console.log(bg);
             n++;
         }
     })
