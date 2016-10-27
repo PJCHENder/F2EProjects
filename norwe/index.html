@@ -57,6 +57,21 @@
         </div>
     </main>
     <script src="./scripts/main_index.js"></script>
+    <script>
+        $(document).ready(function(){
+            // 自動輪撥效果
+            setInterval(autoPlay, 4000);
+            n = 1;
+            function autoPlay(){
+                if(n >= 6){
+                    n = 1;
+                }
+                var bg = $(".index_bg").css("background-image","url(./img/0"+ n +"-min.jpg)");
+                console.log(bg);
+                n++;
+            }
+        })
+    </script>
 </body>
 
 </html>

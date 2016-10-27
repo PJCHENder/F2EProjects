@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // 導覽列區塊
     var a = 1;
     var screenWidth = $(document).width();
     $(".logo").on('click', function() {
