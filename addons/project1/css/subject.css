@@ -1,0 +1,891 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.text-hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+#homeliving-head {
+  height: 548px;
+  background: #FFF url("../images/head/head.jpg") center center;
+  background-size: cover;
+  position: relative; }
+  #homeliving-head img {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  #homeliving-head img {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding-top: 460px; } }
+
+@media only screen and (max-width: 320px) {
+  #homeliving-head img {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding-top: 460px; } }
+
+#feature p {
+  font-family: "微軟正黑體", sans-serif;
+  color: #4D4D4D; }
+
+#feature .feature-left {
+  float: left;
+  width: 50%;
+  padding: 45px 70px; }
+  #feature .feature-left img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  #feature .feature-left .feature-img1 {
+    border-bottom: 8px solid #FBCBB2;
+    margin-bottom: 20px; }
+  #feature .feature-left .feature-title1 {
+    width: 290px;
+    margin: 0 auto; }
+
+#feature .feature-right {
+  float: left;
+  width: 50%;
+  background-color: #F2F2F2;
+  padding: 90px 70px 45px; }
+  #feature .feature-right img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  #feature .feature-right .feature-title2 {
+    width: 290px;
+    margin: 0 auto; }
+  #feature .feature-right .image-block {
+    margin-top: 60px; }
+    #feature .feature-right .image-block img {
+      border-bottom: 8px solid #FBCBB2;
+      width: 45%; }
+      #feature .feature-right .image-block img.feature-img2 {
+        float: left; }
+      #feature .feature-right .image-block img.feature-img3 {
+        float: right; }
+
+@media only screen and (min-width: 542px) and (max-width: 730px) {
+  #feature .feature-left {
+    width: 100%; }
+  #feature .feature-right {
+    width: 100%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 541px) {
+  #feature .feature-left {
+    width: 100%;
+    padding: 45px 30px; }
+  #feature .feature-right {
+    width: 100%;
+    padding: 90px 30px 45px; } }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  #feature .feature-left {
+    width: 100%;
+    padding: 45px 30px; }
+  #feature .feature-right {
+    width: 100%;
+    padding: 90px 30px 45px; } }
+
+@media only screen and (max-width: 320px) {
+  #feature .feature-left {
+    width: 100%;
+    padding: 45px 30px; }
+  #feature .feature-right {
+    width: 100%;
+    padding: 90px 30px 45px; } }
+
+.divide {
+  border-top: 1px solid #FBB03B;
+  width: 90%;
+  margin: 35px auto; }
+
+#keypoint p {
+  font-family: "微軟正黑體", sans-serif;
+  color: #4D4D4D; }
+
+#keypoint .keypoint-head {
+  max-width: 720px;
+  margin: 0 auto 40px; }
+  #keypoint .keypoint-head img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 280px;
+    margin: 0 auto; }
+
+#keypoint .keypoint-left {
+  background: url("../images/content/2/2-2.png") left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  overflow: auto;
+  width: 40%;
+  margin-left: 70px;
+  margin-top: 8px; }
+  #keypoint .keypoint-left .keypoint-content {
+    background-color: #F2F2F2;
+    margin: 20px 40px 0 20px;
+    padding: 12px 30px; }
+    #keypoint .keypoint-left .keypoint-content img {
+      height: 24px; }
+
+#keypoint .keypoint-right {
+  width: 50%;
+  background: url("../images/content/2/2-6.png") left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 370px;
+  float: right; }
+  #keypoint .keypoint-right img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding-top: 28px; }
+
+@media only screen and (min-width: 1000px) and (max-width: 1240px) {
+  #keypoint .keypoint-left .keypoint-content {
+    margin: 20px 0px 0px 20px; } }
+
+@media only screen and (max-width: 1000px) {
+  #keypoint .keypoint-left {
+    width: 100%;
+    margin-left: 0; }
+    #keypoint .keypoint-left .keypoint-content {
+      margin: 20px 0px 0px 20px; }
+  #keypoint .keypoint-right {
+    width: 100%;
+    margin-top: 20px;
+    height: auto; } }
+
+#livingroom {
+  margin-top: 90px; }
+  #livingroom p {
+    font-family: "微軟正黑體", sans-serif;
+    color: #808080; }
+  #livingroom .livingroom-head {
+    height: 468px;
+    max-width: 100%;
+    background: #FFF url("../images/content/3/3-1.jpg") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative; }
+    #livingroom .livingroom-head .content {
+      width: 320px;
+      max-width: 100%;
+      color: #808080;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      border-left: 4px solid #FBB03B;
+      padding-left: 10px;
+      margin: 40px auto 0px 70px; }
+    #livingroom .livingroom-head .image-block {
+      margin-left: 70px;
+      margin-top: 25px; }
+      #livingroom .livingroom-head .image-block img {
+        margin-bottom: 10px; }
+        #livingroom .livingroom-head .image-block img:first-child {
+          height: 20px; }
+        #livingroom .livingroom-head .image-block img:nth-child(2) {
+          height: 16px; }
+        #livingroom .livingroom-head .image-block img:last-child {
+          height: 22px; }
+    #livingroom .livingroom-head .pager {
+      color: #FBB03B;
+      font-size: 52px;
+      font-weight: bold;
+      position: absolute;
+      margin: 5px;
+      bottom: 0;
+      right: 0;
+      height: 60px;
+      line-height: 64px;
+      font-family: 'Ubuntu', sans-serif; }
+  #livingroom .livingroom-content {
+    background-color: #F2F2F2;
+    border-bottom: 16px solid #FBCBB2;
+    padding-bottom: 30px; }
+    #livingroom .livingroom-content .container {
+      margin-left: 70px;
+      margin-right: 70px; }
+    #livingroom .livingroom-content .intro {
+      position: relative;
+      z-index: 1;
+      background-color: #FFF;
+      margin-top: -180px;
+      padding: 20px; }
+      #livingroom .livingroom-content .intro .content-left {
+        float: left;
+        width: 440px;
+        max-width: 100%; }
+        #livingroom .livingroom-content .intro .content-left img {
+          height: 50px;
+          margin: 90px auto 10px auto; }
+        #livingroom .livingroom-content .intro .content-left p {
+          width: 200px;
+          margin: 0 auto;
+          color: #808080;
+          letter-spacing: 1px; }
+      #livingroom .livingroom-content .intro .content-right {
+        float: right;
+        width: 600px;
+        max-width: 100%; }
+    #livingroom .livingroom-content .products {
+      margin-top: 20px; }
+      #livingroom .livingroom-content .products .product-block {
+        width: 32%;
+        float: left; }
+        #livingroom .livingroom-content .products .product-block img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+          margin: 0 auto; }
+        #livingroom .livingroom-content .products .product-block .caption {
+          margin-top: 5px;
+          border-bottom: 6px solid #B3B3B3;
+          padding-bottom: 12px; }
+          #livingroom .livingroom-content .products .product-block .caption h5 {
+            margin: 0;
+            padding-left: 3px;
+            font-family: "微軟正黑體", sans-serif;
+            color: #4D4D4D; }
+          #livingroom .livingroom-content .products .product-block .caption .shop-button {
+            width: 27px;
+            margin: -30px 0 0 auto;
+            padding-right: 3px; }
+            #livingroom .livingroom-content .products .product-block .caption .shop-button:hover {
+              opacity: 0.6; }
+        #livingroom .livingroom-content .products .product-block p {
+          margin-top: 6px;
+          color: #808080; }
+      #livingroom .livingroom-content .products .lemnos {
+        margin: 0 21px; }
+
+@media only screen and (min-width: 1000px) and (max-width: 1240px) {
+  #livingroom .livingroom-content .intro .content-left {
+    width: 247px; }
+  #livingroom .livingroom-content .intro .content-right {
+    width: 550px; }
+  #livingroom .livingroom-content .products {
+    margin-top: 20px; }
+    #livingroom .livingroom-content .products .lemnos {
+      margin: 0 16px; } }
+
+@media only screen and (min-width: 731px) and (max-width: 1000px) {
+  #livingroom .livingroom-content .intro .content-left {
+    width: 100%; }
+    #livingroom .livingroom-content .intro .content-left p {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center; }
+    #livingroom .livingroom-content .intro .content-left img {
+      margin: 20px auto 10px auto; }
+  #livingroom .livingroom-content .intro .content-right {
+    width: 100%; }
+    #livingroom .livingroom-content .intro .content-right img {
+      margin: 0 auto; }
+  #livingroom .livingroom-content .products {
+    margin-top: 20px; }
+    #livingroom .livingroom-content .products .lemnos {
+      margin: 0 11px; } }
+
+@media only screen and (min-width: 542px) and (max-width: 730px) {
+  #livingroom .livingroom-head .pager {
+    text-align: right; }
+  #livingroom .livingroom-content .intro .content-left {
+    width: 100%; }
+    #livingroom .livingroom-content .intro .content-left p {
+      width: 100%;
+      margin-bottom: 10px; }
+    #livingroom .livingroom-content .intro .content-left img {
+      margin: 20px auto 10px auto; }
+  #livingroom .livingroom-content .intro .content-right {
+    width: 100%; }
+    #livingroom .livingroom-content .intro .content-right img {
+      margin: 0 auto; }
+  #livingroom .livingroom-content .products {
+    margin-top: 20px; }
+    #livingroom .livingroom-content .products .product-block {
+      width: 100%; }
+    #livingroom .livingroom-content .products .lemnos {
+      margin: 0; } }
+
+@media only screen and (min-width: 481px) and (max-width: 541px) {
+  #livingroom .livingroom-head .pager {
+    display: none; }
+  #livingroom .livingroom-content .container {
+    margin-right: 30px;
+    margin-left: 30px; }
+  #livingroom .livingroom-content .intro .content-left {
+    width: 100%; }
+    #livingroom .livingroom-content .intro .content-left p {
+      width: 100%;
+      margin-bottom: 10px; }
+    #livingroom .livingroom-content .intro .content-left img {
+      margin: 20px auto 10px auto; }
+  #livingroom .livingroom-content .intro .content-right {
+    width: 100%; }
+  #livingroom .livingroom-content .products {
+    margin-top: 20px; }
+    #livingroom .livingroom-content .products .product-block {
+      width: 100%; }
+    #livingroom .livingroom-content .products .lemnos {
+      margin: 0; } }
+
+@media only screen and (max-width: 480px) {
+  #livingroom .livingroom-head .pager {
+    display: none; }
+  #livingroom .livingroom-head .content {
+    margin: 0 10px;
+    max-width: 90%; }
+  #livingroom .livingroom-content .container {
+    margin-right: 10px;
+    margin-left: 10px; }
+  #livingroom .livingroom-content .intro .content-left {
+    width: 100%; }
+    #livingroom .livingroom-content .intro .content-left p {
+      width: 100%;
+      margin-bottom: 10px; }
+    #livingroom .livingroom-content .intro .content-left img {
+      margin: 20px auto 10px auto; }
+  #livingroom .livingroom-content .intro .content-right {
+    width: 100%; }
+  #livingroom .livingroom-content .products {
+    margin-top: 20px; }
+    #livingroom .livingroom-content .products .product-block {
+      width: 100%; }
+    #livingroom .livingroom-content .products .lemnos {
+      margin: 0; } }
+
+#bathroom {
+  margin-top: 40px; }
+  #bathroom p {
+    font-family: "微軟正黑體", sans-serif;
+    color: #808080; }
+  #bathroom .bathroom-head {
+    height: 240px;
+    max-width: 100%;
+    background-color: #FFF;
+    position: relative; }
+    #bathroom .bathroom-head .pager {
+      color: #FBB03B;
+      font-size: 52px;
+      font-weight: bold;
+      position: absolute;
+      margin: 5px;
+      bottom: 0;
+      left: 0;
+      height: 60px;
+      line-height: 64px;
+      font-family: 'Ubuntu', sans-serif; }
+  #bathroom .bathroom-content {
+    padding-bottom: 30px;
+    background-color: #F2F2F2;
+    border-bottom: 16px solid #FBCBB2; }
+    #bathroom .bathroom-content .container {
+      margin-left: 70px;
+      margin-right: 70px; }
+    #bathroom .bathroom-content .intro {
+      position: relative;
+      z-index: 1;
+      background-color: #FFF;
+      margin-top: -180px;
+      padding: 20px; }
+      #bathroom .bathroom-content .intro .content-left {
+        float: left;
+        width: 700px;
+        max-width: 100%; }
+      #bathroom .bathroom-content .intro .content-right {
+        float: right;
+        width: 340px;
+        max-width: 100%; }
+        #bathroom .bathroom-content .intro .content-right img {
+          height: 50px;
+          margin: 90px auto 10px auto; }
+        #bathroom .bathroom-content .intro .content-right p {
+          width: 200px;
+          margin: 0 auto;
+          color: #808080;
+          letter-spacing: 1px; }
+    #bathroom .bathroom-content .products {
+      margin-top: 20px; }
+      #bathroom .bathroom-content .products .product-block {
+        width: 32%;
+        float: left; }
+        #bathroom .bathroom-content .products .product-block img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          width: 100%;
+          margin: 0 auto; }
+        #bathroom .bathroom-content .products .product-block .caption {
+          margin-top: 5px;
+          border-bottom: 6px solid #B3B3B3;
+          padding-bottom: 12px; }
+          #bathroom .bathroom-content .products .product-block .caption h5 {
+            margin: 0;
+            padding-left: 3px;
+            color: #4D4D4D;
+            font-family: "微軟正黑體", sans-serif; }
+          #bathroom .bathroom-content .products .product-block .caption .shop-button {
+            width: 27px;
+            margin: -30px 0 0 auto;
+            padding-right: 3px; }
+            #bathroom .bathroom-content .products .product-block .caption .shop-button:hover {
+              opacity: 0.6; }
+        #bathroom .bathroom-content .products .product-block p {
+          margin-top: 6px;
+          color: #808080; }
+      #bathroom .bathroom-content .products .linkife {
+        margin: 0 21px; }
+
+@media only screen and (min-width: 1000px) and (max-width: 1240px) {
+  #bathroom .bathroom-content .intro .content-left {
+    width: 480px; }
+  #bathroom .bathroom-content .intro .content-right {
+    width: 310px; }
+  #bathroom .bathroom-content .products {
+    margin-top: 20px; }
+    #bathroom .bathroom-content .products .linkife {
+      margin: 0 16px; } }
+
+@media only screen and (min-width: 731px) and (max-width: 1000px) {
+  #bathroom {
+    margin-top: 10px; }
+    #bathroom .bathroom-content .intro .content-left {
+      width: 100%; }
+      #bathroom .bathroom-content .intro .content-left img {
+        margin: 0 auto; }
+    #bathroom .bathroom-content .intro .content-right {
+      width: 100%; }
+      #bathroom .bathroom-content .intro .content-right p {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center; }
+      #bathroom .bathroom-content .intro .content-right img {
+        margin: 20px auto 10px auto; }
+    #bathroom .bathroom-content .products {
+      margin-top: 20px; }
+      #bathroom .bathroom-content .products .linkife {
+        margin: 0 11px; } }
+
+@media only screen and (min-width: 542px) and (max-width: 730px) {
+  #bathroom {
+    margin-top: 10px; }
+    #bathroom .bathroom-head .pager {
+      text-align: right; }
+    #bathroom .bathroom-content .intro .content-left {
+      width: 100%; }
+    #bathroom .bathroom-content .intro .content-right {
+      width: 100%; }
+      #bathroom .bathroom-content .intro .content-right p {
+        width: 100%;
+        margin-bottom: 10px; }
+      #bathroom .bathroom-content .intro .content-right img {
+        margin: 20px auto 10px auto; }
+    #bathroom .bathroom-content .products {
+      margin-top: 20px; }
+      #bathroom .bathroom-content .products .product-block {
+        width: 100%; }
+      #bathroom .bathroom-content .products .linkife {
+        margin: 0; } }
+
+@media only screen and (min-width: 481px) and (max-width: 541px) {
+  #bathroom {
+    margin-top: 0px; }
+    #bathroom .bathroom-head .pager {
+      display: none; }
+    #bathroom .bathroom-content .container {
+      margin-right: 30px;
+      margin-left: 30px; }
+    #bathroom .bathroom-content .intro .content-left {
+      width: 100%; }
+    #bathroom .bathroom-content .intro .content-right {
+      width: 100%; }
+      #bathroom .bathroom-content .intro .content-right p {
+        width: 100%;
+        margin-bottom: 10px; }
+      #bathroom .bathroom-content .intro .content-right img {
+        margin: 20px auto 10px auto; }
+    #bathroom .bathroom-content .products {
+      margin-top: 20px; }
+      #bathroom .bathroom-content .products .product-block {
+        width: 100%; }
+      #bathroom .bathroom-content .products .linkife {
+        margin: 0; } }
+
+@media only screen and (max-width: 480px) {
+  #bathroom .bathroom-head .pager {
+    display: none; }
+  #bathroom .bathroom-head .content {
+    margin: 0 10px;
+    max-width: 90%; }
+  #bathroom .bathroom-content .container {
+    margin-right: 10px;
+    margin-left: 10px; }
+  #bathroom .bathroom-content .intro .content-left {
+    width: 100%; }
+  #bathroom .bathroom-content .intro .content-right {
+    width: 100%; }
+    #bathroom .bathroom-content .intro .content-right p {
+      width: 100%;
+      margin-bottom: 10px; }
+    #bathroom .bathroom-content .intro .content-right img {
+      margin: 20px auto 10px auto; }
+  #bathroom .bathroom-content .products {
+    margin-top: 20px; }
+    #bathroom .bathroom-content .products .product-block {
+      width: 100%; }
+    #bathroom .bathroom-content .products .linkife {
+      margin: 0; } }
+
+#study p {
+  font-family: "微軟正黑體", sans-serif;
+  color: #808080; }
+
+#study .study-head {
+  height: 240px;
+  max-width: 100%;
+  background-color: #FFF;
+  position: relative; }
+  #study .study-head .pager {
+    color: #FBB03B;
+    font-size: 52px;
+    font-weight: bold;
+    position: absolute;
+    margin: 5px;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    line-height: 64px;
+    font-family: 'Ubuntu', sans-serif; }
+
+#study .study-content {
+  background-color: #F2F2F2;
+  padding-bottom: 30px;
+  border-bottom: 16px solid #FBCBB2; }
+  #study .study-content .container {
+    margin-left: 70px;
+    margin-right: 70px; }
+  #study .study-content .intro {
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+    margin-top: -180px;
+    padding: 20px; }
+    #study .study-content .intro .content-left {
+      float: left;
+      width: 340px;
+      max-width: 100%; }
+      #study .study-content .intro .content-left img {
+        height: 50px;
+        margin: 90px auto 10px auto; }
+      #study .study-content .intro .content-left p {
+        width: 200px;
+        margin: 0 auto;
+        color: #808080;
+        letter-spacing: 1px; }
+    #study .study-content .intro .content-right {
+      float: right;
+      width: 700px;
+      max-width: 100%; }
+  #study .study-content .products {
+    margin-top: 20px; }
+    #study .study-content .products .product-block {
+      width: 32%;
+      float: left; }
+      #study .study-content .products .product-block img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        margin: 0 auto; }
+      #study .study-content .products .product-block .caption {
+        margin-top: 5px;
+        border-bottom: 6px solid #B3B3B3;
+        padding-bottom: 12px; }
+        #study .study-content .products .product-block .caption h5 {
+          margin: 0;
+          padding-left: 3px;
+          color: #4D4D4D;
+          font-family: "微軟正黑體", sans-serif; }
+        #study .study-content .products .product-block .caption .shop-button {
+          width: 27px;
+          margin: -30px 0 0 auto;
+          padding-right: 3px; }
+          #study .study-content .products .product-block .caption .shop-button:hover {
+            opacity: 0.6; }
+      #study .study-content .products .product-block p {
+        margin-top: 6px;
+        color: #808080; }
+    #study .study-content .products .comfort-info {
+      background-color: #FFF;
+      height: 350px; }
+      #study .study-content .products .comfort-info .topline {
+        border: 2px solid #FBB03B;
+        width: 20%;
+        margin: 60px auto 0; }
+      #study .study-content .products .comfort-info img {
+        max-width: 140px;
+        padding: 20px 0 0; }
+      #study .study-content .products .comfort-info p {
+        max-width: 240px;
+        margin: 10px auto 0; }
+    #study .study-content .products .skb {
+      margin: 0 21px; }
+
+@media only screen and (min-width: 1000px) and (max-width: 1240px) {
+  #study .study-content .intro .content-right {
+    width: 480px; }
+  #study .study-content .intro .content-left {
+    width: 310px; }
+  #study .study-content .products {
+    margin-top: 20px; }
+    #study .study-content .products .skb {
+      margin: 0 16px; }
+    #study .study-content .products .comfort-info {
+      height: 297px; } }
+
+@media only screen and (min-width: 731px) and (max-width: 1000px) {
+  #study {
+    margin-top: 10px; }
+    #study .study-head {
+      height: 200px; }
+    #study .study-content .intro .content-right {
+      width: 100%; }
+      #study .study-content .intro .content-right img {
+        margin: 0 auto; }
+    #study .study-content .intro .content-left {
+      width: 100%; }
+      #study .study-content .intro .content-left p {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center; }
+      #study .study-content .intro .content-left img {
+        margin: 20px auto 10px auto; }
+    #study .study-content .products {
+      margin-top: 20px; }
+      #study .study-content .products .skb {
+        margin: 0 11px; }
+      #study .study-content .products .comfort-info {
+        height: 270px; }
+        #study .study-content .products .comfort-info p {
+          padding: 5px; } }
+
+@media only screen and (min-width: 542px) and (max-width: 730px) {
+  #study {
+    margin-top: 10px; }
+    #study .study-head {
+      height: 200px; }
+      #study .study-head .pager {
+        text-align: right; }
+    #study .study-content .intro .content-right {
+      width: 100%; }
+      #study .study-content .intro .content-right img {
+        margin: 20px auto 10px auto; }
+    #study .study-content .intro .content-left {
+      width: 100%; }
+      #study .study-content .intro .content-left p {
+        width: 100%;
+        margin-bottom: 10px; }
+      #study .study-content .intro .content-left img {
+        margin: 0 auto 10px; }
+    #study .study-content .products {
+      margin-top: 20px; }
+      #study .study-content .products .product-block {
+        width: 100%; }
+      #study .study-content .products .skb {
+        margin: 0; }
+      #study .study-content .products .comfort-info {
+        height: 270px; }
+        #study .study-content .products .comfort-info p {
+          padding: 5px;
+          max-width: 90%; } }
+
+@media only screen and (min-width: 481px) and (max-width: 541px) {
+  #study {
+    margin-top: 0px; }
+    #study .study-head .pager {
+      display: none; }
+    #study .study-content .container {
+      margin-right: 30px;
+      margin-left: 30px; }
+    #study .study-content .intro .content-left {
+      width: 100%; }
+      #study .study-content .intro .content-left img {
+        margin: 0 auto 10px; }
+      #study .study-content .intro .content-left p {
+        width: 100%;
+        margin-bottom: 10px; }
+    #study .study-content .intro .content-right {
+      width: 100%; }
+      #study .study-content .intro .content-right img {
+        margin: 20px auto 10px auto; }
+    #study .study-content .products {
+      margin-top: 20px; }
+      #study .study-content .products .product-block {
+        width: 100%; }
+      #study .study-content .products .skb {
+        margin: 0; }
+      #study .study-content .products .comfort-info {
+        height: 270px; }
+        #study .study-content .products .comfort-info p {
+          padding: 5px;
+          max-width: 90%; } }
+
+@media only screen and (max-width: 480px) {
+  #study {
+    margin: 0; }
+    #study .study-head .pager {
+      display: none; }
+    #study .study-head .content {
+      margin: 0 10px;
+      max-width: 90%; }
+    #study .study-content .container {
+      margin-right: 10px;
+      margin-left: 10px; }
+    #study .study-content .intro .content-left {
+      width: 100%; }
+      #study .study-content .intro .content-left p {
+        width: 100%;
+        margin-bottom: 10px; }
+      #study .study-content .intro .content-left img {
+        margin: 0px auto 10px; }
+    #study .study-content .intro .content-right {
+      width: 100%; }
+      #study .study-content .intro .content-right img {
+        margin: 20px auto 10px auto; }
+    #study .study-content .products {
+      margin-top: 20px; }
+      #study .study-content .products .product-block {
+        width: 100%; }
+      #study .study-content .products .skb {
+        margin: 0; }
+      #study .study-content .products .comfort-info {
+        height: 270px; }
+        #study .study-content .products .comfort-info p {
+          padding: 5px;
+          max-width: 90%; } }
+
+#joe {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  #joe p {
+    font-family: "微軟正黑體", sans-serif;
+    color: #808080; }
+  #joe .contact {
+    width: 25%;
+    margin-left: 240px;
+    float: left; }
+    #joe .contact .contact-logo {
+      width: 280px;
+      margin-bottom: 10px;
+      margin-left: 25px; }
+    #joe .contact .contact-info {
+      position: relative; }
+      #joe .contact .contact-info p {
+        float: left;
+        margin: 0;
+        color: #808080; }
+      #joe .contact .contact-info .contact-icon {
+        width: 16px;
+        vertical-align: middle;
+        margin-top: 4px;
+        margin-right: 10px;
+        float: left; }
+      #joe .contact .contact-info .social-icon {
+        position: absolute;
+        right: 0;
+        bottom: 5px; }
+        #joe .contact .contact-info .social-icon img {
+          width: 25px;
+          display: inline-block;
+          margin-right: 5px; }
+        #joe .contact .contact-info .social-icon a {
+          display: inline-block; }
+  #joe .thanks {
+    width: 40%;
+    float: left;
+    border-left: 6px solid #F2F2F2;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 15px; }
+    #joe .thanks img {
+      width: 100px; }
+    #joe .thanks p {
+      color: #808080; }
+
+@media only screen and (min-width: 1000px) and (max-width: 1240px) {
+  #joe .contact {
+    width: 40%;
+    margin-left: 100px; } }
+
+@media only screen and (min-width: 731px) and (max-width: 1000px) {
+  #joe .contact {
+    width: 40%;
+    margin-left: 50px; }
+  #joe .thanks {
+    width: 50%; } }
+
+@media only screen and (min-width: 542px) and (max-width: 730px) {
+  #joe .contact {
+    width: 350px;
+    margin: 0 auto 15px;
+    float: none; }
+  #joe .thanks {
+    max-width: 80%;
+    width: 80%;
+    float: none;
+    margin: 0 auto; } }
+
+@media only screen and (min-width: 481px) and (max-width: 541px) {
+  #joe .contact {
+    width: 350px;
+    margin: 0 auto 15px;
+    float: none; }
+  #joe .thanks {
+    max-width: 80%;
+    width: 80%;
+    float: none;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 480px) {
+  #joe .contact {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto 15px;
+    float: none; }
+  #joe .thanks {
+    width: 95%;
+    float: none;
+    margin: 0 auto; } }
+
+#homeliving-foot {
+  height: 300px;
+  background: url("../images/footer/footer.jpg") center center no-repeat;
+  background-size: cover; }
+  #homeliving-foot img {
+    width: 380px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: block;
+    max-width: 100%;
+    height: auto; }

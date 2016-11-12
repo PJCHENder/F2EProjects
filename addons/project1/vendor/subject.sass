@@ -1,0 +1,938 @@
+$font_color: #4D4D4D
+$color_pink: #FBCBB2
+$color_orange: #FBB03B
+$color_gray: #F2F2F2
+
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css)
+
+.clearfix:after
+	content: ""
+	display: table
+	clear: both
+.text-hidden
+	text-indent: 100%
+	white-space: nowrap
+	overflow: hidden
+
+@mixin chtf()
+	font-family: "微軟正黑體", sans-serif
+
+@mixin img_responsive()
+	display: block
+	max-width: 100%
+	height: auto
+
+#homeliving-head
+	height: 548px
+	background: #FFF url('../images/head/head.jpg') center center
+	background-size: cover
+	position: relative
+	img
+		position: absolute
+		bottom: 20px
+		left: 20px
+		+img_responsive
+
+@media only screen and (min-width:321px) and (max-width:480px)
+	#homeliving-head
+		img
+			position: relative
+			left: 0
+			bottom: 0
+			margin: 0 auto
+			padding-top: 460px
+
+@media only screen and (max-width: 320px)
+	#homeliving-head
+		img
+			position: relative
+			left: 0
+			bottom: 0
+			margin: 0 auto
+			padding-top: 460px
+
+#feature
+	p
+		+chtf
+		color: #4D4D4D
+	.feature-left
+		float: left
+		width: 50%
+		padding: 45px 70px
+		img
+			+img_responsive
+		.feature-img1
+			border-bottom: 8px solid $color_pink
+			margin-bottom: 20px
+		.feature-title1
+			width: 290px
+			margin: 0 auto
+	.feature-right
+		float: left
+		width: 50%
+		background-color: $color_gray
+		padding: 90px 70px 45px
+		img
+			+img_responsive
+		.feature-title2
+			width: 290px
+			margin: 0 auto
+		.image-block
+			margin-top: 60px
+			img
+				border-bottom: 8px solid $color_pink
+				width: 45%
+				&.feature-img2
+					float: left
+				&.feature-img3
+					float: right
+
+@media only screen and  (min-width:542px) and (max-width:730px)
+	#feature
+		.feature-left
+			width: 100%
+		.feature-right
+			width: 100%
+@media only screen and  (min-width:481px) and (max-width:541px)
+	#feature
+		.feature-left
+			width: 100%
+			padding: 45px 30px
+		.feature-right
+			width: 100%
+			padding: 90px 30px 45px
+@media only screen and  (min-width:321px) and (max-width:480px)
+	#feature
+		.feature-left
+			width: 100%
+			padding: 45px 30px
+		.feature-right
+			width: 100%
+			padding: 90px 30px 45px
+@media only screen and (max-width: 320px)
+	#feature
+		.feature-left
+			width: 100%
+			padding: 45px 30px
+		.feature-right
+			width: 100%
+			padding: 90px 30px 45px
+
+.divide
+	border-top: 1px solid $color_orange
+	width: 90%
+	margin: 35px auto
+
+#keypoint
+	p
+		+chtf
+		color: #4D4D4D
+	.keypoint-head
+		max-width: 720px
+		margin: 0 auto 40px
+		img
+			+img_responsive
+			width: 280px
+			margin: 0 auto
+	.keypoint-left
+		background: url('../images/content/2/2-2.png') left top
+		background-repeat: no-repeat
+		background-size: contain
+		float: left
+		overflow: auto
+		width: 40%
+		margin-left: 70px
+		margin-top: 8px
+		.keypoint-content
+			background-color: $color_gray
+			margin: 20px 40px 0 20px
+			padding: 12px 30px
+			img
+				height: 24px
+	.keypoint-right
+		width: 50%
+		background: url('../images/content/2/2-6.png') left top
+		background-repeat: no-repeat
+		background-size: contain
+		height: 370px
+		float: right
+		img
+			+img_responsive
+			width: 100%
+			padding-top: 28px
+
+@media only screen and  (min-width:1000px) and (max-width:1240px)
+	#keypoint
+		.keypoint-left
+			.keypoint-content
+				margin: 20px 0px 0px 20px
+@media only screen and (max-width:1000px)
+	#keypoint
+		.keypoint-left
+			width: 100%
+			margin-left: 0
+			.keypoint-content
+				margin: 20px 0px 0px 20px
+
+		.keypoint-right
+			width: 100%
+			margin-top: 20px
+			height: auto
+
+#livingroom
+	margin-top: 90px
+	p
+		+chtf
+		color: #808080
+	.livingroom-head
+		height: 468px
+		max-width: 100%
+		background: #FFF url('../images/content/3/3-1.jpg') center center
+		background-size: cover
+		background-repeat: no-repeat
+		overflow: hidden
+		position: relative
+		.content
+			width: 320px
+			max-width: 100%
+			color: #808080
+			text-align: justify
+			text-justify: inter-ideograph
+			border-left: 4px solid $color_orange
+			padding-left: 10px
+			margin: 40px auto 0px 70px
+		.image-block
+			margin-left: 70px
+			margin-top: 25px
+			img
+				margin-bottom: 10px
+				&:first-child
+					height: 20px
+				&:nth-child(2)
+					height: 16px
+				&:last-child
+					height: 22px
+		.pager
+			color: $color_orange
+			font-size: 52px
+			font-weight: bold
+			position: absolute
+			margin: 5px
+			bottom: 0
+			right: 0
+			height: 60px
+			line-height: 64px
+			font-family: 'Ubuntu', sans-serif
+	.livingroom-content
+		background-color: $color_gray
+		border-bottom: 16px solid $color_pink
+		padding-bottom: 30px
+		.container
+			margin-left: 70px
+			margin-right: 70px
+		.intro
+			position: relative
+			z-index: 1
+			background-color: #FFF
+			margin-top: -180px
+			padding: 20px
+			.content-left
+				float: left
+				width: 440px
+				max-width: 100%
+				img
+					height: 50px
+					margin: 90px auto 10px auto
+				p
+					width: 200px
+					margin: 0 auto
+					color: #808080
+					letter-spacing: 1px
+			.content-right
+				float: right
+				width: 600px
+				max-width: 100%
+		.products
+			margin-top: 20px
+			.product-block
+				width: 32%
+				float: left
+				img
+					+img_responsive
+					width: 100%
+					margin: 0 auto
+				.caption
+					margin-top: 5px
+					border-bottom: 6px solid #B3B3B3
+					padding-bottom: 12px
+					h5
+						margin: 0
+						padding-left: 3px
+						+chtf
+						color: #4D4D4D
+					.shop-button
+						width: 27px
+						margin: -30px 0 0 auto
+						padding-right: 3px
+						&:hover
+							opacity: 0.6
+				p
+					margin-top: 6px
+					color: #808080					
+			.lemnos
+				margin: 0 21px
+
+@media only screen and  (min-width:1000px) and (max-width:1240px)
+	#livingroom
+		.livingroom-content
+			.intro
+				.content-left
+					width: 247px					
+				.content-right
+					width: 550px
+			.products
+				margin-top: 20px					
+				.lemnos
+					margin: 0 16px	
+@media only screen and  (min-width:731px) and (max-width:1000px)
+	#livingroom
+		.livingroom-content
+			.intro
+				.content-left
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+						text-align: center
+					img			
+						margin: 20px auto 10px auto
+				.content-right
+					width: 100%
+					img
+						margin: 0 auto
+			.products
+				margin-top: 20px					
+				.lemnos
+					margin: 0 11px	
+@media only screen and  (min-width:542px) and (max-width:730px)
+	#livingroom
+		.livingroom-head
+			.pager
+				text-align: right
+		.livingroom-content
+			.intro
+				.content-left
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+					img			
+						margin: 20px auto 10px auto
+				.content-right
+					width: 100%
+					img
+						margin: 0 auto
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.lemnos
+					margin: 0	
+
+
+@media only screen and  (min-width:481px) and (max-width:541px)
+	#livingroom
+		.livingroom-head
+			.pager
+				display: none
+		.livingroom-content
+			.container
+				margin-right: 30px
+				margin-left: 30px
+			.intro
+				.content-left
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+					img			
+						margin: 20px auto 10px auto
+				.content-right
+					width: 100%
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.lemnos
+					margin: 0
+
+@media only screen and  (max-width:480px)
+	#livingroom
+		.livingroom-head
+			.pager
+				display: none
+			.content
+				margin: 0 10px
+				max-width: 90%
+		.livingroom-content
+			.container
+				margin-right: 10px
+				margin-left: 10px
+			.intro
+				.content-left
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+					img			
+						margin: 20px auto 10px auto
+				.content-right
+					width: 100%
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.lemnos
+					margin: 0
+
+#bathroom
+	p
+		+chtf
+		color: #808080
+	margin-top: 40px
+	.bathroom-head
+		height: 240px
+		max-width: 100%
+		background-color: #FFF
+		position: relative
+		.pager
+			color: $color_orange
+			font-size: 52px
+			font-weight: bold
+			position: absolute
+			margin: 5px
+			bottom: 0
+			left: 0
+			height: 60px
+			line-height: 64px
+			font-family: 'Ubuntu', sans-serif
+	.bathroom-content
+		padding-bottom: 30px
+		background-color: $color_gray
+		border-bottom: 16px solid $color_pink
+		.container
+			margin-left: 70px
+			margin-right: 70px
+		.intro
+			position: relative
+			z-index: 1
+			background-color: #FFF
+			margin-top: -180px
+			padding: 20px
+			.content-left
+				float: left
+				width: 700px
+				max-width: 100%
+			.content-right
+				float: right
+				width: 340px
+				max-width: 100%
+				img
+					height: 50px
+					margin: 90px auto 10px auto
+				p
+					width: 200px
+					margin: 0 auto
+					color: #808080
+					letter-spacing: 1px
+		.products
+			margin-top: 20px
+			.product-block
+				width: 32%
+				float: left
+				img
+					+img_responsive
+					width: 100%
+					margin: 0 auto
+				.caption
+					margin-top: 5px
+					border-bottom: 6px solid #B3B3B3
+					padding-bottom: 12px
+					h5
+						margin: 0
+						padding-left: 3px
+						color: #4D4D4D
+						+chtf
+					.shop-button
+						width: 27px
+						margin: -30px 0 0 auto
+						padding-right: 3px
+						&:hover
+							opacity: 0.6
+				p
+					margin-top: 6px
+					color: #808080
+						
+			.linkife
+				margin: 0 21px
+
+@media only screen and  (min-width:1000px) and (max-width:1240px)
+	#bathroom
+		.bathroom-content
+			.intro
+				.content-left
+					width: 480px					
+				.content-right
+					width: 310px
+			.products
+				margin-top: 20px					
+				.linkife
+					margin: 0 16px	
+@media only screen and  (min-width:731px) and (max-width:1000px)
+	#bathroom
+		margin-top: 10px
+		.bathroom-content
+			.intro
+				.content-left
+					width: 100%
+					img
+						margin: 0 auto
+				.content-right
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+						text-align: center
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px					
+				.linkife
+					margin: 0 11px	
+@media only screen and  (min-width:542px) and (max-width:730px)
+	#bathroom
+		margin-top: 10px
+		.bathroom-head
+			.pager
+				text-align: right
+		.bathroom-content
+			.intro
+				.content-left
+					width: 100%	
+				.content-right
+					width: 100%
+					p
+						width: 100%
+						margin-bottom: 10px
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.linkife
+					margin: 0	
+
+
+@media only screen and  (min-width:481px) and (max-width:541px)
+	#bathroom
+		margin-top: 0px
+		.bathroom-head
+			.pager
+				display: none
+		.bathroom-content
+			.container
+				margin-right: 30px
+				margin-left: 30px
+			.intro
+				.content-left
+					width: 100%	
+				.content-right
+					width: 100%
+					p
+						width: 100%
+						margin-bottom: 10px
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.linkife
+					margin: 0
+
+@media only screen and  (max-width:480px)
+	#bathroom
+		.bathroom-head
+			.pager
+				display: none
+			.content
+				margin: 0 10px
+				max-width: 90%
+		.bathroom-content
+			.container
+				margin-right: 10px
+				margin-left: 10px
+			.intro
+				.content-left
+					width: 100%	
+				.content-right
+					width: 100%
+					p
+						width: 100%
+						margin-bottom: 10px
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.linkife
+					margin: 0
+
+#study
+	margin-top: 
+	p
+		+chtf
+		color: #808080
+	.study-head
+		height: 240px
+		max-width: 100%
+		background-color: #FFF
+		position: relative
+		.pager
+			color: $color_orange
+			font-size: 52px
+			font-weight: bold
+			position: absolute
+			margin: 5px
+			bottom: 0
+			right: 0
+			height: 60px
+			line-height: 64px
+			font-family: 'Ubuntu', sans-serif
+	.study-content
+		background-color: $color_gray
+		padding-bottom: 30px
+		border-bottom: 16px solid $color_pink
+		.container
+			margin-left: 70px
+			margin-right: 70px
+		.intro
+			position: relative
+			z-index: 1
+			background-color: #FFF
+			margin-top: -180px
+			padding: 20px
+			.content-left
+				float: left
+				width: 340px
+				max-width: 100%
+				img
+					height: 50px
+					margin: 90px auto 10px auto
+				p
+					width: 200px
+					margin: 0 auto
+					color: #808080
+					letter-spacing: 1px
+			.content-right
+				float: right
+				width: 700px
+				max-width: 100%
+
+		.products
+			margin-top: 20px
+			.product-block
+				width: 32%
+				float: left
+				img
+					+img_responsive
+					width: 100%
+					margin: 0 auto
+				.caption
+					margin-top: 5px
+					border-bottom: 6px solid #B3B3B3
+					padding-bottom: 12px
+					h5
+						margin: 0
+						padding-left: 3px
+						color: #4D4D4D
+						+chtf
+					.shop-button
+						width: 27px
+						margin: -30px 0 0 auto
+						padding-right: 3px
+						&:hover
+							opacity: 0.6
+				p
+					margin-top: 6px
+					color: #808080
+			.comfort-info
+				background-color: #FFF
+				height: 350px
+				.topline
+					border: 2px solid $color_orange
+					width: 20%
+					margin: 60px auto 0
+				img
+					max-width: 140px
+					padding: 20px 0 0
+				p
+					max-width: 240px
+					margin: 10px auto 0
+			.skb
+				margin: 0 21px
+
+@media only screen and  (min-width:1000px) and (max-width:1240px)
+	#study
+		.study-content
+			.intro
+				.content-right
+					width: 480px					
+				.content-left
+					width: 310px
+			.products
+				margin-top: 20px					
+				.skb
+					margin: 0 16px
+				.comfort-info
+					height: 297px
+@media only screen and  (min-width:731px) and (max-width:1000px)
+	#study
+		margin-top: 10px
+		.study-head
+			height: 200px
+		.study-content
+			.intro
+				.content-right
+					width: 100%
+					img
+						margin: 0 auto
+				.content-left
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+						text-align: center
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px					
+				.skb
+					margin: 0 11px
+				.comfort-info
+					height: 270px
+					p
+						padding: 5px
+						
+@media only screen and  (min-width:542px) and (max-width:730px)
+	#study
+		margin-top: 10px
+		.study-head
+			height: 200px
+			.pager
+				text-align: right
+		.study-content
+			.intro
+				.content-right
+					width: 100%	
+					img			
+						margin: 20px auto 10px auto
+					
+				.content-left
+					width: 100%
+					p
+						width: 100%
+						margin-bottom: 10px
+					img
+						margin: 0 auto 10px
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.skb
+					margin: 0
+				.comfort-info
+					height: 270px
+					p
+						padding: 5px
+						max-width: 90%
+						
+
+
+@media only screen and  (min-width:481px) and (max-width:541px)
+	#study
+		margin-top: 0px
+		.study-head
+			.pager
+				display: none
+		.study-content
+			.container
+				margin-right: 30px
+				margin-left: 30px
+			.intro
+				.content-left
+					width: 100%
+					img
+						margin: 0 auto 10px
+					p
+						width: 100%
+						margin-bottom: 10px
+				.content-right
+					width: 100%
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.skb
+					margin: 0
+				.comfort-info
+					height: 270px
+					p
+						padding: 5px
+						max-width: 90%
+
+@media only screen and  (max-width:480px)
+	#study
+		margin: 0
+		.study-head
+			.pager
+				display: none
+			.content
+				margin: 0 10px
+				max-width: 90%
+		.study-content
+			.container
+				margin-right: 10px
+				margin-left: 10px
+			.intro
+				.content-left
+					width: 100%	
+					p
+						width: 100%
+						margin-bottom: 10px
+					img
+						margin: 0px auto 10px
+				.content-right
+					width: 100%
+					img			
+						margin: 20px auto 10px auto
+			.products
+				margin-top: 20px
+				.product-block				
+					width: 100%
+				.skb
+					margin: 0
+				.comfort-info
+					height: 270px
+					p
+						padding: 5px
+						max-width: 90%
+#joe
+	margin-top: 60px
+	margin-bottom: 60px
+	p
+		+chtf
+		color: #808080
+	.contact
+		width: 25%
+		margin-left: 240px
+		float: left
+		.contact-logo
+			width: 280px
+			margin-bottom: 10px
+			margin-left: 25px
+		.contact-info
+			position: relative
+			p
+				float: left
+				margin: 0
+				color: #808080
+			.contact-icon
+				width: 16px
+				vertical-align: middle
+				margin-top: 4px
+				margin-right: 10px
+				float: left
+			.social-icon
+				position: absolute
+				right: 0
+				bottom: 5px
+
+				img
+					width: 25px
+					display: inline-block
+					margin-right: 5px
+				a
+					display: inline-block
+
+	.thanks
+		width: 40%
+		float: left
+		border-left: 6px solid #F2F2F2
+		margin-left: 20px
+		padding-left: 20px
+		padding-top: 15px
+		img
+			width: 100px
+		p
+			color: #808080
+@media only screen and  (min-width:1000px) and (max-width:1240px)
+	#joe
+		.contact
+			width: 40%
+			margin-left: 100px
+@media only screen and  (min-width:731px) and (max-width:1000px)
+	#joe
+		.contact
+			width: 40%
+			margin-left: 50px
+		.thanks
+			width: 50%
+
+@media only screen and  (min-width:542px) and (max-width:730px)
+	#joe
+		.contact
+			width: 350px
+			margin: 0 auto 15px
+			float: none
+		.thanks
+			max-width: 80%
+			width: 80%
+			float: none
+			margin: 0 auto
+@media only screen and  (min-width:481px) and (max-width:541px)
+	#joe
+		.contact
+			width: 350px
+			margin: 0 auto 15px
+			float: none
+		.thanks
+			max-width: 80%
+			width: 80%
+			float: none
+			margin: 0 auto
+@media only screen and  (max-width:480px)	
+	#joe
+		.contact
+			width: 100%
+			max-width: 350px
+			margin: 0 auto 15px
+			float: none
+		.thanks
+			width: 95%
+			float: none
+			margin: 0 auto
+
+#homeliving-foot
+	height: 300px
+	background: url('../images/footer/footer.jpg') center center no-repeat
+	background-size: cover
+	img
+		width: 380px
+		margin: 0 auto
+		padding-top: 100px
+		+img_responsive
