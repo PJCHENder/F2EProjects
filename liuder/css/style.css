@@ -87,6 +87,9 @@ a {
     vertical-align: middle; }
     .intro .intro-body .brand-handing {
       font-size: 40px; }
+    .intro .intro-body .sub-brand {
+      font-size: 25px;
+      text-align: center; }
     .intro .intro-body .intro-text {
       font-size: 18px; }
 
@@ -96,6 +99,9 @@ a {
     padding: 0; }
     .intro .intro-body .brand-heading {
       font-size: 100px; }
+    .intro .intro-body .sub-brand {
+      font-size: 25px;
+      text-align: center; }
     .intro .intro-body .intro-text {
       font-size: 25px; } }
 
@@ -131,7 +137,10 @@ a {
   text-align: center;
   padding-bottom: 80px; }
   #clients img {
-    margin-right: 30px; }
+    margin-right: 30px;
+    max-height: 120px; }
+  #clients p {
+    text-align: left; }
 
 #contact {
   background: #333;
