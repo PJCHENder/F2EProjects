@@ -1,0 +1,1104 @@
+@charset "UTF-8";
+@import url(https://fonts.google.com/specimen/Satisfy?selection.family=Satisfy);
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.text-hidden {
+  font-size: 0px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+#material_header {
+  height: 757px;
+  max-width: 100%;
+  background: #FFF url("../images/header/head_bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative; }
+  #material_header .head_title {
+    background-image: url("../images/header/head_title.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 615px;
+    height: 416px;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  #material_header .dm_logo {
+    position: absolute;
+    left: 450px;
+    top: 60px; }
+  #material_header .xx_bg {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -270px; }
+
+@media only screen and (max-width: 1240px) {
+  #material_header {
+    height: 557px; }
+    #material_header .head_title {
+      width: 473px;
+      height: 320px; }
+    #material_header .dm_logo {
+      left: 360px;
+      width: 120px; }
+    #material_header .xx_bg {
+      bottom: -280px; } }
+
+@media only screen and (max-width: 988px) {
+  #material_header {
+    height: 425px; }
+    #material_header .head_title {
+      height: 240px;
+      width: 355px; }
+    #material_header .dm_logo {
+      left: 280px;
+      width: 80px; } }
+
+@media only screen and (max-width: 730px) {
+  #material_header {
+    height: 425px; }
+    #material_header .head_title {
+      background-image: url("../images/header/main_title_text.png");
+      height: 291px;
+      width: 144px;
+      right: 40px; }
+    #material_header .dm_logo {
+      left: 240px;
+      width: 80px; }
+    #material_header .xx_bg {
+      bottom: -200px; } }
+
+@media only screen and (max-width: 670px) {
+  #material_header .dm_logo {
+    display: none; } }
+
+@media only screen and (max-width: 541px) {
+  #material_header {
+    height: 360px; }
+    #material_header .head_title {
+      top: 20px;
+      right: 20px; }
+    #material_header .xx_bg {
+      bottom: -200px; } }
+
+article.article {
+  background: #FFF url("http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/header/x_bg.jpg") repeat-y;
+  background-size: cover;
+  max-width: 100%;
+  overflow: hidden; }
+
+#dinner_time {
+  max-width: 100%; }
+  #dinner_time .sub_slogan {
+    margin: 90px auto 0 auto;
+    position: relative;
+    z-index: 1; }
+  #dinner_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 80px, transparent 0);
+    background-size: cover;
+    position: relative; }
+    #dinner_time .content .container {
+      margin: 60px 180px 0 180px; }
+      #dinner_time .content .container .words {
+        font-family: "Satisfy", "微軟正黑體", sans-serif;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        color: #808080;
+        margin-left: 150px;
+        margin-top: 30px; }
+      #dinner_time .content .container .product {
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 600px;
+        margin-right: 100px;
+        font-size: 0;
+        overflow: auto; }
+        #dinner_time .content .container .product img {
+          display: inline-block; }
+        #dinner_time .content .container .product .dinner_time_img1 {
+          max-width: 100%;
+          margin-bottom: 0.82%; }
+        #dinner_time .content .container .product .dinner_time_img2 {
+          max-width: 49.586%;
+          margin-right: 0.82%; }
+        #dinner_time .content .container .product .dinner_time_img3 {
+          max-width: 49.586%; }
+      #dinner_time .content .container .description {
+        font-size: 12px;
+        margin-top: 260px;
+        margin-left: 100px;
+        padding-bottom: 50px;
+        max-width: 220px; }
+        #dinner_time .content .container .description .graph_block {
+          display: inline-block; }
+          #dinner_time .content .container .description .graph_block .color_block {
+            font-size: 12px;
+            background-color: #fae8cf;
+            width: 14px;
+            height: 14px;
+            line-height: 14px;
+            text-align: center; }
+            #dinner_time .content .container .description .graph_block .color_block.block1 {
+              width: 32px;
+              background-color: #fae8cf;
+              margin-bottom: 1px; }
+            #dinner_time .content .container .description .graph_block .color_block.block2 {
+              margin-right: 1px;
+              display: inline-block; }
+            #dinner_time .content .container .description .graph_block .color_block.block3 {
+              display: inline-block; }
+        #dinner_time .content .container .description .note {
+          text-indent: -1em;
+          margin-left: 1em;
+          margin-bottom: 1em; }
+
+@media only screen and (max-width: 1240px) {
+  #dinner_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #dinner_time .content .container .words {
+      margin-left: 50px; }
+    #dinner_time .content .container .description {
+      margin-top: 160px;
+      margin-left: 0px;
+      max-width: 180px; } }
+
+@media only screen and (max-width: 988px) {
+  #dinner_time .content .container {
+    text-align: center; }
+    #dinner_time .content .container .product {
+      position: relative;
+      margin: 20px auto 0; }
+    #dinner_time .content .container .dinner_time_title {
+      display: inline-block; }
+    #dinner_time .content .container .words {
+      display: inline-block;
+      -webkit-writing-mode: horizontal-tb;
+      writing-mode: horizontal-tb;
+      text-align: left; }
+    #dinner_time .content .container .description {
+      text-align: left;
+      max-width: 420px;
+      margin-top: 20px; }
+      #dinner_time .content .container .description .note {
+        margin-bottom: 0.3em; } }
+
+@media only screen and (max-width: 730px) {
+  #dinner_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0); } }
+
+@media only screen and (max-width: 625px) {
+  #dinner_time .content .container .dinner_time_content {
+    width: 100%; }
+  #dinner_time .content .container .dinner_time_title {
+    max-width: 30%; }
+  #dinner_time .content .container .words {
+    margin-left: 15px; } }
+
+@media only screen and (max-width: 520px) {
+  #dinner_time .content .container {
+    margin: 60px 30px 0 30px; } }
+
+@media only screen and (max-width: 400px) {
+  #dinner_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #dinner_time .content .container {
+      margin: 60px 10px 0 10px; } }
+
+#cooking_time {
+  max-width: 100%; }
+  #cooking_time .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 80px, transparent 0);
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px; }
+    #cooking_time .content .container {
+      margin: 60px 180px 0 180px; }
+      #cooking_time .content .container .cooking_time_content {
+        margin-left: 540px;
+        position: relative;
+        z-index: 5; }
+        #cooking_time .content .container .cooking_time_content .words {
+          font-family: "Satisfy", "微軟正黑體", sans-serif;
+          -webkit-writing-mode: vertical-rl;
+          writing-mode: vertical-rl;
+          color: #808080;
+          margin-left: 80px;
+          margin-top: 15px; }
+          #cooking_time .content .container .cooking_time_content .words span {
+            -webkit-writing-mode: horizontal-tb;
+            writing-mode: horizontal-tb; }
+      #cooking_time .content .container .product {
+        position: absolute;
+        left: 180px;
+        top: 50px;
+        max-width: 600px;
+        margin-right: 100px;
+        font-size: 0;
+        overflow: auto; }
+        #cooking_time .content .container .product img {
+          display: inline-block; }
+        #cooking_time .content .container .product .cooking_time_img1 {
+          max-width: 45%;
+          margin-right: 0.82%;
+          margin-bottom: 0.82%; }
+        #cooking_time .content .container .product .cooking_time_img2 {
+          max-width: 45%;
+          margin-bottom: 0.82%; }
+        #cooking_time .content .container .product .cooking_time_img3 {
+          max-width: 45%; }
+      #cooking_time .content .container .description {
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 300px;
+        max-width: 240px; }
+        #cooking_time .content .container .description .graph_block {
+          width: 40px; }
+          #cooking_time .content .container .description .graph_block .color_block {
+            font-size: 12px;
+            background-color: #fae8cf;
+            width: 14px;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            display: inline-block; }
+            #cooking_time .content .container .description .graph_block .color_block.block1 {
+              margin-bottom: 1px;
+              margin-right: 1px; }
+            #cooking_time .content .container .description .graph_block .color_block.block2 {
+              margin-bottom: 1px; }
+        #cooking_time .content .container .description .note {
+          text-indent: -1em;
+          margin-left: 1em;
+          margin-bottom: 1em; }
+
+@media only screen and (max-width: 1240px) {
+  #cooking_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #cooking_time .content .container .cooking_time_content {
+      margin-left: 560px; }
+      #cooking_time .content .container .cooking_time_content .cooking_time_title {
+        max-width: 120px;
+        height: auto; }
+    #cooking_time .content .container .words {
+      margin-left: 50px; }
+    #cooking_time .content .container .description {
+      margin-top: 67px;
+      margin-left: 380px; } }
+
+@media only screen and (max-width: 988px) {
+  #cooking_time .content .container {
+    text-align: center; }
+    #cooking_time .content .container .cooking_time_content {
+      margin: 0 auto; }
+      #cooking_time .content .container .cooking_time_content .cooking_time_title {
+        display: inline-block; }
+      #cooking_time .content .container .cooking_time_content .words {
+        display: inline-block;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        text-align: left; }
+    #cooking_time .content .container .product {
+      position: relative;
+      text-align: left;
+      left: 100px;
+      top: 50px;
+      margin: 0;
+      max-width: 450px; }
+    #cooking_time .content .container .description {
+      text-align: left;
+      max-width: 220px;
+      margin-top: -80px;
+      margin-left: 320px; }
+      #cooking_time .content .container .description .note {
+        margin-bottom: 0.3em; } }
+
+@media only screen and (max-width: 730px) {
+  #cooking_time .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 50px, transparent 0); }
+    #cooking_time .content .container .product {
+      left: 50px; }
+    #cooking_time .content .container .description {
+      margin-top: 60px;
+      margin-left: 50px;
+      width: 100%;
+      max-width: 100%; }
+      #cooking_time .content .container .description .note {
+        font-size: 12px; } }
+
+@media only screen and (max-width: 625px) {
+  #cooking_time .content .container .cooking_time_content {
+    width: 100%; }
+    #cooking_time .content .container .cooking_time_content .cooking_time_title {
+      width: 90px; }
+    #cooking_time .content .container .cooking_time_content .words {
+      margin-left: 15px; } }
+
+@media only screen and (max-width: 520px) {
+  #cooking_time .content .container {
+    margin: 60px 30px 0 30px; } }
+
+@media only screen and (max-width: 400px) {
+  #cooking_time .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #cooking_time .content .container {
+      margin: 60px 10px 0 10px; }
+      #cooking_time .content .container .product {
+        left: 30px;
+        top: 30px; }
+      #cooking_time .content .container .description {
+        margin-left: 30px; }
+      #cooking_time .content .container .cooking_time_content {
+        width: 100%; }
+        #cooking_time .content .container .cooking_time_content .cooking_time_title {
+          max-width: 26%; }
+        #cooking_time .content .container .cooking_time_content .words {
+          margin-left: 5px; } }
+
+#tea_time {
+  max-width: 100%; }
+  #tea_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 80px, transparent 0);
+    background-size: cover;
+    position: relative; }
+    #tea_time .content .container {
+      margin: 60px 180px 0 180px; }
+      #tea_time .content .container .tea_time_content {
+        vertical-align: top; }
+        #tea_time .content .container .tea_time_content .tea_time_title {
+          display: inline-block; }
+        #tea_time .content .container .tea_time_content .words {
+          display: inline-block;
+          font-family: "Satisfy", "微軟正黑體", sans-serif;
+          color: #808080;
+          vertical-align: top;
+          margin-left: 30px; }
+      #tea_time .content .container .product {
+        position: absolute;
+        right: 0;
+        top: 80px;
+        max-width: 800px;
+        margin-right: 100px;
+        font-size: 0;
+        overflow: auto; }
+        #tea_time .content .container .product img {
+          display: inline-block;
+          display: inline-block;
+          max-width: 100%;
+          height: auto; }
+        #tea_time .content .container .product .tea_time_img1 {
+          margin-right: 0.82%;
+          margin-bottom: 0.82%; }
+        #tea_time .content .container .product .tea_time_img2 {
+          margin-bottom: 0.82%; }
+        #tea_time .content .container .product .tea_time_img3 {
+          margin-right: 0.82%; }
+        #tea_time .content .container .product .tea_time_img4 {
+          margin-right: 0.82%;
+          vertical-align: top; }
+        #tea_time .content .container .product .tea_time_img5 {
+          margin-right: 0.82%;
+          vertical-align: top; }
+      #tea_time .content .container .description {
+        font-size: 12px;
+        margin-top: 460px;
+        margin-left: 500px;
+        padding-bottom: 50px;
+        max-width: 420px; }
+        #tea_time .content .container .description .graph_block {
+          display: inline-block;
+          width: 70px;
+          float: left; }
+          #tea_time .content .container .description .graph_block .color_block {
+            font-size: 12px;
+            background-color: #fae8cf;
+            width: 14px;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            display: inline-block; }
+            #tea_time .content .container .description .graph_block .color_block.block1 {
+              width: 24px;
+              height: 18px;
+              line-height: 18px;
+              background-color: #fae8cf;
+              margin-bottom: 1px; }
+            #tea_time .content .container .description .graph_block .color_block.block2 {
+              width: 35px;
+              height: 18px;
+              line-height: 18px;
+              margin-right: 1px; }
+            #tea_time .content .container .description .graph_block .color_block.block3 {
+              width: 24px;
+              height: 14px; }
+            #tea_time .content .container .description .graph_block .color_block.block4 {
+              width: 16px;
+              height: 14px; }
+            #tea_time .content .container .description .graph_block .color_block.block5 {
+              width: 16px;
+              height: 14px; }
+        #tea_time .content .container .description .info {
+          float: left; }
+          #tea_time .content .container .description .info .note {
+            text-indent: -1em;
+            margin-left: 1em;
+            margin-bottom: 0.3em; }
+
+@media only screen and (max-width: 1240px) {
+  #tea_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #tea_time .content .container .tea_time_content .tea_time_title {
+      width: 130px; }
+    #tea_time .content .container .tea_time_content .words {
+      margin-top: 30px;
+      margin-left: 20px; }
+    #tea_time .content .container .product {
+      position: absolute;
+      right: 0;
+      top: 140px;
+      max-width: 800px;
+      margin-right: 100px;
+      font-size: 0;
+      overflow: auto; }
+    #tea_time .content .container .description {
+      margin-top: 570px;
+      margin-left: 340px;
+      padding-bottom: 50px;
+      max-width: 420px; } }
+
+@media only screen and (max-width: 988px) {
+  #tea_time .content .container {
+    position: relative; }
+    #tea_time .content .container .product {
+      left: 0;
+      top: 240px;
+      max-width: 550px;
+      margin: 0 auto; }
+      #tea_time .content .container .product img {
+        display: inline-block; }
+      #tea_time .content .container .product .tea_time_img1 {
+        margin-right: 1.64%;
+        margin-bottom: 0.82%;
+        max-width: 48%; }
+      #tea_time .content .container .product .tea_time_img2 {
+        margin-bottom: 0.82%;
+        max-width: 48%; }
+      #tea_time .content .container .product .tea_time_img3 {
+        margin-right: 0.82%;
+        margin-bottom: 0.82%;
+        max-width: 32%; }
+      #tea_time .content .container .product .tea_time_img4 {
+        margin-right: 0.82%;
+        vertical-align: top;
+        max-width: 32%; }
+      #tea_time .content .container .product .tea_time_img5 {
+        margin-right: 0.82%;
+        vertical-align: top;
+        max-width: 32%; }
+    #tea_time .content .container .description {
+      margin-top: 480px;
+      margin-left: 0px;
+      max-width: 550px; }
+      #tea_time .content .container .description .graph_block {
+        width: 60px; }
+        #tea_time .content .container .description .graph_block .color_block {
+          width: 14px;
+          height: 14px;
+          line-height: 14px;
+          text-align: center;
+          display: inline-block; }
+          #tea_time .content .container .description .graph_block .color_block.block1 {
+            width: 23px;
+            height: 18px;
+            line-height: 18px;
+            background-color: #fae8cf;
+            margin-bottom: 1px; }
+          #tea_time .content .container .description .graph_block .color_block.block2 {
+            width: 23px;
+            height: 18px;
+            line-height: 18px;
+            margin-right: 1px; }
+          #tea_time .content .container .description .graph_block .color_block.block3 {
+            width: 14px;
+            height: 14px; }
+          #tea_time .content .container .description .graph_block .color_block.block4 {
+            width: 14px;
+            height: 14px; }
+          #tea_time .content .container .description .graph_block .color_block.block5 {
+            width: 14px;
+            height: 14px; } }
+
+@media only screen and (max-width: 730px) {
+  #tea_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0); }
+    #tea_time .content .container .description {
+      margin-top: 88%; } }
+
+@media only screen and (max-width: 625px) {
+  #tea_time .content .container .tea_time_content {
+    width: 100%; }
+    #tea_time .content .container .tea_time_content .tea_time_title {
+      max-width: 30%; }
+    #tea_time .content .container .tea_time_content .words {
+      margin-top: 30px;
+      margin-left: 20px; }
+  #tea_time .content .container .product {
+    left: 0;
+    top: 200px;
+    max-width: 550px;
+    margin: 0 auto; }
+  #tea_time .content .container .words {
+    margin-left: 15px; }
+  #tea_time .content .container .description {
+    margin-top: 90%; } }
+
+@media only screen and (max-width: 520px) {
+  #tea_time .content .container {
+    margin: 60px 30px 0 30px; } }
+
+@media only screen and (max-width: 400px) {
+  #tea_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #tea_time .content .container {
+      margin: 60px 5px 0 5px; } }
+
+#writing_time {
+  max-width: 100%;
+  margin-bottom: 40px; }
+  #writing_time .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 80px, transparent 0);
+    background-size: cover;
+    position: relative; }
+    #writing_time .content .container {
+      padding-top: 20px;
+      margin: 60px 180px 0 180px;
+      position: relative; }
+      #writing_time .content .container .writing_time_content {
+        vertical-align: top;
+        position: relative;
+        z-index: 3; }
+        #writing_time .content .container .writing_time_content .words {
+          font-family: "Satisfy", "微軟正黑體", sans-serif;
+          -webkit-writing-mode: vertical-rl;
+          writing-mode: vertical-rl;
+          color: #808080;
+          vertical-align: top;
+          margin-left: 55px; }
+      #writing_time .content .container .product {
+        position: absolute;
+        right: 30px;
+        top: 80px;
+        max-width: 800px;
+        margin-right: 100px;
+        font-size: 0;
+        overflow: auto; }
+        #writing_time .content .container .product img {
+          display: inline-block;
+          display: inline-block;
+          max-width: 100%;
+          height: auto; }
+        #writing_time .content .container .product .writing_time_img1 {
+          max-width: 48%;
+          margin-right: 3%; }
+        #writing_time .content .container .product .writing_time_img2 {
+          max-width: 48%; }
+      #writing_time .content .container .description {
+        font-size: 12px;
+        margin: -110px auto 0 auto;
+        padding-bottom: 50px;
+        max-width: 420px; }
+        #writing_time .content .container .description .graph_block {
+          display: inline-block;
+          width: 70px;
+          float: left; }
+          #writing_time .content .container .description .graph_block .color_block {
+            font-size: 12px;
+            background-color: #fae8cf;
+            width: 24px;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            display: inline-block; }
+            #writing_time .content .container .description .graph_block .color_block.block1 {
+              margin-right: 1px;
+              margin-bottom: 1px; }
+        #writing_time .content .container .description .info {
+          float: left; }
+          #writing_time .content .container .description .info .note {
+            text-indent: -1em;
+            margin-left: 1em;
+            margin-bottom: 0.3em; }
+
+@media only screen and (max-width: 1240px) {
+  #writing_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #writing_time .content .container .writing_time_content .writing_time_title {
+      width: 130px;
+      display: inline-block; }
+    #writing_time .content .container .writing_time_content .words {
+      margin-top: 30px;
+      margin-left: 20px;
+      -webkit-writing-mode: horizontal-tb;
+      writing-mode: horizontal-tb;
+      display: inline-block; }
+    #writing_time .content .container .product {
+      position: absolute;
+      left: 150px;
+      top: 160px; }
+    #writing_time .content .container .description {
+      margin: 210px auto 0 auto;
+      padding-bottom: 50px;
+      max-width: 420px; } }
+
+@media only screen and (max-width: 988px) {
+  #writing_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #writing_time .content .container .writing_time_content {
+      width: 100%;
+      height: 100%; }
+      #writing_time .content .container .writing_time_content .writing_time_title {
+        width: 130px;
+        display: inline-block; }
+      #writing_time .content .container .writing_time_content .words {
+        margin-top: 110px;
+        margin-left: 20px;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        display: inline-block; }
+    #writing_time .content .container .product {
+      position: relative;
+      top: 0; }
+    #writing_time .content .container .description {
+      margin: 20px auto 0 150px; } }
+
+@media only screen and (max-width: 730px) {
+  #writing_time .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 50px, transparent 0); }
+    #writing_time .content .container .writing_time_content {
+      margin-bottom: 5px; }
+      #writing_time .content .container .writing_time_content .writing_time_title {
+        width: 130px; }
+      #writing_time .content .container .writing_time_content .words {
+        margin-top: 110px;
+        margin-left: 20px; }
+    #writing_time .content .container .product {
+      position: relative;
+      left: 0;
+      width: 100%; }
+      #writing_time .content .container .product img {
+        display: inline-block;
+        display: inline-block;
+        max-width: 100%;
+        height: auto; }
+      #writing_time .content .container .product .writing_time_img1 {
+        max-width: 48%;
+        margin-right: 3%; }
+      #writing_time .content .container .product .writing_time_img2 {
+        max-width: 48%; }
+    #writing_time .content .container .description {
+      margin: 20px auto 0 0; } }
+
+@media only screen and (max-width: 625px) {
+  #writing_time .content .container .writing_time_content {
+    width: 100%; }
+    #writing_time .content .container .writing_time_content .writing_time_title {
+      max-width: 30%; }
+    #writing_time .content .container .writing_time_content .words {
+      margin-top: 30px;
+      margin-left: 20px; }
+  #writing_time .content .container .description {
+    margin-top: 20px; } }
+
+@media only screen and (max-width: 550px) {
+  #writing_time .content .container {
+    margin: 60px 30px 0 30px; }
+    #writing_time .content .container .writing_time_content {
+      width: 100%; }
+      #writing_time .content .container .writing_time_content .writing_time_title {
+        max-width: 30%; }
+      #writing_time .content .container .writing_time_content .words {
+        margin-left: 5px; } }
+
+@media only screen and (max-width: 400px) {
+  #writing_time .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #writing_time .content .container {
+      margin: 60px 5px 0 5px; }
+      #writing_time .content .container .writing_time_content {
+        width: 100%; }
+        #writing_time .content .container .writing_time_content .writing_time_title {
+          max-width: 26%; }
+        #writing_time .content .container .writing_time_content .words {
+          margin-left: 0px; } }
+
+#coffee_time {
+  max-width: 100%;
+  margin-bottom: 40px; }
+  #coffee_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 80px, transparent 0);
+    background-size: cover;
+    position: relative; }
+    #coffee_time .content .container {
+      padding-top: 20px;
+      margin: 60px 180px 0 180px;
+      position: relative; }
+      #coffee_time .content .container .coffee_time_content {
+        position: relative;
+        z-index: 3;
+        margin-left: 710px;
+        vertical-align: top; }
+        #coffee_time .content .container .coffee_time_content .words {
+          font-family: "Satisfy", "微軟正黑體", sans-serif;
+          -webkit-writing-mode: vertical-rl;
+          writing-mode: vertical-rl;
+          color: #808080;
+          vertical-align: top;
+          margin-left: 55px; }
+      #coffee_time .content .container .product {
+        position: absolute;
+        right: 30px;
+        top: 100px;
+        max-width: 800px;
+        margin-right: 100px;
+        font-size: 0;
+        overflow: auto; }
+        #coffee_time .content .container .product img {
+          display: inline-block;
+          display: inline-block;
+          max-width: 100%;
+          height: auto; }
+        #coffee_time .content .container .product .coffee_time_img1 {
+          max-width: 48%;
+          margin-right: 3%; }
+        #coffee_time .content .container .product .coffee_time_img2 {
+          max-width: 48%; }
+      #coffee_time .content .container .description {
+        font-size: 12px;
+        margin: -170px auto 0 auto;
+        padding-bottom: 50px;
+        max-width: 420px; }
+        #coffee_time .content .container .description .graph_block {
+          display: inline-block;
+          width: 70px;
+          float: left; }
+          #coffee_time .content .container .description .graph_block .color_block {
+            font-size: 12px;
+            background-color: #fae8cf;
+            width: 24px;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            display: inline-block; }
+            #coffee_time .content .container .description .graph_block .color_block.block1 {
+              margin-right: 1px;
+              margin-bottom: 1px; }
+        #coffee_time .content .container .description .info {
+          float: left; }
+          #coffee_time .content .container .description .info .note {
+            text-indent: -1em;
+            margin-left: 1em;
+            margin-bottom: 0.3em; }
+
+@media only screen and (max-width: 1240px) {
+  #coffee_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #coffee_time .content .container .coffee_time_content {
+      margin-left: 0px;
+      margin-bottom: 10px; }
+      #coffee_time .content .container .coffee_time_content .coffee_time_title {
+        width: 130px;
+        display: inline-block; }
+      #coffee_time .content .container .coffee_time_content .words {
+        margin-top: 30px;
+        margin-left: 20px;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        display: inline-block; }
+    #coffee_time .content .container .product {
+      position: absolute;
+      left: 150px;
+      top: 160px; }
+    #coffee_time .content .container .description {
+      margin: 210px auto 0 auto;
+      padding-bottom: 50px;
+      max-width: 420px; } }
+
+@media only screen and (max-width: 988px) {
+  #coffee_time .content .container {
+    margin: 60px 90px 0 90px; }
+    #coffee_time .content .container .coffee_time_content {
+      width: 100%;
+      height: 100%; }
+      #coffee_time .content .container .coffee_time_content .coffee_time_title {
+        width: 130px;
+        display: inline-block; }
+      #coffee_time .content .container .coffee_time_content .words {
+        margin-top: 110px;
+        margin-left: 20px;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        display: inline-block; }
+    #coffee_time .content .container .product {
+      position: relative;
+      top: 0; }
+    #coffee_time .content .container .description {
+      margin: 20px auto 0 150px; } }
+
+@media only screen and (max-width: 730px) {
+  #coffee_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0); }
+    #coffee_time .content .container .coffee_time_content {
+      margin-bottom: 5px; }
+      #coffee_time .content .container .coffee_time_content .coffee_time_title {
+        width: 130px; }
+      #coffee_time .content .container .coffee_time_content .words {
+        margin-top: 110px;
+        margin-left: 20px; }
+    #coffee_time .content .container .product {
+      position: relative;
+      left: 0;
+      width: 100%; }
+      #coffee_time .content .container .product img {
+        display: inline-block;
+        display: inline-block;
+        max-width: 100%;
+        height: auto; }
+      #coffee_time .content .container .product .coffee_time_img1 {
+        max-width: 48%;
+        margin-right: 3%; }
+      #coffee_time .content .container .product .coffee_time_img2 {
+        max-width: 48%; }
+    #coffee_time .content .container .description {
+      margin: 20px auto 0 0; } }
+
+@media only screen and (max-width: 655px) {
+  #coffee_time .content .container .coffee_time_content {
+    width: 100%; }
+    #coffee_time .content .container .coffee_time_content .coffee_time_title {
+      max-width: 29%; }
+    #coffee_time .content .container .coffee_time_content .words {
+      max-width: 270px; } }
+
+@media only screen and (max-width: 640px) {
+  #coffee_time .content .container .product {
+    overflow: hidden; }
+    #coffee_time .content .container .product img {
+      overflow: hidden; }
+  #coffee_time .content .container .coffee_time_content {
+    width: 100%; }
+    #coffee_time .content .container .coffee_time_content .coffee_time_title {
+      display: block; }
+    #coffee_time .content .container .coffee_time_content .words {
+      display: block;
+      text-align: right;
+      margin: -95px 0 15px auto; } }
+
+@media only screen and (max-width: 580px) {
+  #coffee_time .content .container .coffee_time_content .coffee_time_title {
+    margin-left: -50px; } }
+
+@media only screen and (max-width: 520px) {
+  #coffee_time .content .container {
+    margin: 60px 15px 0 15px; }
+    #coffee_time .content .container .product {
+      overflow: hidden; }
+      #coffee_time .content .container .product img {
+        overflow: hidden; }
+    #coffee_time .content .container .coffee_time_content {
+      width: 100%; }
+      #coffee_time .content .container .coffee_time_content .coffee_time_title {
+        display: block;
+        margin-left: 0;
+        max-width: 29%; }
+      #coffee_time .content .container .coffee_time_content .words {
+        display: block;
+        text-align: left;
+        margin: -20px auto 15px auto; } }
+
+@media only screen and (max-width: 400px) {
+  #coffee_time .content {
+    background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #coffee_time .content .container {
+      margin: 60px 5px 0 5px; }
+      #coffee_time .content .container .coffee_time_content {
+        width: 100%; }
+        #coffee_time .content .container .coffee_time_content .coffee_time_title {
+          max-width: 26%; }
+        #coffee_time .content .container .coffee_time_content .words {
+          margin-left: 0px; } }
+
+#trekking_partner {
+  max-width: 100%; }
+  #trekking_partner .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 80px, transparent 0);
+    background-size: cover;
+    position: relative; }
+    #trekking_partner .content .container {
+      padding-top: 20px;
+      margin: 60px 180px 0 180px;
+      position: relative; }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        font-family: "Satisfy", "微軟正黑體", sans-serif;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        color: #808080;
+        vertical-align: top;
+        margin-left: 0px;
+        margin-top: -100px; }
+      #trekking_partner .content .container .product {
+        position: absolute;
+        left: 200px;
+        top: 80px;
+        max-width: 800px;
+        margin-right: 100px;
+        font-size: 0;
+        overflow: auto; }
+        #trekking_partner .content .container .product img {
+          display: inline-block;
+          display: inline-block;
+          max-width: 100%;
+          height: auto; }
+      #trekking_partner .content .container .description {
+        font-size: 12px;
+        margin: 50px auto 0 auto;
+        padding-bottom: 50px;
+        max-width: 420px; }
+        #trekking_partner .content .container .description .info {
+          border-left: 3px solid #fae8cf;
+          text-align: left; }
+          #trekking_partner .content .container .description .info .note {
+            margin-bottom: 0.3em;
+            padding-left: 5px; }
+
+@media only screen and (max-width: 1240px) {
+  #trekking_partner .content .container {
+    margin: 60px 90px 0 90px; }
+    #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+      width: 130px;
+      display: inline-block; }
+    #trekking_partner .content .container .trekking_partner_content .words {
+      margin-top: 30px;
+      margin-left: 20px;
+      -webkit-writing-mode: horizontal-tb;
+      writing-mode: horizontal-tb;
+      display: inline-block; }
+    #trekking_partner .content .container .product {
+      position: absolute;
+      left: 150px;
+      top: 160px; }
+    #trekking_partner .content .container .description {
+      margin: 340px auto 0 150px;
+      padding-bottom: 50px;
+      max-width: 420px; } }
+
+@media only screen and (max-width: 988px) {
+  #trekking_partner .content .container {
+    margin: 60px 90px 0 90px; }
+    #trekking_partner .content .container .trekking_partner_content {
+      width: 100%;
+      height: 100%; }
+      #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+        width: 130px;
+        display: inline-block; }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        margin-top: 110px;
+        margin-left: 20px;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        display: inline-block; }
+    #trekking_partner .content .container .product {
+      position: relative;
+      top: 0; }
+    #trekking_partner .content .container .description {
+      margin: 20px auto 0 150px; } }
+
+@media only screen and (max-width: 730px) {
+  #trekking_partner .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 50px, transparent 0); }
+    #trekking_partner .content .container .trekking_partner_content {
+      margin-bottom: 5px; }
+      #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+        width: 130px; }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        margin-top: 110px;
+        margin-left: 20px; }
+    #trekking_partner .content .container .product {
+      left: 0;
+      width: 100%; }
+    #trekking_partner .content .container .description {
+      margin: 20px auto 0 0; } }
+
+@media only screen and (max-width: 635px) {
+  #trekking_partner .content .container .trekking_partner_content {
+    width: 100%; }
+    #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+      max-width: 30%; }
+    #trekking_partner .content .container .trekking_partner_content .words {
+      margin-top: 90px;
+      margin-left: 0px; }
+  #trekking_partner .content .container .description {
+    margin-top: 20px; } }
+
+@media only screen and (max-width: 600px) {
+  #trekking_partner .content .container {
+    margin: 60px 30px 0 30px; }
+    #trekking_partner .content .container .trekking_partner_content {
+      width: 100%; }
+      #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+        max-width: 25%; }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        margin-top: 90px;
+        margin-left: 0px; }
+    #trekking_partner .content .container .description {
+      margin-top: 20px; } }
+
+@media only screen and (max-width: 550px) {
+  #trekking_partner .content .container {
+    margin: 60px 30px 0 30px; }
+    #trekking_partner .content .container .trekking_partner_content {
+      width: 100%; }
+      #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+        max-width: 30%; }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        margin-left: 5px; } }
+
+@media only screen and (max-width: 485px) {
+  #trekking_partner .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #trekking_partner .content .container {
+      margin: 60px 5px 0 5px; }
+      #trekking_partner .content .container .trekking_partner_content {
+        width: 100%; }
+        #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+          max-width: 26%; }
+        #trekking_partner .content .container .trekking_partner_content .words {
+          margin-left: 0px; } }
+
+@media only screen and (max-width: 455px) {
+  #trekking_partner .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); }
+    #trekking_partner .content .container {
+      margin: 60px 5px 0 5px; }
+      #trekking_partner .content .container .trekking_partner_content {
+        width: 100%; }
+        #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+          width: 100%; }
+        #trekking_partner .content .container .trekking_partner_content .words {
+          margin: -10px auto 0 auto;
+          width: 100%; } }
+
+#material_footer img {
+  margin: 0 auto; }
+
+@media only screen and (max-width: 635px) {
+  #material_footer {
+    background: #FFF url("../images/footer.png") no-repeat center center;
+    background-size: cover;
+    height: 300px; }
+    #material_footer img {
+      display: none; } }

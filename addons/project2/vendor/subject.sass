@@ -1,0 +1,1172 @@
+$color_block: #fae8cf
+
+@import url(https://fonts.google.com/specimen/Satisfy?selection.family=Satisfy)
+
+.clearfix:after
+	content: ""
+	display: table
+	clear: both
+.text-hidden
+	font-size: 0px
+	text-indent: 100%
+	white-space: nowrap
+	overflow: hidden
+
+@mixin ff()
+	font-family: "Satisfy", "微軟正黑體", sans-serif
+
+@mixin img_responsive()
+	display: inline-block
+	max-width: 100%
+	height: auto
+
+@mixin vertical()
+	-webkit-writing-mode: vertical-rl
+	writing-mode: vertical-rl
+
+@mixin horizontal()
+	-webkit-writing-mode: horizontal-tb
+	writing-mode: horizontal-tb
+
+
+#material_header
+	height: 757px
+	max-width: 100%
+	background: #FFF url('../images/header/head_bg.jpg') top center no-repeat
+	background-size: cover
+	position: relative
+	.head_title
+		background-image: url('../images/header/head_title.png')
+		background-size: contain
+		background-repeat: no-repeat
+		width: 615px
+		height: 416px
+		position: absolute
+		right: 0
+		top: 0
+	.dm_logo
+		position: absolute
+		left: 450px
+		top: 60px
+	.xx_bg
+		+img_responsive
+		position: absolute
+		bottom: -270px
+
+@media only screen and (max-width:1240px)
+	#material_header
+		height: 557px
+		.head_title
+			width: 473px
+			height: 320px
+		.dm_logo
+			left: 360px
+			width: 120px
+		.xx_bg
+			bottom: -280px
+
+@media only screen and (max-width:988px)
+		#material_header
+			height: 425px
+			.head_title
+				height: 240px
+				width: 355px
+			.dm_logo
+				left: 280px
+				width: 80px
+			
+@media only screen and (max-width:730px)
+	#material_header
+			height: 425px
+			.head_title
+				background-image: url('../images/header/main_title_text.png')
+				height: 291px
+				width: 144px
+				right: 40px
+			.dm_logo
+				left: 240px
+				width: 80px
+			.xx_bg
+				bottom: -200px
+@media only screen and (max-width:670px)
+	#material_header
+			.dm_logo
+				display: none
+@media only screen and (max-width:541px)
+	#material_header
+			height: 360px
+			.head_title
+				top: 20px
+				right: 20px
+			.xx_bg
+				bottom: -200px	
+
+article.article
+	background: #FFF url('http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/header/x_bg.jpg') repeat-y
+	background-size: cover
+	max-width: 100%
+	overflow: hidden
+#dinner_time
+	max-width: 100%
+	.sub_slogan
+		margin: 90px auto 0 auto
+		position: relative
+		z-index: 1
+	.content
+		background-image: linear-gradient(to left, $color_block 0, $color_block 80px, transparent 0)
+		background-size: cover
+		position: relative
+		.container
+			margin: 60px 180px 0 180px
+			.words
+				+ff
+				+vertical
+				color: #808080
+				margin-left: 150px
+				margin-top: 30px
+			.product
+				position: absolute
+				right: 0
+				top: 0
+				max-width: 600px
+				margin-right: 100px
+				font-size: 0
+				overflow: auto
+				img
+					display: inline-block
+				.dinner_time_img1
+					max-width: 100%
+					margin-bottom: 0.82%
+				.dinner_time_img2
+					max-width: 49.586%
+					margin-right: 0.82%
+				.dinner_time_img3
+					max-width: 49.586%
+			.description
+				font-size: 12px
+				margin-top: 260px
+				margin-left: 100px
+				padding-bottom: 50px
+				max-width: 220px
+				.graph_block
+					display: inline-block
+					.color_block
+						font-size: 12px
+						background-color: $color_block
+						width: 14px
+						height: 14px
+						line-height: 14px
+						text-align: center
+						&.block1
+							width: 32px
+							background-color: $color_block
+							margin-bottom: 1px
+						&.block2
+							margin-right: 1px
+							display: inline-block
+						&.block3
+							display: inline-block
+				.note
+					text-indent: -1em
+					margin-left: 1em
+					margin-bottom: 1em
+
+@media only screen and (max-width:1240px)
+	#dinner_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.words
+					margin-left: 50px
+				.description
+					margin-top: 160px
+					margin-left: 0px
+					max-width: 180px
+
+@media only screen and (max-width:988px)
+	#dinner_time
+		.content
+			.container
+				text-align: center
+				.product
+					position: relative
+					margin: 20px auto 0
+				.dinner_time_title
+					display: inline-block
+				.words
+					display: inline-block
+					+horizontal
+					text-align: left
+				.description
+					text-align: left
+					max-width: 420px
+					margin-top: 20px
+					.note
+						margin-bottom: 0.3em
+@media only screen and (max-width:730px)
+	#dinner_time
+		.content
+			background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0);
+@media only screen and (max-width:625px)
+	#dinner_time 
+		.content 
+			.container 
+				.dinner_time_content
+					width: 100%
+				.dinner_time_title
+					max-width: 30%
+				.words
+					margin-left: 15px
+@media only screen and (max-width:520px)
+	#dinner_time
+		.content
+			.container
+				margin: 60px 30px 0 30px
+@media only screen and (max-width:400px)
+	#dinner_time
+		.content
+			background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 10px 0 10px				
+
+
+#cooking_time
+	max-width: 100%
+	.content
+		background-image: linear-gradient(to right, $color_block 0, $color_block 80px, transparent 0)
+		background-size: cover
+		position: relative
+		margin-bottom: 100px
+		.container
+			margin: 60px 180px 0 180px
+			.cooking_time_content
+				margin-left: 540px 
+				position: relative
+				z-index: 5
+				.words
+					+ff
+					+vertical
+					color: #808080
+					margin-left: 80px
+					margin-top: 15px
+					span
+						+horizontal
+			.product
+				position: absolute
+				left: 180px
+				top: 50px
+				max-width: 600px
+				margin-right: 100px
+				font-size: 0
+				overflow: auto
+				img
+					display: inline-block
+				.cooking_time_img1
+					max-width: 45%
+					margin-right: 0.82%
+					margin-bottom: 0.82%
+				.cooking_time_img2
+					max-width: 45%
+					margin-bottom: 0.82%
+				.cooking_time_img3
+					max-width: 45%
+			.description
+				font-size: 12px
+				margin-top: -10px
+				margin-left: 300px
+				max-width: 240px
+				.graph_block
+					width: 40px
+					.color_block
+						font-size: 12px
+						background-color: $color_block
+						width: 14px
+						height: 14px
+						line-height: 14px
+						text-align: center
+						display: inline-block
+						&.block1
+							margin-bottom: 1px
+							margin-right: 1px
+						&.block2
+							margin-bottom: 1px
+				.note
+					text-indent: -1em
+					margin-left: 1em
+					margin-bottom: 1em
+
+@media only screen and (max-width:1240px)
+	#cooking_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.cooking_time_content
+					margin-left: 560px
+					.cooking_time_title
+						max-width: 120px
+						height: auto
+				.words
+					margin-left: 50px
+				.description
+					margin-top: 67px
+					margin-left: 380px
+
+@media only screen and (max-width:988px)
+	#cooking_time
+		.content
+			.container
+				text-align: center
+				.cooking_time_content
+					margin: 0 auto
+					.cooking_time_title
+						display: inline-block
+					.words
+						display: inline-block
+						+horizontal
+						text-align: left
+				.product
+					position: relative
+					text-align: left
+					left: 100px
+					top: 50px
+					margin: 0
+					max-width: 450px
+				.description
+					text-align: left
+					max-width: 220px
+					margin-top: -80px
+					margin-left: 320px
+					.note
+						margin-bottom: 0.3em
+@media only screen and (max-width:730px)
+	#cooking_time
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 50px, transparent 0);
+			.container
+				.product
+					left: 50px
+				.description
+					margin-top: 60px
+					margin-left: 50px
+					width: 100%
+					max-width: 100%
+					.note
+						font-size: 12px
+@media only screen and (max-width:625px)
+	#cooking_time 
+		.content 
+			.container 
+				.cooking_time_content
+					width: 100%
+					.cooking_time_title
+						width: 90px
+					.words
+						margin-left: 15px
+@media only screen and (max-width:520px)
+	#cooking_time
+		.content
+			.container
+				margin: 60px 30px 0 30px
+@media only screen and (max-width:400px)
+	#cooking_time
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 10px 0 10px
+				.product
+					left: 30px
+					top: 30px
+				.description
+					margin-left: 30px
+				.cooking_time_content
+					width: 100%
+					.cooking_time_title
+						max-width: 26%	
+					.words
+						margin-left: 5px
+
+
+
+
+#tea_time
+	max-width: 100%
+	.content
+		background-image: linear-gradient(to left, $color_block 0, $color_block 80px, transparent 0)
+		background-size: cover
+		position: relative
+		.container
+			margin: 60px 180px 0 180px
+			.tea_time_content
+				vertical-align: top
+				.tea_time_title
+					display: inline-block
+				.words
+					display: inline-block
+					+ff
+					color: #808080
+					vertical-align: top
+					margin-left: 30px
+			.product
+				position: absolute
+				right: 0
+				top: 80px
+				max-width: 800px
+				margin-right: 100px
+				font-size: 0
+				overflow: auto
+				img
+					display: inline-block
+					+img_responsive
+				.tea_time_img1
+					margin-right: 0.82%
+					margin-bottom: 0.82%
+				.tea_time_img2
+					margin-bottom: 0.82%
+				.tea_time_img3
+					margin-right: 0.82%
+				.tea_time_img4
+					margin-right: 0.82%
+					vertical-align: top
+				.tea_time_img5
+					margin-right: 0.82%
+					vertical-align: top					
+			.description
+				font-size: 12px
+				margin-top: 460px
+				margin-left: 500px
+				padding-bottom: 50px
+				max-width: 420px
+				.graph_block
+					display: inline-block
+					width: 70px
+					float: left
+					.color_block
+						font-size: 12px
+						background-color: $color_block
+						width: 14px
+						height: 14px
+						line-height: 14px
+						text-align: center
+						display: inline-block
+						&.block1
+							width: 24px
+							height: 18px
+							line-height: 18px
+							background-color: $color_block
+							margin-bottom: 1px
+						&.block2
+							width: 35px
+							height: 18px
+							line-height: 18px
+							margin-right: 1px
+						&.block3
+							width: 24px
+							height: 14px
+						&.block4
+							width: 16px
+							height: 14px
+						&.block5
+							width: 16px
+							height: 14px
+				.info
+					float: left
+					.note
+						text-indent: -1em
+						margin-left: 1em
+						margin-bottom: 0.3em
+
+@media only screen and (max-width:1240px)
+	#tea_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.tea_time_content
+					.tea_time_title
+						width: 130px
+					.words
+						margin-top: 30px
+						margin-left: 20px
+				.product
+					position: absolute
+					right: 0
+					top: 140px
+					max-width: 800px
+					margin-right: 100px
+					font-size: 0
+					overflow: auto					
+				.description
+					margin-top: 570px
+					margin-left: 340px
+					padding-bottom: 50px
+					max-width: 420px
+
+@media only screen and (max-width:988px)
+	#tea_time
+		.content
+			.container
+				position: relative
+				.product
+					left: 0
+					top: 240px
+					max-width: 550px
+					margin: 0 auto
+					img
+						display: inline-block
+					.tea_time_img1
+						margin-right: 1.64%
+						margin-bottom: 0.82%
+						max-width: 48%
+					.tea_time_img2
+						margin-bottom: 0.82%
+						max-width: 48%
+					.tea_time_img3
+						margin-right: 0.82%
+						margin-bottom: 0.82%
+						max-width: 32%
+					.tea_time_img4
+						margin-right: 0.82%
+						vertical-align: top
+						max-width: 32%
+					.tea_time_img5
+						margin-right: 0.82%
+						vertical-align: top
+						max-width: 32%
+				.description
+					margin-top: 480px
+					margin-left: 0px
+					max-width: 550px
+					.graph_block
+						width: 60px
+						.color_block
+							width: 14px
+							height: 14px
+							line-height: 14px
+							text-align: center
+							display: inline-block
+							&.block1
+								width: 23px
+								height: 18px
+								line-height: 18px
+								background-color: $color_block
+								margin-bottom: 1px
+							&.block2
+								width: 23px
+								height: 18px
+								line-height: 18px
+								margin-right: 1px
+							&.block3
+								width: 14px
+								height: 14px
+							&.block4
+								width: 14px
+								height: 14px
+							&.block5
+								width: 14px
+								height: 14px
+@media only screen and (max-width:730px)
+	#tea_time
+		.content
+			background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0);
+			.container
+				.description
+					margin-top: 88%
+@media only screen and (max-width:625px)
+	#tea_time 
+		.content 
+			.container
+				.tea_time_content
+					width: 100%
+					.tea_time_title
+						max-width: 30%
+					.words
+						margin-top: 30px
+						margin-left: 20px
+				.product
+					left: 0
+					top: 200px
+					max-width: 550px
+					margin: 0 auto
+				.words
+					margin-left: 15px
+				.description
+					margin-top: 90%
+					
+@media only screen and (max-width:520px)
+	#tea_time
+		.content
+			.container
+				margin: 60px 30px 0 30px
+@media only screen and (max-width:400px)
+	#tea_time
+		.content
+			background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 5px 0 5px		
+
+
+#writing_time
+	max-width: 100%
+	margin-bottom: 40px
+	.content
+		background-image: linear-gradient(to right, $color_block 0, $color_block 80px, transparent 0)
+		background-size: cover
+		position: relative
+		.container
+			padding-top: 20px
+			margin: 60px 180px 0 180px
+			position: relative
+			.writing_time_content
+				vertical-align: top
+				position: relative
+				z-index: 3
+				.writing_time_title
+				.words
+					+ff
+					+vertical
+					color: #808080
+					vertical-align: top
+					margin-left: 55px
+			.product
+				position: absolute
+				right: 30px
+				top: 80px
+				max-width: 800px
+				margin-right: 100px
+				font-size: 0
+				overflow: auto
+				img
+					display: inline-block
+					+img_responsive
+				.writing_time_img1
+					max-width: 48%
+					margin-right: 3%
+				.writing_time_img2
+					max-width: 48%
+			.description
+				font-size: 12px
+				margin: -110px auto 0 auto
+				padding-bottom: 50px
+				max-width: 420px
+				.graph_block
+					display: inline-block
+					width: 70px
+					float: left
+					.color_block
+						font-size: 12px
+						background-color: $color_block
+						width: 24px
+						height: 18px
+						line-height: 18px
+						text-align: center
+						display: inline-block
+						&.block1
+							margin-right: 1px
+							margin-bottom: 1px
+						&.block2
+						
+				.info
+					float: left
+					.note
+						text-indent: -1em
+						margin-left: 1em
+						margin-bottom: 0.3em
+
+@media only screen and (max-width:1240px)
+	#writing_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.writing_time_content
+					.writing_time_title
+						width: 130px
+						display: inline-block
+					.words
+						margin-top: 30px
+						margin-left: 20px
+						+horizontal
+						display: inline-block
+				.product
+					position: absolute
+					left: 150px
+					top: 160px
+				.description
+					margin: 210px auto 0 auto
+					padding-bottom: 50px
+					max-width: 420px
+
+@media only screen and (max-width:988px)
+	#writing_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.writing_time_content
+					width: 100%
+					height: 100%
+					.writing_time_title
+						width: 130px
+						display: inline-block
+					.words
+						margin-top: 110px
+						margin-left: 20px
+						+horizontal
+						display: inline-block
+				.product
+					position: relative
+					top: 0
+				.description
+					margin: 20px auto 0 150px
+
+@media only screen and (max-width:730px)
+	#writing_time
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 50px, transparent 0)
+			.container
+				.writing_time_content
+					margin-bottom: 5px
+					.writing_time_title
+						width: 130px
+					.words
+						margin-top: 110px
+						margin-left: 20px
+				.product
+					position: relative
+					left: 0
+					width: 100%
+					img
+						display: inline-block
+						+img_responsive
+					.writing_time_img1
+						max-width: 48%
+						margin-right: 3%
+					.writing_time_img2
+						max-width: 48%
+				.description
+					margin: 20px auto 0 0
+			
+@media only screen and (max-width:625px)
+	#writing_time 
+		.content 
+			.container
+				.writing_time_content
+					width: 100%
+					.writing_time_title
+						max-width: 30%
+					.words
+						margin-top: 30px
+						margin-left: 20px
+				.description
+					margin-top: 20px
+					
+@media only screen and (max-width:550px)
+	#writing_time
+		.content
+			.container
+				margin: 60px 30px 0 30px
+				.writing_time_content
+					width: 100%
+					.writing_time_title
+						max-width: 30%	
+					.words
+						margin-left: 5px
+@media only screen and (max-width:400px)
+	#writing_time
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 5px 0 5px
+				.writing_time_content
+					width: 100%
+					.writing_time_title
+						max-width: 26%	
+					.words
+						margin-left: 0px
+
+#coffee_time
+	max-width: 100%
+	margin-bottom: 40px
+	.content
+		background-image: linear-gradient(to left, $color_block 0, $color_block 80px, transparent 0)
+		background-size: cover
+		position: relative
+		.container
+			padding-top: 20px
+			margin: 60px 180px 0 180px
+			position: relative
+			.coffee_time_content
+				position: relative
+				z-index: 3
+				margin-left: 710px
+				vertical-align: top
+				.coffee_time_title
+				.words
+					+ff
+					+vertical
+					color: #808080
+					vertical-align: top
+					margin-left: 55px
+			.product
+				position: absolute
+				right: 30px
+				top: 100px
+				max-width: 800px
+				margin-right: 100px
+				font-size: 0
+				overflow: auto
+				img
+					display: inline-block
+					+img_responsive
+				.coffee_time_img1
+					max-width: 48%
+					margin-right: 3%
+				.coffee_time_img2
+					max-width: 48%
+			.description
+				font-size: 12px
+				margin: -170px auto 0 auto
+				padding-bottom: 50px
+				max-width: 420px
+				.graph_block
+					display: inline-block
+					width: 70px
+					float: left
+					.color_block
+						font-size: 12px
+						background-color: $color_block
+						width: 24px
+						height: 18px
+						line-height: 18px
+						text-align: center
+						display: inline-block
+						&.block1
+							margin-right: 1px
+							margin-bottom: 1px
+						&.block2
+						
+				.info
+					float: left
+					.note
+						text-indent: -1em
+						margin-left: 1em
+						margin-bottom: 0.3em
+
+@media only screen and (max-width:1240px)
+	#coffee_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.coffee_time_content
+					margin-left: 0px
+					margin-bottom: 10px
+					.coffee_time_title
+						width: 130px
+						display: inline-block
+					.words
+						margin-top: 30px
+						margin-left: 20px
+						+horizontal
+						display: inline-block
+				.product
+					position: absolute
+					left: 150px
+					top: 160px
+				.description
+					margin: 210px auto 0 auto
+					padding-bottom: 50px
+					max-width: 420px
+
+@media only screen and (max-width:988px)
+	#coffee_time
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.coffee_time_content
+					width: 100%
+					height: 100%
+					.coffee_time_title
+						width: 130px
+						display: inline-block
+					.words
+						margin-top: 110px
+						margin-left: 20px
+						+horizontal
+						display: inline-block
+				.product
+					position: relative
+					top: 0
+				.description
+					margin: 20px auto 0 150px
+
+@media only screen and (max-width:730px)
+	#coffee_time
+		.content
+			background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0)
+			.container
+				.coffee_time_content
+					margin-bottom: 5px
+					.coffee_time_title
+						width: 130px
+					.words
+						margin-top: 110px
+						margin-left: 20px
+				.product
+					position: relative
+					left: 0
+					width: 100%
+					img
+						display: inline-block
+						+img_responsive
+					.coffee_time_img1
+						max-width: 48%
+						margin-right: 3%
+					.coffee_time_img2
+						max-width: 48%
+				.description
+					margin: 20px auto 0 0
+
+@media only screen and (max-width:655px)
+	#coffee_time 
+		.content 
+			.container
+				.coffee_time_content
+					width: 100%
+					.coffee_time_title
+						max-width: 29%
+					.words
+						max-width: 270px
+@media only screen and (max-width:640px)						
+	#coffee_time 
+		.content 
+			.container
+				.product
+					overflow: hidden
+					img
+						overflow: hidden
+				.coffee_time_content
+					width: 100%
+					.coffee_time_title
+						display: block
+					.words
+						display: block
+						text-align: right
+						margin: -95px 0 15px auto
+					
+@media only screen and (max-width:580px)
+	#coffee_time 
+		.content 
+			.container
+				.coffee_time_content
+					.coffee_time_title
+						margin-left: -50px
+
+@media only screen and (max-width:520px)
+	#coffee_time 
+		.content 
+			.container
+				margin: 60px 15px 0 15px
+				.product
+					overflow: hidden
+					img
+						overflow: hidden
+				.coffee_time_content
+					width: 100%
+					.coffee_time_title
+						display: block
+						margin-left: 0
+						max-width: 29%
+					.words
+						display: block
+						text-align: left
+						margin: -20px auto 15px auto
+@media only screen and (max-width:400px)
+	#coffee_time
+		.content
+			background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 5px 0 5px
+				.coffee_time_content
+					width: 100%
+					.coffee_time_title
+						max-width: 26%	
+					.words
+						margin-left: 0px						
+
+
+#trekking_partner
+	max-width: 100%
+	.content
+		background-image: linear-gradient(to right, $color_block 0, $color_block 80px, transparent 0)
+		background-size: cover
+		position: relative
+		.container
+			padding-top: 20px
+			margin: 60px 180px 0 180px
+			position: relative
+			.trekking_partner_content
+				.trekking_partner_title
+				.words
+					+ff
+					+vertical
+					color: #808080
+					vertical-align: top
+					margin-left: 0px
+					margin-top: -100px
+			.product
+				position: absolute
+				left: 200px
+				top: 80px
+				max-width: 800px
+				margin-right: 100px
+				font-size: 0
+				overflow: auto
+				img
+					display: inline-block
+					+img_responsive
+			.description
+				font-size: 12px
+				margin: 50px auto 0 auto
+				padding-bottom: 50px
+				max-width: 420px
+				.info
+					border-left: 3px solid $color_block
+					text-align: left
+					.note
+						margin-bottom: 0.3em
+						padding-left: 5px
+
+@media only screen and (max-width:1240px)
+	#trekking_partner
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.trekking_partner_content
+					.trekking_partner_title
+						width: 130px
+						display: inline-block
+					.words
+						margin-top: 30px
+						margin-left: 20px
+						+horizontal
+						display: inline-block
+				.product
+					position: absolute
+					left: 150px
+					top: 160px
+				.description
+					margin: 340px auto 0 150px
+					padding-bottom: 50px
+					max-width: 420px
+
+@media only screen and (max-width:988px)
+	#trekking_partner
+		.content
+			.container
+				margin: 60px 90px 0 90px
+				.trekking_partner_content
+					width: 100%
+					height: 100%
+					.trekking_partner_title
+						width: 130px
+						display: inline-block
+					.words
+						margin-top: 110px
+						margin-left: 20px
+						+horizontal
+						display: inline-block
+				.product
+					position: relative
+					top: 0
+				.description
+					margin: 20px auto 0 150px
+
+@media only screen and (max-width:730px)
+	#trekking_partner
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 50px, transparent 0)
+			.container
+				.trekking_partner_content
+					margin-bottom: 5px
+					.trekking_partner_title
+						width: 130px
+					.words
+						margin-top: 110px
+						margin-left: 20px
+				.product
+					left: 0
+					width: 100%
+				.description
+					margin: 20px auto 0 0
+			
+@media only screen and (max-width:635px)
+	#trekking_partner 
+		.content 
+			.container
+				.trekking_partner_content
+					width: 100%
+					.trekking_partner_title
+						max-width: 30%
+					.words
+						margin-top: 90px
+						margin-left: 0px
+				.description
+					margin-top: 20px
+@media only screen and (max-width:600px)
+	#trekking_partner 
+		.content 
+			.container
+				margin: 60px 30px 0 30px
+				.trekking_partner_content
+					width: 100%
+					.trekking_partner_title
+						max-width: 25%
+					.words
+						margin-top: 90px
+						margin-left: 0px
+				.description
+					margin-top: 20px
+@media only screen and (max-width:550px)
+	#trekking_partner
+		.content
+			.container
+				margin: 60px 30px 0 30px
+				.trekking_partner_content
+					width: 100%
+					.trekking_partner_title
+						max-width: 30%	
+					.words
+						margin-left: 5px
+@media only screen and (max-width:485px)						
+	#trekking_partner
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 5px 0 5px
+				.trekking_partner_content
+					width: 100%
+					.trekking_partner_title
+						max-width: 26%	
+					.words
+						margin-left: 0px
+@media only screen and (max-width:455px)
+	#trekking_partner
+		.content
+			background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0);
+			.container
+				margin: 60px 5px 0 5px
+				.trekking_partner_content
+					width: 100%
+					.trekking_partner_title
+						width: 100%
+					.words
+						margin: -10px auto 0 auto
+						width: 100%
+
+#material_footer
+	img
+		margin: 0 auto
+@media only screen and (max-width:635px)
+	#material_footer
+		background: #FFF url('../images/footer.png') no-repeat center center
+		background-size: cover
+		height: 300px
+		img		
+			display: none
