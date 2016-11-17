@@ -11,14 +11,29 @@
   white-space: nowrap;
   overflow: hidden; }
 
+#material_combination a {
+  text-decoration: none;
+  color: #888; }
+
+@media only screen and (max-width: 730px) {
+  .content .container .product {
+    padding-left: 8%;
+    padding-right: 8%; }
+  .content .container .description {
+    padding-left: 8%;
+    padding-right: 8%; } }
+
+.graph_block {
+  margin-bottom: 20px; }
+
 #material_header {
   height: 757px;
   max-width: 100%;
-  background: #FFF url("../images/header/head_bg.jpg") top center no-repeat;
+  background: #FFF url("http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/header/head_bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative; }
   #material_header .head_title {
-    background-image: url("../images/header/head_title.png");
+    background-image: url("http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/header/head_title.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 615px;
@@ -61,36 +76,60 @@
 
 @media only screen and (max-width: 730px) {
   #material_header {
-    height: 425px; }
+    height: 425px;
+    background-size: 150%;
+    background-position: left top; }
     #material_header .head_title {
-      background-image: url("../images/header/main_title_text.png");
+      background-image: url("http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/header/main_title_text.png");
       height: 291px;
-      width: 144px;
-      right: 40px; }
+      width: 122px;
+      right: 110px;
+      top: 120px; }
     #material_header .dm_logo {
-      left: 240px;
-      width: 80px; }
+      top: 30px;
+      right: 130px;
+      left: initial;
+      width: 100px; }
     #material_header .xx_bg {
       bottom: -200px; } }
-
-@media only screen and (max-width: 670px) {
-  #material_header .dm_logo {
-    display: none; } }
 
 @media only screen and (max-width: 541px) {
   #material_header {
-    height: 360px; }
+    height: 360px;
+    background-size: 170%; }
     #material_header .head_title {
-      top: 20px;
-      right: 20px; }
+      width: 100px;
+      right: 90px; }
+    #material_header .dm_logo {
+      width: 80px;
+      right: 90px; }
     #material_header .xx_bg {
       bottom: -200px; } }
+
+@media only screen and (max-width: 480px) {
+  #material_header .head_title {
+    right: 70px; }
+  #material_header .dm_logo {
+    width: 80px;
+    right: 70px; } }
+
+@media only screen and (max-width: 480px) {
+  #material_header .head_title {
+    right: 60px;
+    width: 90px; }
+  #material_header .dm_logo {
+    right: 60px;
+    width: 70px; } }
 
 article.article {
   background: #FFF url("http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/header/x_bg.jpg") repeat-y;
   background-size: cover;
   max-width: 100%;
   overflow: hidden; }
+
+@media only screen and (max-width: 541px) {
+  article.article {
+    background: none; } }
 
 #dinner_time {
   max-width: 100%; }
@@ -189,6 +228,10 @@ article.article {
         margin-bottom: 0.3em; } }
 
 @media only screen and (max-width: 730px) {
+  #dinner_time .sub_slogan {
+    margin: 40px auto 0 auto;
+    position: relative;
+    z-index: 1; }
   #dinner_time .content {
     background-image: linear-gradient(to left, #fae8cf 0, #fae8cf 50px, transparent 0); } }
 
@@ -201,6 +244,8 @@ article.article {
     margin-left: 15px; } }
 
 @media only screen and (max-width: 520px) {
+  #dinner_time .sub_slogan {
+    width: 70%; }
   #dinner_time .content .container {
     margin: 60px 30px 0 30px; } }
 
@@ -256,7 +301,9 @@ article.article {
         font-size: 12px;
         margin-top: -10px;
         margin-left: 300px;
-        max-width: 240px; }
+        max-width: 240px;
+        position: relative;
+        z-index: 3; }
         #cooking_time .content .container .description .graph_block {
           width: 40px; }
           #cooking_time .content .container .description .graph_block .color_block {
@@ -409,7 +456,9 @@ article.article {
         margin-top: 460px;
         margin-left: 500px;
         padding-bottom: 50px;
-        max-width: 420px; }
+        max-width: 420px;
+        position: relative;
+        z-index: 3; }
         #tea_time .content .container .description .graph_block {
           display: inline-block;
           width: 70px;
@@ -581,6 +630,7 @@ article.article {
       #writing_time .content .container .writing_time_content {
         vertical-align: top;
         position: relative;
+        max-width: 160px;
         z-index: 3; }
         #writing_time .content .container .writing_time_content .words {
           font-family: "Satisfy", "微軟正黑體", sans-serif;
@@ -611,7 +661,9 @@ article.article {
         font-size: 12px;
         margin: -110px auto 0 auto;
         padding-bottom: 50px;
-        max-width: 420px; }
+        max-width: 420px;
+        position: relative;
+        z-index: 3; }
         #writing_time .content .container .description .graph_block {
           display: inline-block;
           width: 70px;
@@ -637,15 +689,18 @@ article.article {
 @media only screen and (max-width: 1240px) {
   #writing_time .content .container {
     margin: 60px 90px 0 90px; }
-    #writing_time .content .container .writing_time_content .writing_time_title {
-      width: 130px;
-      display: inline-block; }
-    #writing_time .content .container .writing_time_content .words {
-      margin-top: 30px;
-      margin-left: 20px;
-      -webkit-writing-mode: horizontal-tb;
-      writing-mode: horizontal-tb;
-      display: inline-block; }
+    #writing_time .content .container .writing_time_content {
+      width: auto;
+      max-width: none; }
+      #writing_time .content .container .writing_time_content .writing_time_title {
+        width: 130px;
+        display: inline-block; }
+      #writing_time .content .container .writing_time_content .words {
+        margin-top: 30px;
+        margin-left: 20px;
+        -webkit-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        display: inline-block; }
     #writing_time .content .container .product {
       position: absolute;
       left: 150px;
@@ -717,6 +772,10 @@ article.article {
 @media only screen and (max-width: 550px) {
   #writing_time .content .container {
     margin: 60px 30px 0 30px; }
+    #writing_time .content .container .product {
+      padding-left: 8%; }
+    #writing_time .content .container .description {
+      padding-left: 8%; }
     #writing_time .content .container .writing_time_content {
       width: 100%; }
       #writing_time .content .container .writing_time_content .writing_time_title {
@@ -914,7 +973,8 @@ article.article {
       #coffee_time .content .container .coffee_time_content .coffee_time_title {
         display: block;
         margin-left: 0;
-        max-width: 29%; }
+        max-width: 29%;
+        margin-bottom: 6%; }
       #coffee_time .content .container .coffee_time_content .words {
         display: block;
         text-align: left;
@@ -965,7 +1025,7 @@ article.article {
           height: auto; }
       #trekking_partner .content .container .description {
         font-size: 12px;
-        margin: 50px auto 0 auto;
+        margin: 50px auto 0 200px;
         padding-bottom: 50px;
         max-width: 420px; }
         #trekking_partner .content .container .description .info {
@@ -973,7 +1033,7 @@ article.article {
           text-align: left; }
           #trekking_partner .content .container .description .info .note {
             margin-bottom: 0.3em;
-            padding-left: 5px; }
+            padding-left: 8px; }
 
 @media only screen and (max-width: 1240px) {
   #trekking_partner .content .container {
@@ -1055,7 +1115,8 @@ article.article {
         margin-top: 90px;
         margin-left: 0px; }
     #trekking_partner .content .container .description {
-      margin-top: 20px; } }
+      margin: 20px auto 0 auto;
+      width: 260px; } }
 
 @media only screen and (max-width: 550px) {
   #trekking_partner .content .container {
@@ -1068,36 +1129,39 @@ article.article {
         margin-left: 5px; } }
 
 @media only screen and (max-width: 485px) {
-  #trekking_partner .content {
-    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); }
-    #trekking_partner .content .container {
-      margin: 60px 5px 0 5px; }
-      #trekking_partner .content .container .trekking_partner_content {
-        width: 100%; }
-        #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
-          max-width: 26%; }
-        #trekking_partner .content .container .trekking_partner_content .words {
-          margin-left: 0px; } }
+  #trekking_partner .content .container {
+    margin: 60px 5px 0 5px; }
+    #trekking_partner .content .container .trekking_partner_content {
+      width: 100%; }
+      #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
+        max-width: 26%; }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        margin-left: 0px; } }
 
 @media only screen and (max-width: 455px) {
-  #trekking_partner .content {
-    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); }
-    #trekking_partner .content .container {
-      margin: 60px 5px 0 5px; }
-      #trekking_partner .content .container .trekking_partner_content {
+  #trekking_partner .content .container {
+    margin: 60px 5px 0 5px; }
+    #trekking_partner .content .container .trekking_partner_content {
+      width: 100%; }
+      #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
         width: 100%; }
-        #trekking_partner .content .container .trekking_partner_content .trekking_partner_title {
-          width: 100%; }
-        #trekking_partner .content .container .trekking_partner_content .words {
-          margin: -10px auto 0 auto;
-          width: 100%; } }
+      #trekking_partner .content .container .trekking_partner_content .words {
+        margin: -90px auto 15px 100px;
+        width: 100%; } }
+
+@media only screen and (max-width: 400px) {
+  #trekking_partner .content {
+    background-image: linear-gradient(to right, #fae8cf 0, #fae8cf 20px, transparent 0); } }
 
 #material_footer img {
-  margin: 0 auto; }
+  margin: -60px auto 0;
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
 
 @media only screen and (max-width: 635px) {
   #material_footer {
-    background: #FFF url("../images/footer.png") no-repeat center center;
+    background: #FFF url("http://img104.addons.com.tw/media/upload/subjects/M/meterial-combination/footer.png") no-repeat center center;
     background-size: cover;
     height: 300px; }
     #material_footer img {
