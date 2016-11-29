@@ -1,0 +1,1558 @@
+@charset "UTF-8";
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.text-hidden {
+  font-size: 0px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+#designstudio a {
+  color: #D60000; }
+
+#designstudio #header {
+  max-width: 100%;
+  margin-bottom: 140px; }
+  #designstudio #header .top-img {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/header/22-banner.jpg") center center no-repeat;
+    background-size: cover;
+    height: 510px;
+    width: auto; }
+  #designstudio #header .time-words {
+    position: relative; }
+    #designstudio #header .time-words .tm {
+      position: absolute;
+      top: -360px;
+      left: 40px; }
+    #designstudio #header .time-words .words {
+      padding: 90px 0 110px;
+      max-width: 500px;
+      margin: 0 auto; }
+      #designstudio #header .time-words .words .zh {
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        font-size: 24px;
+        letter-spacing: 9px;
+        color: #AAA; }
+      #designstudio #header .time-words .words .en {
+        font-size: 12px;
+        letter-spacing: 6px;
+        text-transform: none;
+        color: #AAA; }
+  #designstudio #header .middle-img .subject-left {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/header/made-1.jpg") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 35%;
+    float: left;
+    text-align: right;
+    position: relative; }
+    #designstudio #header .middle-img .subject-left:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30%;
+      height: 10px;
+      background-color: #D60000; }
+    #designstudio #header .middle-img .subject-left:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 30%;
+      height: 10px;
+      background-color: #D60000; }
+    #designstudio #header .middle-img .subject-left p {
+      color: #444;
+      font-size: 20px;
+      letter-spacing: 8px;
+      line-height: 32px;
+      padding-right: 60px; }
+    #designstudio #header .middle-img .subject-left p:first-child {
+      margin-top: 110px;
+      margin-bottom: 32px; }
+    #designstudio #header .middle-img .subject-left img {
+      margin: 0 10px 0 auto;
+      width: 10px; }
+  #designstudio #header .middle-img .subject-right {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/header/made.jpg") center center no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 65%;
+    float: left;
+    position: relative; }
+    #designstudio #header .middle-img .subject-right img {
+      position: absolute;
+      top: 280px;
+      left: 40px;
+      height: 11px; }
+  #designstudio #header .bottom-img {
+    margin-top: 130px; }
+    #designstudio #header .bottom-img .subject-left {
+      background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/header/22-member.jpg") center center no-repeat;
+      background-size: cover;
+      height: 430px;
+      width: 65%;
+      float: left;
+      margin-right: 7px; }
+    #designstudio #header .bottom-img .subject-right {
+      height: 430px;
+      width: 30%;
+      float: left;
+      border-left: 10px solid #D60000;
+      padding: 20px 30px 15px 60px;
+      overflow: hidden; }
+      #designstudio #header .bottom-img .subject-right h2 {
+        color: #D60000;
+        font-size: 16px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+      #designstudio #header .bottom-img .subject-right p {
+        font-size: 14px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+
+@media only screen and (max-width: 1240px) {
+  #designstudio #header .top-img {
+    height: 480px; }
+  #designstudio #header .time-words .tm {
+    top: -360px;
+    left: 40px;
+    width: 260px; }
+  #designstudio #header .middle-img .subject-left p {
+    font-size: 20px;
+    letter-spacing: 6px;
+    line-height: 32px;
+    padding-right: 20px; }
+  #designstudio #header .bottom-img {
+    margin-top: 130px; }
+    #designstudio #header .bottom-img .subject-left {
+      height: 430px;
+      width: 65%;
+      margin-right: 7px; }
+    #designstudio #header .bottom-img .subject-right {
+      height: 430px;
+      width: 34%;
+      padding: 40px 10px 25px 40px;
+      overflow: auto; } }
+
+@media only screen and (max-width: 988px) {
+  #designstudio #header {
+    margin-bottom: 60px; }
+    #designstudio #header .middle-img .subject-left {
+      width: 50%; }
+      #designstudio #header .middle-img .subject-left p {
+        padding-right: 30px; }
+    #designstudio #header .middle-img .subject-right {
+      width: 50%; }
+    #designstudio #header .bottom-img {
+      margin-top: 130px; }
+      #designstudio #header .bottom-img .subject-left {
+        height: 460px;
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+        margin: 0 auto; }
+      #designstudio #header .bottom-img .subject-right {
+        margin-top: 10px;
+        height: auto;
+        width: 100%;
+        float: none;
+        padding: 40px 30px 25px 60px; } }
+
+@media only screen and (max-width: 730px) {
+  #designstudio #header .middle-img .subject-left {
+    height: 400px;
+    width: 100%;
+    float: none; }
+  #designstudio #header .middle-img .subject-right {
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+    float: none; }
+    #designstudio #header .middle-img .subject-right img {
+      top: 280px;
+      left: 40px;
+      height: 11px; } }
+
+@media only screen and (max-width: 541px) {
+  #designstudio #header .top-img {
+    height: 420px; }
+  #designstudio #header .time-words .tm {
+    top: -300px;
+    width: 220px; }
+  #designstudio #header .time-words .words {
+    padding: 90px 28% 90px 6%; }
+    #designstudio #header .time-words .words .en {
+      letter-spacing: 2px; }
+  #designstudio #header .bottom-img .subject-left {
+    background-size: 130%;
+    height: 320px; } }
+
+@media only screen and (max-width: 480px) {
+  #designstudio #header .top-img {
+    height: 320px; }
+  #designstudio #header .time-words .tm {
+    top: -240px;
+    left: 20px;
+    width: 180px; }
+  #designstudio #header .time-words .words .zh {
+    letter-spacing: 14px; }
+  #designstudio #header .middle-img .subject-left {
+    height: auto;
+    width: 100%;
+    float: none; }
+    #designstudio #header .middle-img .subject-left img {
+      height: 80px; }
+    #designstudio #header .middle-img .subject-left p:first-child {
+      margin-top: 15%; }
+    #designstudio #header .middle-img .subject-left p {
+      font-size: 14px;
+      letter-spacing: 3px;
+      padding-right: 10px; }
+  #designstudio #header .middle-img .subject-right {
+    margin-top: 10px;
+    height: 340px; }
+    #designstudio #header .middle-img .subject-right img {
+      top: 320px;
+      left: 20px;
+      height: 9px; }
+  #designstudio #header .bottom-img {
+    margin-top: 30px; }
+    #designstudio #header .bottom-img .subject-left {
+      background-size: 130%;
+      height: 320px; }
+    #designstudio #header .bottom-img .subject-right {
+      padding: 20px 15px 22px 15px; }
+      #designstudio #header .bottom-img .subject-right h2 {
+        font-size: 16px; }
+      #designstudio #header .bottom-img .subject-right p {
+        font-size: 14px; } }
+
+@media only screen and (max-width: 320px) {
+  #designstudio #header .bottom-img .subject-left {
+    height: 240px; } }
+
+#designstudio article#content1 {
+  background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/1/red-light.png") no-repeat center center;
+  background-position: 0 320px; }
+  #designstudio article#content1 .container {
+    max-width: 100%; }
+    #designstudio article#content1 .container .subject-left {
+      float: left;
+      margin-left: 90px; }
+    #designstudio article#content1 .container .subject-right {
+      float: left; }
+  #designstudio article#content1 .desk {
+    position: relative; }
+    #designstudio article#content1 .desk .subject-left {
+      max-width: 35%; }
+      #designstudio article#content1 .desk .subject-left img {
+        max-width: 100%;
+        position: relative;
+        z-index: 2; }
+    #designstudio article#content1 .desk .subject-right {
+      max-width: 55%;
+      margin-left: 40px; }
+      #designstudio article#content1 .desk .subject-right .title-block {
+        border-left: 5px solid #D60000;
+        position: relative;
+        padding-left: 20px; }
+        #designstudio article#content1 .desk .subject-right .title-block p {
+          font-size: 14px; }
+        #designstudio article#content1 .desk .subject-right .title-block:before {
+          content: "";
+          height: 100%;
+          width: 3px;
+          left: 2px;
+          background-color: #D60000;
+          position: absolute; }
+      #designstudio article#content1 .desk .subject-right .decoration-text {
+        margin-top: 90px;
+        position: relative;
+        z-index: 3; }
+  #designstudio article#content1 .table-clock {
+    position: relative;
+    overflow: initial; }
+    #designstudio article#content1 .table-clock .subject-left {
+      width: 35%;
+      margin-top: 80px;
+      margin-left: 140px; }
+      #designstudio article#content1 .table-clock .subject-left .title-block {
+        width: 374px;
+        background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+        background-size: 11px 96px; }
+        #designstudio article#content1 .table-clock .subject-left .title-block .title-block-left {
+          display: inline-block;
+          margin-left: 26px; }
+          #designstudio article#content1 .table-clock .subject-left .title-block .title-block-left .sub-title {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 2px; }
+          #designstudio article#content1 .table-clock .subject-left .title-block .title-block-left .zh {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 22px;
+            font-weight: normal;
+            letter-spacing: 4px; }
+          #designstudio article#content1 .table-clock .subject-left .title-block .title-block-left .en {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #999;
+            text-transform: none; }
+        #designstudio article#content1 .table-clock .subject-left .title-block .title-block-right {
+          display: inline-block;
+          width: 30%; }
+          #designstudio article#content1 .table-clock .subject-left .title-block .title-block-right img {
+            width: 100%; }
+      #designstudio article#content1 .table-clock .subject-left .content-block {
+        border-left: 7px solid #D60000;
+        max-width: 320px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+        #designstudio article#content1 .table-clock .subject-left .content-block p {
+          padding-left: 14px; }
+    #designstudio article#content1 .table-clock .subject-right {
+      width: 50%;
+      margin-top: -240px; }
+      #designstudio article#content1 .table-clock .subject-right img {
+        position: relative;
+        z-index: 1; }
+  #designstudio article#content1 .cardholder {
+    position: relative;
+    overflow: initial;
+    top: -50px; }
+    #designstudio article#content1 .cardholder .subject-right {
+      width: 35%;
+      margin-left: 0px;
+      margin-top: 130px; }
+      #designstudio article#content1 .cardholder .subject-right .title-block {
+        background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+        background-size: 11px 96px; }
+        #designstudio article#content1 .cardholder .subject-right .title-block .title-block-left {
+          display: inline-block;
+          margin-left: 26px; }
+          #designstudio article#content1 .cardholder .subject-right .title-block .title-block-left .sub-title {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 2px; }
+          #designstudio article#content1 .cardholder .subject-right .title-block .title-block-left .zh {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 22px;
+            font-weight: normal;
+            letter-spacing: 4px; }
+          #designstudio article#content1 .cardholder .subject-right .title-block .title-block-left .en {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #999;
+            text-transform: none; }
+        #designstudio article#content1 .cardholder .subject-right .title-block .title-block-right {
+          display: inline-block; }
+      #designstudio article#content1 .cardholder .subject-right .content-block {
+        border-left: 7px solid #D60000;
+        max-width: 360px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+        #designstudio article#content1 .cardholder .subject-right .content-block p {
+          padding-left: 14px; }
+    #designstudio article#content1 .cardholder .subject-left {
+      width: 50%; }
+      #designstudio article#content1 .cardholder .subject-left img {
+        position: relative;
+        z-index: 1; }
+  #designstudio article#content1 .tape-dispenser {
+    position: relative;
+    overflow: initial; }
+    #designstudio article#content1 .tape-dispenser .subject-left {
+      width: 35%;
+      margin-top: 80px;
+      margin-left: 140px; }
+      #designstudio article#content1 .tape-dispenser .subject-left .title-block {
+        width: 374px;
+        background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+        background-size: 11px 96px; }
+        #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-left {
+          display: inline-block;
+          margin-left: 26px; }
+          #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-left .sub-title {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 2px; }
+          #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-left .zh {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 22px;
+            font-weight: normal;
+            letter-spacing: 4px; }
+          #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-left .en {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #999;
+            text-transform: none; }
+        #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-right {
+          display: inline-block; }
+      #designstudio article#content1 .tape-dispenser .subject-left .content-block {
+        border-left: 7px solid #D60000;
+        max-width: 320px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+        #designstudio article#content1 .tape-dispenser .subject-left .content-block p {
+          padding-left: 14px; }
+    #designstudio article#content1 .tape-dispenser .subject-right {
+      width: 50%;
+      margin-top: -180px; }
+      #designstudio article#content1 .tape-dispenser .subject-right img {
+        position: relative;
+        z-index: 1; }
+  #designstudio article#content1 .pen-holder {
+    position: relative;
+    overflow: initial;
+    top: -20px;
+    margin-bottom: 40px; }
+    #designstudio article#content1 .pen-holder .subject-right {
+      width: 45%;
+      margin-left: 0px;
+      margin-top: 130px; }
+      #designstudio article#content1 .pen-holder .subject-right .title-block {
+        background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+        background-size: 11px 96px; }
+        #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-left {
+          display: inline-block;
+          margin-left: 26px; }
+          #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-left .sub-title {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 2px; }
+          #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-left .zh {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 22px;
+            font-weight: normal;
+            letter-spacing: 4px; }
+          #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-left .en {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #999;
+            text-transform: none; }
+        #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-right {
+          display: inline-block; }
+      #designstudio article#content1 .pen-holder .subject-right .content-block {
+        border-left: 7px solid #D60000;
+        max-width: 420px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+        #designstudio article#content1 .pen-holder .subject-right .content-block p {
+          padding-left: 14px; }
+    #designstudio article#content1 .pen-holder .subject-left {
+      width: 47%; }
+      #designstudio article#content1 .pen-holder .subject-left img {
+        position: relative;
+        z-index: 1; }
+  #designstudio article#content1 .city-sculpture {
+    position: relative;
+    overflow: initial; }
+    #designstudio article#content1 .city-sculpture .subject-left {
+      width: 40%;
+      margin-top: 120px;
+      margin-left: 140px; }
+      #designstudio article#content1 .city-sculpture .subject-left .title-block {
+        width: 438px;
+        background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+        background-size: 11px 96px;
+        position: relative; }
+        #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-left {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 26px; }
+          #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-left .sub-title {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 2px; }
+          #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-left .zh {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            color: #D60000;
+            font-size: 22px;
+            font-weight: normal;
+            letter-spacing: 4px; }
+          #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-left .en {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #999;
+            text-transform: none; }
+        #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-right {
+          display: inline-block;
+          vertical-align: middle;
+          width: 20%;
+          position: absolute;
+          top: -30px;
+          right: 100px; }
+          #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-right img {
+            width: 100%; }
+      #designstudio article#content1 .city-sculpture .subject-left .content-block {
+        border-left: 7px solid #D60000;
+        max-width: 370px;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify; }
+        #designstudio article#content1 .city-sculpture .subject-left .content-block p {
+          padding-left: 14px; }
+    #designstudio article#content1 .city-sculpture .subject-right {
+      width: 45%;
+      margin-top: -80px; }
+      #designstudio article#content1 .city-sculpture .subject-right img {
+        position: relative;
+        z-index: 1; }
+
+@media only screen and (max-width: 1240px) {
+  #designstudio article#content1 {
+    background-image: none; }
+    #designstudio article#content1 .container .subject-left {
+      float: left;
+      margin-left: 0px; }
+    #designstudio article#content1 .desk .subject-left {
+      width: 35%; }
+    #designstudio article#content1 .desk .subject-right {
+      width: 50%; }
+      #designstudio article#content1 .desk .subject-right .decoration-text {
+        margin-top: 60px; }
+    #designstudio article#content1 .table-clock .subject-left {
+      width: 40%;
+      margin-top: 80px;
+      margin-left: 0px; }
+    #designstudio article#content1 .table-clock .subject-right {
+      width: 55%;
+      margin-top: -200px; }
+      #designstudio article#content1 .table-clock .subject-right img {
+        position: relative;
+        z-index: 1; }
+    #designstudio article#content1 .cardholder {
+      top: -20px; }
+      #designstudio article#content1 .cardholder .subject-right {
+        margin-left: 30px; }
+    #designstudio article#content1 .tape-dispenser .subject-left {
+      width: 40%;
+      margin-top: 80px;
+      margin-left: 0px; }
+    #designstudio article#content1 .tape-dispenser .subject-right {
+      width: 55%;
+      margin-top: -150px; }
+    #designstudio article#content1 .pen-holder {
+      top: -20px; }
+      #designstudio article#content1 .pen-holder .subject-right {
+        margin-left: 30px; }
+    #designstudio article#content1 .city-sculpture .subject-left {
+      width: 50%;
+      margin-top: 80px;
+      margin-left: 0px; }
+    #designstudio article#content1 .city-sculpture .subject-right {
+      width: 50%;
+      margin-top: -100px; } }
+
+@media only screen and (max-width: 988px) {
+  #designstudio article#content1 .desk .subject-left {
+    width: 35%; }
+  #designstudio article#content1 .desk .subject-right {
+    width: 45%; }
+  #designstudio article#content1 .table-clock .subject-left {
+    width: 55%;
+    margin-top: 80px;
+    margin-left: 0px; }
+  #designstudio article#content1 .table-clock .subject-right {
+    width: 45%;
+    margin-top: 0px; }
+  #designstudio article#content1 .cardholder .subject-right {
+    width: 45%;
+    margin-left: 0px; }
+  #designstudio article#content1 .cardholder .subject-left {
+    width: 55%; }
+  #designstudio article#content1 .tape-dispenser {
+    margin-bottom: 70px; }
+    #designstudio article#content1 .tape-dispenser .subject-left {
+      width: 55%;
+      margin-top: 80px;
+      margin-left: 0px; }
+    #designstudio article#content1 .tape-dispenser .subject-right {
+      width: 45%;
+      margin-top: 0px; }
+  #designstudio article#content1 .pen-holder .subject-right {
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 70px; }
+  #designstudio article#content1 .pen-holder .subject-left {
+    width: 55%; }
+  #designstudio article#content1 .city-sculpture {
+    margin-bottom: 70px; }
+    #designstudio article#content1 .city-sculpture .subject-left {
+      width: 60%;
+      margin-top: 80px;
+      margin-left: 0px; }
+    #designstudio article#content1 .city-sculpture .subject-right {
+      width: 40%;
+      margin-top: 0px; } }
+
+@media only screen and (max-width: 730px) {
+  #designstudio article#content1 .desk .subject-left {
+    float: right;
+    width: 35%; }
+  #designstudio article#content1 .desk .subject-right {
+    float: left;
+    width: 55%;
+    margin-left: 0; }
+    #designstudio article#content1 .desk .subject-right .decoration-text {
+      margin-top: 30px; }
+  #designstudio article#content1 .table-clock .subject-left {
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 0px;
+    height: auto; }
+    #designstudio article#content1 .table-clock .subject-left .title-block {
+      max-width: 382px; }
+  #designstudio article#content1 .table-clock .subject-right {
+    width: 40%; }
+  #designstudio article#content1 .cardholder {
+    overflow: initial;
+    top: -20px; }
+    #designstudio article#content1 .cardholder .subject-right {
+      width: 45%;
+      margin-left: 0px;
+      margin-top: 80px; }
+      #designstudio article#content1 .cardholder .subject-right .title-block {
+        background-size: 11px 96px; }
+        #designstudio article#content1 .cardholder .subject-right .title-block .title-block-right {
+          width: 20%; }
+          #designstudio article#content1 .cardholder .subject-right .title-block .title-block-right img {
+            width: 100%; }
+      #designstudio article#content1 .cardholder .subject-right .content-block {
+        max-width: 360px; }
+    #designstudio article#content1 .cardholder .subject-left {
+      width: 55%; }
+  #designstudio article#content1 .tape-dispenser {
+    margin-bottom: 30px; }
+    #designstudio article#content1 .tape-dispenser .subject-left {
+      width: 60%;
+      margin-top: 80px;
+      margin-left: 0px;
+      height: auto; }
+      #designstudio article#content1 .tape-dispenser .subject-left .title-block {
+        max-width: 382px; }
+    #designstudio article#content1 .tape-dispenser .subject-right {
+      width: 40%; }
+  #designstudio article#content1 .pen-holder {
+    overflow: initial;
+    top: -20px; }
+    #designstudio article#content1 .pen-holder .subject-right {
+      width: 45%;
+      margin-left: 0px;
+      margin-top: 80px; }
+      #designstudio article#content1 .pen-holder .subject-right .title-block {
+        background-size: 11px 96px; }
+        #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-right {
+          width: 20%; }
+          #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-right img {
+            width: 100%; }
+      #designstudio article#content1 .pen-holder .subject-right .content-block {
+        max-width: 360px; }
+    #designstudio article#content1 .pen-holder .subject-left {
+      width: 55%; }
+  #designstudio article#content1 .city-sculpture .subject-left {
+    width: 62%;
+    margin-top: 80px;
+    margin-left: 0px;
+    height: auto; }
+    #designstudio article#content1 .city-sculpture .subject-left .title-block {
+      max-width: 382px; }
+  #designstudio article#content1 .city-sculpture .subject-right {
+    width: 38%; } }
+
+@media only screen and (max-width: 671px) {
+  #designstudio article#content1 .table-clock {
+    width: 360px;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content1 .table-clock .subject-left {
+      width: 100%;
+      float: none;
+      margin-top: 80px;
+      margin-left: 0px;
+      height: auto; }
+      #designstudio article#content1 .table-clock .subject-left .title-block {
+        max-width: 360px; }
+      #designstudio article#content1 .table-clock .subject-left .content-block {
+        width: 100%;
+        max-width: 100%; }
+    #designstudio article#content1 .table-clock .subject-right {
+      width: 85%;
+      float: none;
+      margin: 0 auto; }
+  #designstudio article#content1 .cardholder {
+    overflow: auto;
+    position: relative;
+    width: 360px;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content1 .cardholder .subject-right {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      float: none;
+      margin-top: 80px;
+      margin-left: 0px; }
+      #designstudio article#content1 .cardholder .subject-right .title-block .title-block-left {
+        vertical-align: middle; }
+      #designstudio article#content1 .cardholder .subject-right .title-block .title-block-right {
+        vertical-align: middle; }
+      #designstudio article#content1 .cardholder .subject-right .content-block {
+        width: 100%;
+        max-width: 100%; }
+    #designstudio article#content1 .cardholder .subject-left {
+      width: 85%;
+      float: none;
+      margin: 300px auto 0px; }
+  #designstudio article#content1 .tape-dispenser {
+    width: 360px;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content1 .tape-dispenser .subject-left {
+      width: 100%;
+      float: none;
+      margin-top: 10px;
+      margin-left: 0px;
+      height: auto; }
+      #designstudio article#content1 .tape-dispenser .subject-left .title-block {
+        max-width: 360px; }
+      #designstudio article#content1 .tape-dispenser .subject-left .content-block {
+        width: 100%;
+        max-width: 100%; }
+    #designstudio article#content1 .tape-dispenser .subject-right {
+      width: 60%;
+      float: none;
+      margin: 0 auto; }
+  #designstudio article#content1 .pen-holder {
+    width: 360px;
+    margin: 80px auto 0 auto;
+    overflow: auto;
+    position: relative; }
+    #designstudio article#content1 .pen-holder .subject-right {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      float: none;
+      margin-top: 60px;
+      margin-left: 0px; }
+      #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-left {
+        vertical-align: middle; }
+      #designstudio article#content1 .pen-holder .subject-right .title-block .title-block-right {
+        vertical-align: middle; }
+      #designstudio article#content1 .pen-holder .subject-right .content-block {
+        width: 100%;
+        max-width: 100%; }
+    #designstudio article#content1 .pen-holder .subject-left {
+      width: 70%;
+      float: none;
+      margin: 330px auto 0px; }
+  #designstudio article#content1 .city-sculpture {
+    width: 360px;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content1 .city-sculpture .subject-left {
+      width: 100%;
+      float: none;
+      margin-top: 10px;
+      margin-left: 0px;
+      height: auto; }
+      #designstudio article#content1 .city-sculpture .subject-left .title-block {
+        max-width: 360px; }
+      #designstudio article#content1 .city-sculpture .subject-left .content-block {
+        width: 100%;
+        max-width: 100%; }
+    #designstudio article#content1 .city-sculpture .subject-right {
+      width: 60%;
+      float: none;
+      margin: 0 auto; } }
+
+@media only screen and (max-width: 541px) {
+  #designstudio article#content1 .desk {
+    position: relative; }
+    #designstudio article#content1 .desk .subject-left {
+      margin-top: 50%;
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .desk .subject-left img {
+        width: 100%; }
+    #designstudio article#content1 .desk .subject-right {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 10px; }
+      #designstudio article#content1 .desk .subject-right .decoration-text {
+        margin-top: 10px; } }
+
+@media only screen and (max-width: 480px) {
+  #designstudio article#content1 {
+    background-image: none; }
+    #designstudio article#content1 .desk .subject-left {
+      margin-top: 45%;
+      float: none;
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .desk .subject-left img {
+        width: 100%; }
+    #designstudio article#content1 .desk .subject-right {
+      float: none;
+      width: 100%;
+      max-width: 100%;
+      margin-top: 10px; }
+      #designstudio article#content1 .desk .subject-right .decoration-text {
+        margin-top: 0px;
+        display: none; }
+    #designstudio article#content1 .table-clock .subject-left .title-block {
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .table-clock .subject-left .title-block .title-block-right {
+        width: 25%; }
+        #designstudio article#content1 .table-clock .subject-left .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content1 .table-clock .subject-left .content-block {
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .table-clock .subject-left .content-block p {
+        padding-right: 15px; }
+    #designstudio article#content1 .table-clock .subject-right {
+      width: 60%;
+      float: none;
+      margin: 0 auto; }
+    #designstudio article#content1 .cardholder .subject-right {
+      margin-top: 60px; }
+      #designstudio article#content1 .cardholder .subject-right .content-block p {
+        padding-right: 15px; }
+    #designstudio article#content1 .tape-dispenser .subject-left .title-block {
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-right {
+        width: 30%; }
+        #designstudio article#content1 .tape-dispenser .subject-left .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content1 .tape-dispenser .subject-left .content-block {
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .tape-dispenser .subject-left .content-block p {
+        padding-right: 15px; }
+    #designstudio article#content1 .tape-dispenser .subject-right {
+      width: 60%;
+      float: none;
+      margin: 0 auto; }
+    #designstudio article#content1 .pen-holder .subject-left {
+      margin: 400px auto 0; }
+    #designstudio article#content1 .pen-holder .subject-right {
+      margin-top: 60px; }
+      #designstudio article#content1 .pen-holder .subject-right .content-block p {
+        padding-right: 15px; }
+    #designstudio article#content1 .city-sculpture .subject-left .title-block {
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .city-sculpture .subject-left .title-block .title-block-right {
+        top: -10px;
+        right: 50px; }
+    #designstudio article#content1 .city-sculpture .subject-left .content-block {
+      width: 100%;
+      max-width: 100%; }
+      #designstudio article#content1 .city-sculpture .subject-left .content-block p {
+        padding-right: 15px; }
+    #designstudio article#content1 .city-sculpture .subject-right {
+      width: 60%;
+      float: none;
+      margin: 0 auto; } }
+
+@media only screen and (max-width: 320px) {
+  #designstudio article#content1 .table-clock .subject-left .title-block .title-block-right {
+    width: 20%; }
+  #designstudio article#content1 .pen-holder .subject-left {
+    margin: 130% auto 0; } }
+
+#designstudio article#content2 .writing {
+  position: relative;
+  overflow: visible;
+  margin-top: 80px; }
+  #designstudio article#content2 .writing .subject-left .bg-img {
+    position: absolute;
+    width: 55%;
+    z-index: 1;
+    top: -150px;
+    left: -60px; }
+  #designstudio article#content2 .writing .subject-right {
+    position: relative;
+    z-index: 3;
+    float: right;
+    width: 47%; }
+    #designstudio article#content2 .writing .subject-right .title-block {
+      border-left: 5px solid #D60000;
+      position: relative;
+      padding-left: 20px; }
+      #designstudio article#content2 .writing .subject-right .title-block p {
+        font-size: 14px; }
+      #designstudio article#content2 .writing .subject-right .title-block:before {
+        content: "";
+        height: 100%;
+        width: 3px;
+        left: 2px;
+        background-color: #D60000;
+        position: absolute; }
+
+#designstudio article#content2 .container {
+  max-width: 100%;
+  margin-left: 140px;
+  margin-right: 140px;
+  position: relative;
+  top: -180px; }
+
+#designstudio article#content2 .sketch {
+  position: relative;
+  float: left; }
+  #designstudio article#content2 .sketch .main-img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 28px; }
+  #designstudio article#content2 .sketch .title-block {
+    width: 360px;
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+    background-size: 11px 96px;
+    margin-bottom: 28px; }
+    #designstudio article#content2 .sketch .title-block .title-block-left {
+      float: left;
+      margin-left: 26px; }
+      #designstudio article#content2 .sketch .title-block .title-block-left .zh {
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        color: #D60000;
+        font-size: 22px;
+        font-weight: normal;
+        letter-spacing: 4px;
+        padding-top: 40px; }
+      #designstudio article#content2 .sketch .title-block .title-block-left .en {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: none;
+        margin-bottom: 0; }
+    #designstudio article#content2 .sketch .title-block .title-block-right {
+      float: right; }
+  #designstudio article#content2 .sketch .content-block {
+    border-left: 7px solid #D60000;
+    width: 360px;
+    font-family: "微軟正黑體", sans-serif;
+    text-align: justify; }
+    #designstudio article#content2 .sketch .content-block p {
+      padding-left: 14px; }
+
+#designstudio article#content2 .mechanical {
+  position: relative;
+  overflow: initial;
+  float: right;
+  margin-top: 280px;
+  margin-right: 50px; }
+  #designstudio article#content2 .mechanical .main-img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 28px; }
+  #designstudio article#content2 .mechanical .title-block {
+    width: 360px;
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+    background-size: 11px 96px;
+    margin-bottom: 28px; }
+    #designstudio article#content2 .mechanical .title-block .title-block-left {
+      float: left;
+      margin-left: 26px; }
+      #designstudio article#content2 .mechanical .title-block .title-block-left .zh {
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        color: #D60000;
+        font-size: 22px;
+        font-weight: normal;
+        letter-spacing: 4px;
+        padding-top: 40px; }
+      #designstudio article#content2 .mechanical .title-block .title-block-left .en {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: none;
+        margin-bottom: 0; }
+    #designstudio article#content2 .mechanical .title-block .title-block-right {
+      float: right; }
+  #designstudio article#content2 .mechanical .content-block {
+    border-left: 7px solid #D60000;
+    width: 360px;
+    font-family: "微軟正黑體", sans-serif;
+    text-align: justify; }
+    #designstudio article#content2 .mechanical .content-block p {
+      padding-left: 14px; }
+
+#designstudio article#content2 .rollerball {
+  position: relative;
+  float: left;
+  margin-top: 80px; }
+  #designstudio article#content2 .rollerball .main-img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 28px; }
+  #designstudio article#content2 .rollerball .title-block {
+    width: 360px;
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png") no-repeat left center;
+    background-size: 11px 96px;
+    margin-bottom: 28px; }
+    #designstudio article#content2 .rollerball .title-block .title-block-left {
+      float: left;
+      margin-left: 26px; }
+      #designstudio article#content2 .rollerball .title-block .title-block-left .zh {
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        color: #D60000;
+        font-size: 22px;
+        font-weight: normal;
+        letter-spacing: 4px;
+        padding-top: 40px; }
+      #designstudio article#content2 .rollerball .title-block .title-block-left .en {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: none;
+        margin-bottom: 0; }
+    #designstudio article#content2 .rollerball .title-block .title-block-right {
+      float: right; }
+  #designstudio article#content2 .rollerball .content-block {
+    border-left: 7px solid #D60000;
+    width: 360px;
+    font-family: "微軟正黑體", sans-serif;
+    text-align: justify; }
+    #designstudio article#content2 .rollerball .content-block p {
+      padding-left: 14px; }
+
+@media only screen and (max-width: 1240px) {
+  #designstudio article#content2 .container {
+    margin-left: 0px;
+    margin-right: 40px; } }
+
+@media only screen and (max-width: 988px) {
+  #designstudio article#content2 .writing .subject-left .bg-img {
+    top: -110px;
+    left: -60px; }
+  #designstudio article#content2 .container {
+    margin-right: 0px; }
+  #designstudio article#content2 .sketch {
+    width: 320px; }
+    #designstudio article#content2 .sketch .title-block {
+      width: 320px; }
+    #designstudio article#content2 .sketch .content-block {
+      width: 320px; }
+  #designstudio article#content2 .mechanical {
+    width: 320px;
+    margin-right: 0px; }
+    #designstudio article#content2 .mechanical .title-block {
+      width: 320px; }
+    #designstudio article#content2 .mechanical .content-block {
+      width: 320px; }
+  #designstudio article#content2 .rollerball {
+    width: 320px; }
+    #designstudio article#content2 .rollerball .title-block {
+      width: 320px; }
+    #designstudio article#content2 .rollerball .content-block {
+      width: 320px; } }
+
+@media only screen and (max-width: 730px) {
+  #designstudio article#content2 .writing .subject-left .bg-img {
+    top: -55px;
+    left: -60px; }
+  #designstudio article#content2 .sketch {
+    margin-top: 80px;
+    width: 290px; }
+    #designstudio article#content2 .sketch .title-block {
+      width: 290px; }
+      #designstudio article#content2 .sketch .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .sketch .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .sketch .content-block {
+      width: 290px; }
+  #designstudio article#content2 .mechanical {
+    width: 290px;
+    margin-right: 0px; }
+    #designstudio article#content2 .mechanical .title-block {
+      width: 290px; }
+      #designstudio article#content2 .mechanical .title-block .title-block-right {
+        float: right;
+        width: 21%; }
+        #designstudio article#content2 .mechanical .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .mechanical .content-block {
+      width: 290px; }
+  #designstudio article#content2 .rollerball {
+    width: 290px; }
+    #designstudio article#content2 .rollerball .title-block {
+      width: 290px; }
+      #designstudio article#content2 .rollerball .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .rollerball .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .rollerball .content-block {
+      width: 290px; } }
+
+@media only screen and (max-width: 671px) {
+  #designstudio article#content2 .writing .subject-left .bg-img {
+    display: none; }
+  #designstudio article#content2 .writing .subject-right {
+    width: 100%; }
+  #designstudio article#content2 .container {
+    position: relative;
+    top: 0; }
+  #designstudio article#content2 .sketch {
+    width: 360px;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .sketch .title-block {
+      width: 360px; }
+      #designstudio article#content2 .sketch .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .sketch .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .sketch .content-block {
+      width: 360px; }
+  #designstudio article#content2 .mechanical {
+    width: 360px;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .mechanical .title-block {
+      width: 360px; }
+      #designstudio article#content2 .mechanical .title-block .title-block-right {
+        float: right;
+        width: 21%; }
+        #designstudio article#content2 .mechanical .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .mechanical .content-block {
+      width: 360px; }
+  #designstudio article#content2 .rollerball {
+    width: 360px;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .rollerball .title-block {
+      width: 360px; }
+      #designstudio article#content2 .rollerball .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .rollerball .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .rollerball .content-block {
+      width: 360px; } }
+
+@media only screen and (max-width: 541px) {
+  #designstudio article#content2 .container {
+    position: relative;
+    top: 0; }
+  #designstudio article#content2 .sketch {
+    width: 360px;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .sketch .title-block {
+      width: 360px; }
+      #designstudio article#content2 .sketch .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .sketch .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .sketch .content-block {
+      width: 360px; }
+  #designstudio article#content2 .mechanical {
+    width: 360px;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .mechanical .title-block {
+      width: 360px; }
+      #designstudio article#content2 .mechanical .title-block .title-block-right {
+        float: right;
+        width: 21%; }
+        #designstudio article#content2 .mechanical .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .mechanical .content-block {
+      width: 360px; }
+  #designstudio article#content2 .rollerball {
+    width: 360px;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .rollerball .title-block {
+      width: 360px; }
+      #designstudio article#content2 .rollerball .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .rollerball .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .rollerball .content-block {
+      width: 360px; } }
+
+@media only screen and (max-width: 480px) {
+  #designstudio article#content2 .container {
+    position: relative;
+    top: 0; }
+  #designstudio article#content2 .sketch {
+    max-width: 100%;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .sketch .title-block {
+      max-width: 100%; }
+      #designstudio article#content2 .sketch .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .sketch .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .sketch .content-block {
+      max-width: 100%; }
+  #designstudio article#content2 .mechanical {
+    max-width: 100%;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .mechanical .title-block {
+      max-width: 100%; }
+      #designstudio article#content2 .mechanical .title-block .title-block-right {
+        float: right;
+        width: 21%; }
+        #designstudio article#content2 .mechanical .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .mechanical .content-block {
+      max-width: 100%; }
+  #designstudio article#content2 .rollerball {
+    max-width: 100%;
+    float: none;
+    margin: 80px auto 0 auto; }
+    #designstudio article#content2 .rollerball .title-block {
+      max-width: 100%; }
+      #designstudio article#content2 .rollerball .title-block .title-block-right {
+        float: right;
+        width: 30%; }
+        #designstudio article#content2 .rollerball .title-block .title-block-right img {
+          width: 100%; }
+    #designstudio article#content2 .rollerball .content-block {
+      max-width: 100%; } }
+
+#designstudio article#content3 {
+  margin-top: -150px; }
+  #designstudio article#content3 .ring {
+    position: relative;
+    overflow: visible; }
+    #designstudio article#content3 .ring .subject-left {
+      width: 45%;
+      z-index: 1; }
+    #designstudio article#content3 .ring .subject-right {
+      position: absolute;
+      top: -330px;
+      right: 0;
+      z-index: 3;
+      width: 46%; }
+      #designstudio article#content3 .ring .subject-right .title-block {
+        border-left: 5px solid #D60000;
+        position: relative;
+        padding-left: 20px; }
+        #designstudio article#content3 .ring .subject-right .title-block p {
+          font-size: 14px; }
+        #designstudio article#content3 .ring .subject-right .title-block:before {
+          content: "";
+          height: 100%;
+          width: 3px;
+          left: 2px;
+          background-color: #D60000;
+          position: absolute; }
+  #designstudio article#content3 .container {
+    margin-left: 140px;
+    margin-right: 140px; }
+  #designstudio article#content3 .corner .product-block {
+    width: 420px; }
+    #designstudio article#content3 .corner .product-block .subject-left {
+      width: 45%;
+      display: inline-block; }
+    #designstudio article#content3 .corner .product-block .subject-right {
+      width: 50%;
+      margin-left: 4%;
+      display: inline-block; }
+      #designstudio article#content3 .corner .product-block .subject-right .content-block {
+        background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/9-2.jpg") no-repeat -15px -65px;
+        background-size: 60%;
+        height: 100%; }
+        #designstudio article#content3 .corner .product-block .subject-right .content-block p {
+          font-family: "微軟正黑體", sans-serif;
+          text-align: justify;
+          font-size: 12px;
+          margin: 0;
+          padding-top: 50px; }
+  #designstudio article#content3 .corner .title-block {
+    margin-top: 8px; }
+    #designstudio article#content3 .corner .title-block .zh {
+      display: inline-block;
+      font-family: "微軟正黑體", sans-serif;
+      text-align: justify;
+      color: #D60000;
+      font-size: 18px;
+      font-weight: normal;
+      letter-spacing: 4px; }
+    #designstudio article#content3 .corner .title-block .en {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #999;
+      text-transform: none;
+      margin-bottom: 0; }
+  #designstudio article#content3 .polygon {
+    float: right;
+    margin-top: -80px; }
+    #designstudio article#content3 .polygon .product-block {
+      width: 420px; }
+      #designstudio article#content3 .polygon .product-block .subject-left {
+        width: 45%;
+        display: inline-block; }
+      #designstudio article#content3 .polygon .product-block .subject-right {
+        width: 50%;
+        margin-left: 4%;
+        display: inline-block; }
+        #designstudio article#content3 .polygon .product-block .subject-right .content-block {
+          background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/10-2.jpg") no-repeat -15px -55px;
+          background-size: 60%;
+          height: 100%; }
+          #designstudio article#content3 .polygon .product-block .subject-right .content-block p {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            font-size: 12px;
+            margin: 0;
+            padding-top: 90px; }
+    #designstudio article#content3 .polygon .title-block {
+      margin-top: 8px; }
+      #designstudio article#content3 .polygon .title-block .zh {
+        display: inline-block;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        color: #D60000;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 4px; }
+      #designstudio article#content3 .polygon .title-block .en {
+        display: inline-block;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: none;
+        margin-bottom: 0; }
+  #designstudio article#content3 .tatami {
+    margin-top: 70px; }
+    #designstudio article#content3 .tatami .product-block {
+      width: 420px; }
+      #designstudio article#content3 .tatami .product-block .subject-left {
+        width: 45%;
+        display: inline-block; }
+      #designstudio article#content3 .tatami .product-block .subject-right {
+        width: 50%;
+        margin-left: 4%;
+        display: inline-block; }
+        #designstudio article#content3 .tatami .product-block .subject-right .content-block {
+          background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/11-2.jpg") no-repeat -15px 0px;
+          background-size: 45%;
+          height: 100%; }
+          #designstudio article#content3 .tatami .product-block .subject-right .content-block p {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            font-size: 12px;
+            margin: 0;
+            padding-top: 90px; }
+    #designstudio article#content3 .tatami .title-block {
+      margin-top: 8px; }
+      #designstudio article#content3 .tatami .title-block .zh {
+        display: inline-block;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        color: #D60000;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 4px; }
+      #designstudio article#content3 .tatami .title-block .en {
+        display: inline-block;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: none;
+        margin-bottom: 0; }
+  #designstudio article#content3 .twist {
+    float: right;
+    margin-top: -50px; }
+    #designstudio article#content3 .twist .product-block {
+      width: 420px; }
+      #designstudio article#content3 .twist .product-block .subject-left {
+        width: 45%;
+        display: inline-block; }
+      #designstudio article#content3 .twist .product-block .subject-right {
+        width: 50%;
+        margin-left: 4%;
+        display: inline-block; }
+        #designstudio article#content3 .twist .product-block .subject-right .content-block {
+          background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/12-2.jpg") no-repeat -15px -55px;
+          background-size: 60%;
+          height: 100%; }
+          #designstudio article#content3 .twist .product-block .subject-right .content-block p {
+            font-family: "微軟正黑體", sans-serif;
+            text-align: justify;
+            font-size: 12px;
+            margin: 0;
+            padding-top: 45px; }
+    #designstudio article#content3 .twist .title-block {
+      margin-top: 8px; }
+      #designstudio article#content3 .twist .title-block .zh {
+        display: inline-block;
+        font-family: "微軟正黑體", sans-serif;
+        text-align: justify;
+        color: #D60000;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 4px; }
+      #designstudio article#content3 .twist .title-block .en {
+        display: inline-block;
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: none;
+        margin-bottom: 0; }
+
+@media only screen and (max-width: 1240px) {
+  #designstudio article#content3 .container {
+    margin-left: 0;
+    margin-right: 40px; } }
+
+@media only screen and (max-width: 988px) {
+  #designstudio article#content3 .polygon {
+    margin-top: 0px; }
+  #designstudio article#content3 .tatami {
+    margin-top: 260px; }
+  #designstudio article#content3 .twist {
+    margin-top: 20px; } }
+
+@media only screen and (max-width: 671px) {
+  #designstudio article#content3 {
+    margin-top: 0px; }
+    #designstudio article#content3 .ring {
+      position: relative; }
+      #designstudio article#content3 .ring .subject-left {
+        display: none; }
+      #designstudio article#content3 .ring .subject-right {
+        position: relative;
+        right: 0;
+        top: 80px;
+        z-index: 3;
+        width: 100%; }
+        #designstudio article#content3 .ring .subject-right .title-block {
+          border-left: 5px solid #D60000;
+          position: relative;
+          padding-left: 20px; }
+    #designstudio article#content3 .corner {
+      margin: 120px auto 0;
+      width: 420px; }
+    #designstudio article#content3 .polygon {
+      float: none;
+      margin: 70px auto 0;
+      width: 420px; }
+    #designstudio article#content3 .tatami {
+      margin: 70px auto 0;
+      width: 420px; }
+    #designstudio article#content3 .twist {
+      float: none;
+      margin: 70px auto 0;
+      width: 420px; } }
+
+@media only screen and (max-width: 541px) {
+  #designstudio article#content3 .container {
+    margin-right: 0; }
+  #designstudio article#content3 .corner .product-block .subject-left, #designstudio article#content3 .polygon .product-block .subject-left, #designstudio article#content3 .tatami .product-block .subject-left, #designstudio article#content3 .twist .product-block .subject-left {
+    width: 35%; }
+  #designstudio article#content3 .corner .product-block .subject-right, #designstudio article#content3 .polygon .product-block .subject-right, #designstudio article#content3 .tatami .product-block .subject-right, #designstudio article#content3 .twist .product-block .subject-right {
+    width: 62%;
+    margin-left: 2%; }
+  #designstudio article#content3 .corner .product-block .subject-right .content-block {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/9-2.jpg") no-repeat -15px -45px;
+    background-size: 50%; }
+  #designstudio article#content3 .polygon .product-block .subject-right .content-block {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/10-2.jpg") no-repeat -15px -33px;
+    background-size: 45%; }
+  #designstudio article#content3 .tatami .product-block .subject-right .content-block {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/11-2.jpg") no-repeat -15px 36px;
+    background-size: 35%; }
+  #designstudio article#content3 .twist .product-block .subject-right .content-block {
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/12-2.jpg") no-repeat -15px -30px;
+    background-size: 45%; } }
+
+@media only screen and (max-width: 480px) {
+  #designstudio article#content3 .corner, #designstudio article#content3 .polygon, #designstudio article#content3 .tatami, #designstudio article#content3 .twist {
+    width: 100%;
+    position: relative; }
+    #designstudio article#content3 .corner .product-block, #designstudio article#content3 .polygon .product-block, #designstudio article#content3 .tatami .product-block, #designstudio article#content3 .twist .product-block {
+      margin: 0 auto;
+      width: 100%; }
+      #designstudio article#content3 .corner .product-block .subject-left, #designstudio article#content3 .polygon .product-block .subject-left, #designstudio article#content3 .tatami .product-block .subject-left, #designstudio article#content3 .twist .product-block .subject-left {
+        width: 100%;
+        float: none; }
+        #designstudio article#content3 .corner .product-block .subject-left .main-img img, #designstudio article#content3 .polygon .product-block .subject-left .main-img img, #designstudio article#content3 .tatami .product-block .subject-left .main-img img, #designstudio article#content3 .twist .product-block .subject-left .main-img img {
+          margin: 0 auto; }
+      #designstudio article#content3 .corner .product-block .subject-right, #designstudio article#content3 .polygon .product-block .subject-right, #designstudio article#content3 .tatami .product-block .subject-right, #designstudio article#content3 .twist .product-block .subject-right {
+        width: 100%;
+        margin-left: 0%;
+        float: none; }
+        #designstudio article#content3 .corner .product-block .subject-right .content-block, #designstudio article#content3 .polygon .product-block .subject-right .content-block, #designstudio article#content3 .tatami .product-block .subject-right .content-block, #designstudio article#content3 .twist .product-block .subject-right .content-block {
+          background-image: none; }
+          #designstudio article#content3 .corner .product-block .subject-right .content-block p, #designstudio article#content3 .polygon .product-block .subject-right .content-block p, #designstudio article#content3 .tatami .product-block .subject-right .content-block p, #designstudio article#content3 .twist .product-block .subject-right .content-block p {
+            padding-top: 60px; }
+    #designstudio article#content3 .corner .title-block, #designstudio article#content3 .polygon .title-block, #designstudio article#content3 .tatami .title-block, #designstudio article#content3 .twist .title-block {
+      position: absolute;
+      top: 220px;
+      left: 0; } }
+
+#designstudio footer#footer {
+  margin-top: 40px; }
+  #designstudio footer#footer img {
+    margin: 0 auto;
+    max-width: 100%; }
+  #designstudio footer#footer .bg-img {
+    margin-top: 30px;
+    height: 453px;
+    width: auto;
+    background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/footer/22-footer.jpg") center center no-repeat;
+    background-size: cover; }
+
+@media only screen and (max-width: 730px) {
+  #designstudio footer#footer .bg-img {
+    height: 300px; } }
+
+@media only screen and (max-width: 480px) {
+  #designstudio footer#footer img {
+    margin: 0 auto;
+    max-width: 72%; }
+  #designstudio footer#footer .bg-img {
+    height: 220px; } }
