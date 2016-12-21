@@ -107,6 +107,8 @@ a {
 
 .content-section {
   padding: 70px 0 40px; }
+  .content-section .space {
+    padding-bottom: 30px; }
 
 .block-icon-left {
   overflow: auto; }
@@ -128,24 +130,43 @@ a {
   color: #f4f4f4;
   background: #333 url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-size: cover; }
+  .who-section p {
+    text-shadow: 2px 2px 8px #000; }
 
 @media only screen and (min-width: 767px) {
   .who-section {
-    padding: 100px 0; } }
+    padding: 140px 0; } }
 
 #clients {
   text-align: center;
   padding-bottom: 80px; }
+  #clients .space {
+    margin-bottom: 10px; }
   #clients img {
-    margin-right: 30px;
-    max-height: 120px; }
-  #clients p {
-    text-align: left; }
+    border-radius: 6px;
+    margin-bottom: 10px; }
+  #clients .introtext {
+    text-align: left;
+    margin: 20px 0px 20px 15px;
+    letter-spacing: 1px;
+    line-height: 32px; }
 
 #contact {
   background: #333;
   color: #f4f4f4;
   padding-bottom: 80px; }
+  #contact .iframe-rwd {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+  #contact .iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 footer {
   margin-top: 10px;
