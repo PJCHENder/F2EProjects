@@ -1,10 +1,17 @@
 var gulp = require('gulp');
 // var webserver = require('gulp-webserver');
 var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function(){
     return gulp.src('./vendor/*.sass')
         .pipe(sass())
+        .pipe(gulp.dest('./css/'))
+})
+
+gulp.task('autoprefixer', function(){
+    return gulp.src('./css/subject.css')
+        .pipe(autoprefixer())
         .pipe(gulp.dest('./css/'))
 })
 

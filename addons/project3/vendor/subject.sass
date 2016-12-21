@@ -1,0 +1,1665 @@
+$color_red: #D60000
+$title_ml: 26px
+$ppl: 14px
+
+$block-wd-md: 320px
+$block-wd-sm: 290px
+$block-wd-xs: 360px
+.clearfix:after
+	content: ""
+	display: table
+	clear: both
+.text-hidden
+	font-size: 0px
+	text-indent: 100%
+	white-space: nowrap
+	overflow: hidden
+
+@mixin ff()
+	font-family: "微軟正黑體", sans-serif
+	text-align: justify
+	text-justify:inter-ideograph
+
+@mixin img_responsive()
+	display: inline-block
+	max-width: 100%
+	height: auto
+
+@mixin vertical()
+	-webkit-writing-mode: vertical-rl
+	writing-mode: vertical-rl
+
+@mixin horizontal()
+	-webkit-writing-mode: horizontal-tb
+	writing-mode: horizontal-tb
+
+#designstudio
+	a
+		color: $color_red
+	#header
+		max-width: 100%
+		margin-bottom: 140px
+		.top-img
+			background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/header/22-banner.jpg') center center no-repeat
+			background-size: cover
+			height: 510px
+			width: auto
+		.time-words
+			position: relative
+			.tm
+				position: absolute
+				top: -360px
+				left: 40px
+			.words
+				padding: 90px 0 110px 
+				max-width: 500px
+				margin: 0 auto
+				.zh
+					+ff
+					font-size: 24px
+					letter-spacing: 9px
+					color: #AAA
+				.en
+					font-size: 12px
+					letter-spacing: 6px
+					text-transform: none
+					color: #AAA
+		.middle-img
+			.subject-left
+				background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/header/made-1.jpg') center center no-repeat
+				background-size: cover
+				height: 400px
+				width: 35%
+				float: left
+				text-align: right
+				position: relative
+				&:before
+					content: ""
+					position: absolute
+					top: 0
+					right: 0
+					width: 30%
+					height: 10px
+					background-color: $color_red
+				&:after
+					content: ""
+					position: absolute
+					bottom: 0
+					left: 0
+					width: 30%
+					height: 10px
+					background-color: $color_red
+				p
+					color: #444
+					font-size: 20px
+					letter-spacing: 8px
+					line-height: 32px
+					padding-right: 60px
+				p:first-child
+					margin-top: 110px
+					margin-bottom: 32px
+				img
+					margin: 0 10px 0 auto
+					width: 10px
+
+			.subject-right
+				background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/header/made.jpg') center center no-repeat
+				background-size: cover
+				height: 400px
+				width: 65%
+				float: left
+				position: relative
+				img
+					position: absolute
+					top: 280px
+					left: 40px
+					height: 11px
+		.bottom-img
+			margin-top: 130px
+			.subject-left
+				background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/header/22-member.jpg') center center no-repeat
+				background-size: cover
+				height: 430px
+				width: 65%
+				float: left
+				margin-right: 7px
+			.subject-right
+				height: 430px
+				width: 30%
+				float: left
+				border-left: 10px solid $color_red
+				padding: 20px 30px 15px 60px
+				overflow: hidden
+				h2
+					color: $color_red
+					font-size: 16px
+					+ff
+				p
+					font-size: 14px
+					+ff
+
+@media only screen and (max-width:1240px)
+	#designstudio
+		#header
+			.top-img
+				height: 480px
+			.time-words
+				.tm
+					top: -360px
+					left: 40px
+					width: 260px
+			.middle-img
+				.subject-left
+					p
+						font-size: 20px
+						letter-spacing: 6px
+						line-height: 32px
+						padding-right: 20px
+			.bottom-img
+				margin-top: 130px
+				.subject-left
+					height: 430px
+					width: 65%
+					margin-right: 7px
+				.subject-right
+					height: 430px
+					width: 34%
+					padding: 40px 10px 25px 40px
+					overflow: auto
+@media only screen and (max-width:988px)
+	#designstudio
+		#header
+			margin-bottom: 60px
+			.middle-img
+				.subject-left
+					width: 50%
+					p
+						padding-right: 30px
+				.subject-right
+					width: 50%
+			.bottom-img
+				margin-top: 130px
+				.subject-left
+					height: 460px
+					width: 100%
+					float: none
+					margin-right: 0px
+					margin: 0 auto
+				.subject-right
+					margin-top: 10px
+					height: auto
+					width: 100%
+					float: none
+					padding: 40px 30px 25px 60px
+@media only screen and (max-width:730px)
+	#designstudio
+		#header
+			.middle-img
+				.subject-left
+					height: 400px
+					width: 100%
+					float: none
+				.subject-right
+					margin-top: 10px
+					height: 400px
+					width: 100%
+					float: none
+					img
+						top: 280px
+						left: 40px
+						height: 11px
+@media only screen and (max-width:541px)
+	#designstudio
+		#header		
+			.top-img
+				height: 420px
+			.time-words
+				.tm
+					top: -300px
+					width: 220px
+				.words
+					padding: 90px 28% 90px 6%
+					.en
+						letter-spacing: 2px
+			.bottom-img
+				.subject-left
+					background-size: 130% 
+					height: 320px
+@media only screen and (max-width:480px)
+	#designstudio
+		#header
+			.top-img
+				height: 320px
+			.time-words
+				.tm
+					top: -240px
+					left: 20px
+					width: 180px
+				.words
+					.zh
+						letter-spacing: 14px
+			.middle-img
+				.subject-left
+					height: auto
+					width: 100%
+					float: none
+					img
+						height: 80px
+					p:first-child
+						margin-top: 15%
+					p
+						font-size: 14px
+						letter-spacing: 3px
+						padding-right: 10px
+				.subject-right
+					margin-top: 10px
+					height: 340px
+					img
+						top: 320px
+						left: 20px
+						height: 9px
+			.bottom-img
+				margin-top: 30px
+				.subject-left
+					background-size: 130% 
+					height: 320px
+				.subject-right
+					padding: 20px 15px 22px 15px
+					h2
+						font-size: 16px
+					p
+						font-size: 14px
+@media only screen and (max-width:320px)						
+	#designstudio
+		#header
+			.bottom-img
+				.subject-left
+					height: 240px
+				.subject-right
+
+
+
+#designstudio
+	article#content1
+		background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/1/red-light.png') no-repeat center center
+		background-position: 0 320px
+		.container
+			max-width: 100%
+			.subject-left
+				float: left
+				margin-left: 90px
+				img
+			.subject-right
+				float: left
+		.desk
+			position: relative
+			.subject-left
+				max-width: 35%
+				img
+					max-width: 100%
+					position: relative
+					z-index: 2
+			.subject-right
+				max-width: 55%
+				margin-left: 40px
+				.title-block
+					border-left: 5px solid $color_red
+					position: relative
+					padding-left: 20px
+					p
+						font-size: 14px
+					&:before
+						content: ""
+						height: 100%
+						width: 3px
+						left: 2px
+						background-color: $color_red
+						position: absolute
+				.decoration-text
+					margin-top: 90px
+					position: relative
+					z-index: 3
+		.table-clock
+			position: relative
+			overflow: initial
+			.subject-left
+				width: 35%
+				margin-top: 80px
+				margin-left: 140px
+				.title-block
+					width: 374px
+					background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+					background-size: 11px 96px
+					.title-block-left
+						display: inline-block
+						margin-left: $title_ml
+						.sub-title
+							+ff
+							color: $color_red
+							font-size: 14px
+							font-weight: normal
+							letter-spacing: 2px
+						.zh
+							+ff
+							color: $color_red
+							font-size: 22px
+							font-weight: normal
+							letter-spacing: 4px
+						.en
+							font-size: 12px
+							letter-spacing: 2px
+							color: #999
+							text-transform: none
+					.title-block-right
+						display: inline-block
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					border-left: 7px solid $color_red
+					max-width: 320px
+					+ff
+					p
+						padding-left: $ppl
+			.subject-right
+				width: 50%
+				margin-top: -240px
+				img
+					position: relative
+					z-index: 1
+		.cardholder
+			position: relative
+			overflow: initial
+			top: -50px
+			.subject-right
+				width: 35%
+				margin-left: 0px
+				margin-top: 130px;
+				.title-block
+					background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+					background-size: 11px 96px
+					.title-block-left
+						display: inline-block
+						margin-left: $title_ml
+						.sub-title
+							+ff
+							color: $color_red
+							font-size: 14px
+							font-weight: normal
+							letter-spacing: 2px
+						.zh
+							+ff
+							color: $color_red
+							font-size: 22px
+							font-weight: normal
+							letter-spacing: 4px
+						.en
+							font-size: 12px
+							letter-spacing: 2px
+							color: #999
+							text-transform: none
+					.title-block-right
+						display: inline-block
+				.content-block
+					border-left: 7px solid $color_red
+					max-width: 360px
+					+ff
+					p
+						padding-left: $ppl
+			.subject-left
+				width: 50%
+				img
+					position: relative
+					z-index: 1					
+		.tape-dispenser
+			position: relative
+			overflow: initial
+			.subject-left
+				width: 35%
+				margin-top: 80px
+				margin-left: 140px
+				.title-block
+					width: 374px
+					background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+					background-size: 11px 96px
+					.title-block-left
+						display: inline-block
+						margin-left: $title_ml
+						.sub-title
+							+ff
+							color: $color_red
+							font-size: 14px
+							font-weight: normal
+							letter-spacing: 2px
+						.zh
+							+ff
+							color: $color_red
+							font-size: 22px
+							font-weight: normal
+							letter-spacing: 4px
+						.en
+							font-size: 12px
+							letter-spacing: 2px
+							color: #999
+							text-transform: none
+					.title-block-right
+						display: inline-block
+				.content-block
+					border-left: 7px solid $color_red
+					max-width: 320px
+					+ff
+					p
+						padding-left: $ppl
+			.subject-right
+				width: 50%
+				margin-top: -180px
+				img
+					position: relative
+					z-index: 1
+		.pen-holder
+			position: relative
+			overflow: initial
+			top: -20px
+			margin-bottom: 40px
+			.subject-right
+				width: 45%
+				margin-left: 0px
+				margin-top: 130px;
+				.title-block
+					background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+					background-size: 11px 96px
+					.title-block-left
+						display: inline-block
+						margin-left: $title_ml
+						.sub-title
+							+ff
+							color: $color_red
+							font-size: 14px
+							font-weight: normal
+							letter-spacing: 2px
+						.zh
+							+ff
+							color: $color_red
+							font-size: 22px
+							font-weight: normal
+							letter-spacing: 4px
+						.en
+							font-size: 12px
+							letter-spacing: 2px
+							color: #999
+							text-transform: none
+					.title-block-right
+						display: inline-block
+				.content-block
+					border-left: 7px solid $color_red
+					max-width: 420px
+					+ff
+					p
+						padding-left: $ppl
+			.subject-left
+				width: 47%
+				img
+					position: relative
+					z-index: 1	
+		.city-sculpture
+			position: relative
+			overflow: initial
+			.subject-left
+				width: 40%
+				margin-top: 120px
+				margin-left: 140px
+				.title-block
+					width: 438px
+					background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+					background-size: 11px 96px
+					position: relative
+					.title-block-left
+						display: inline-block
+						vertical-align: middle
+						margin-left: $title_ml
+						.sub-title
+							+ff
+							color: $color_red
+							font-size: 14px
+							font-weight: normal
+							letter-spacing: 2px
+						.zh
+							+ff
+							color: $color_red
+							font-size: 22px
+							font-weight: normal
+							letter-spacing: 4px
+						.en
+							font-size: 12px
+							letter-spacing: 2px
+							color: #999
+							text-transform: none
+					.title-block-right
+						display: inline-block
+						vertical-align: middle
+						width: 20%
+						position: absolute
+						top: -30px
+						right: 100px
+						img
+							width: 100%
+				.content-block
+					border-left: 7px solid $color_red
+					max-width: 370px
+					+ff
+					p
+						padding-left: $ppl
+			.subject-right
+				width: 45%
+				margin-top: -80px
+				img
+					position: relative
+					z-index: 1
+					
+
+@media only screen and (max-width:1240px)
+	#designstudio
+		article#content1
+			background-image: none
+			.container
+				.subject-left
+					float: left
+					margin-left: 0px
+			.desk
+				.subject-left
+					width: 35%
+				.subject-right
+					width: 50%
+					.decoration-text
+						margin-top: 60px
+			.table-clock
+				.subject-left
+					width: 40%
+					margin-top: 80px
+					margin-left: 0px
+				.subject-right
+					width: 55%
+					margin-top: -200px
+					img
+						position: relative
+						z-index: 1
+			.cardholder
+				top: -20px
+				.subject-right
+					margin-left: 30px
+			.tape-dispenser
+				.subject-left
+					width: 40%
+					margin-top: 80px
+					margin-left: 0px
+				.subject-right
+					width: 55%
+					margin-top: -150px
+					img
+			.pen-holder
+				top: -20px
+				.subject-right
+					margin-left: 30px
+			.city-sculpture
+				.subject-left
+					width: 50%
+					margin-top: 80px
+					margin-left: 0px
+				.subject-right
+					width: 50%
+					margin-top: -100px
+					img
+
+@media only screen and (max-width:988px)					
+	#designstudio
+		article#content1
+			.desk
+				.subject-left
+					width: 35%
+				.subject-right
+					width: 45%
+			.table-clock
+				.subject-left
+					width: 55%
+					margin-top: 80px
+					margin-left: 0px
+				.subject-right
+					width: 45%
+					margin-top: 0px
+			.cardholder
+				.subject-right
+					width: 45%
+					margin-left: 0px
+				.subject-left
+					width: 55%
+			.tape-dispenser
+				margin-bottom: 70px
+				.subject-left
+					width: 55%
+					margin-top: 80px
+					margin-left: 0px
+				.subject-right
+					width: 45%
+					margin-top: 0px
+			.pen-holder
+				.subject-right
+					width: 45%
+					margin-left: 0px
+					margin-top: 70px
+				.subject-left
+					width: 55%
+			.city-sculpture
+				margin-bottom: 70px
+				.subject-left
+					width: 60%
+					margin-top: 80px
+					margin-left: 0px
+				.subject-right
+					width: 40%
+					margin-top: 0px
+
+@media only screen and (max-width:730px)					
+	#designstudio
+		article#content1
+			.desk
+				.subject-left
+					float: right
+					width: 35%
+				.subject-right
+					float: left
+					width: 55%
+					margin-left: 0
+					.decoration-text
+						margin-top: 30px
+			.table-clock
+				.subject-left
+					width: 60%
+					margin-top: 80px
+					margin-left: 0px
+					height: auto
+					.title-block
+						max-width: 382px
+				.subject-right
+					width: 40%
+			.cardholder
+				overflow: initial
+				top: -20px
+				.subject-right
+					width: 45%
+					margin-left: 0px
+					margin-top: 80px;
+					.title-block
+						background-size: 11px 96px
+						.title-block-left
+						.title-block-right
+							width: 20%
+							img
+								width: 100%
+					.content-block
+						max-width: 360px
+				.subject-left
+					width: 55%
+			.tape-dispenser
+				margin-bottom: 30px
+				.subject-left
+					width: 60%
+					margin-top: 80px
+					margin-left: 0px
+					height: auto
+					.content-block
+					.title-block
+						max-width: 382px
+				.subject-right
+					width: 40%
+			.pen-holder
+				overflow: initial
+				top: -20px
+				.subject-right
+					width: 45%
+					margin-left: 0px
+					margin-top: 80px;
+					.title-block
+						background-size: 11px 96px
+						.title-block-left
+						.title-block-right
+							width: 20%
+							img
+								width: 100%
+					.content-block
+						max-width: 360px
+				.subject-left
+					width: 55%
+			.city-sculpture
+				.subject-left
+					width: 62%
+					margin-top: 80px
+					margin-left: 0px
+					height: auto
+					.title-block
+						max-width: 382px
+				.subject-right
+					width: 38%
+
+@media only screen and (max-width:671px)
+	#designstudio
+		article#content1
+			.table-clock
+				width: $block-wd-xs
+				margin: 80px auto 0 auto
+				.subject-left
+					width: 100%
+					float: none
+					margin-top: 80px
+					margin-left: 0px
+					height: auto
+					.title-block
+						max-width: 360px
+					.content-block
+						width: 100%
+						max-width: 100%
+				.subject-right
+					width: 85%
+					float: none	
+					margin: 0 auto
+			.cardholder
+				overflow: auto
+				position: relative
+				width: $block-wd-xs
+				margin: 80px auto 0 auto
+				.subject-right
+					position: absolute
+					top: 0
+					width: 100%
+					float: none
+					margin-top: 80px;
+					margin-left: 0px
+					.title-block
+						.title-block-left
+							vertical-align: middle
+						.title-block-right
+							vertical-align: middle
+					.content-block
+						width: 100%
+						max-width: 100%
+				.subject-left
+					width: 85%
+					float: none
+					margin: 300px auto 0px
+			.tape-dispenser
+				width: $block-wd-xs
+				margin: 80px auto 0 auto
+				.subject-left
+					width: 100%
+					float: none
+					margin-top: 10px
+					margin-left: 0px
+					height: auto
+					.title-block
+						max-width: 360px
+					.content-block
+						width: 100%
+						max-width: 100%
+				.subject-right
+					width: 60%
+					float: none	
+					margin: 0 auto
+			.pen-holder
+				width: $block-wd-xs
+				margin: 80px auto 0 auto
+				overflow: auto
+				position: relative
+				.subject-right
+					position: absolute
+					top: 0
+					width: 100%
+					float: none
+					margin-top: 60px;
+					margin-left: 0px
+					.title-block
+						.title-block-left
+							vertical-align: middle
+						.title-block-right
+							vertical-align: middle
+					.content-block
+						width: 100%
+						max-width: 100%
+				.subject-left
+					width: 70%
+					float: none
+					margin: 330px auto 0px
+			.city-sculpture
+				width: $block-wd-xs
+				margin: 80px auto 0 auto
+				.subject-left
+					width: 100%
+					float: none
+					margin-top: 10px
+					margin-left: 0px
+					height: auto
+					.title-block
+						max-width: 360px
+					.content-block
+						width: 100%
+						max-width: 100%
+				.subject-right
+					width: 60%
+					float: none	
+					margin: 0 auto
+@media only screen and (max-width:541px)
+	#designstudio
+		article#content1
+			.desk
+				position: relative
+				.subject-left
+					margin-top: 50%
+					width: 100%
+					max-width: 100%
+					img
+						width: 100%
+				.subject-right
+					position: absolute
+					top: 0
+					width: 100%
+					max-width: 100%
+					margin-top: 10px	
+					.decoration-text
+						margin-top: 10px
+@media only screen and (max-width:480px)
+	#designstudio
+		article#content1
+			background-image: none
+			.desk
+				.subject-left
+					margin-top: 45%
+					float: none
+					width: 100%
+					max-width: 100%
+					img
+						width: 100%
+				.subject-right
+					float: none
+					width: 100%
+					max-width: 100%
+					margin-top: 10px
+					.decoration-text
+						margin-top: 0px
+						display: none
+			.table-clock
+				.subject-left
+					.title-block
+						width: 100%
+						max-width: 100%
+						.title-block-right
+							width: 25%
+							img
+								width: 100%
+					.content-block
+						width: 100%
+						max-width: 100%
+						p
+							padding-right: 15px
+				.subject-right
+					width: 60%
+					float: none	
+					margin: 0 auto
+			.cardholder
+				.subject-right
+					margin-top: 60px
+					.content-block
+						p
+							padding-right: 15px
+			.tape-dispenser
+				.subject-left
+					.title-block
+						width: 100%
+						max-width: 100%
+						.title-block-left
+						.title-block-right
+							width: 30%
+							img
+								width: 100%
+					.content-block
+						width: 100%
+						max-width: 100%
+						p
+							padding-right: 15px
+				.subject-right
+					width: 60%
+					float: none	
+					margin: 0 auto
+			.pen-holder
+				.subject-left
+					margin: 400px auto 0
+				.subject-right
+					margin-top: 60px
+					.content-block
+						p
+							padding-right: 15px
+			.city-sculpture
+				.subject-left
+					.title-block
+						width: 100%
+						max-width: 100%
+						.title-block-right
+							top: -10px
+							right: 50px
+					.content-block
+						width: 100%
+						max-width: 100%
+						p
+							padding-right: 15px
+				.subject-right
+					width: 60%
+					float: none	
+					margin: 0 auto
+@media only screen and (max-width:320px)
+	#designstudio
+		article#content1
+			.table-clock
+				.subject-left
+					.title-block
+						.title-block-right
+							width: 20%
+			.pen-holder
+				.subject-left
+					margin: 130% auto 0
+			
+#designstudio
+	article#content2
+		.writing
+			position: relative
+			overflow: visible
+			margin-top: 80px
+			.subject-left
+				.bg-img
+					position: absolute
+					width: 55%
+					z-index: 1
+					top: -150px
+					left: -60px
+			.subject-right
+				position: relative
+				z-index: 3
+				float: right
+				width: 47%
+				.title-block
+					border-left: 5px solid $color_red
+					position: relative
+					padding-left: 20px
+					p
+						font-size: 14px
+					&:before
+						content: ""
+						height: 100%
+						width: 3px
+						left: 2px
+						background-color: $color_red
+						position: absolute
+		.container
+			max-width: 100%
+			margin-left: 140px
+			margin-right: 140px
+			position: relative
+			top: -180px
+		.sketch
+			position: relative
+			float: left
+			.main-img
+				max-width: 100%
+				height: auto
+				position: relative
+				z-index: 3
+				margin-bottom: 28px
+			.title-block
+				width: 360px
+				background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+				background-size: 11px 96px
+				margin-bottom: 28px
+				.title-block-left
+					float: left
+					margin-left: $title_ml
+					.zh
+						+ff
+						color: $color_red
+						font-size: 22px
+						font-weight: normal
+						letter-spacing: 4px
+						padding-top: 40px
+					.en
+						font-size: 12px
+						letter-spacing: 2px
+						color: #999
+						text-transform: none
+						margin-bottom: 0
+				.title-block-right
+					float: right
+			.content-block
+				border-left: 7px solid $color_red
+				width: 360px
+				+ff
+				p
+					padding-left: $ppl
+		.mechanical
+			position: relative
+			overflow: initial
+			float: right
+			margin-top: 280px
+			margin-right: 50px
+			.main-img
+				max-width: 100%
+				height: auto
+				position: relative
+				z-index: 3
+				margin-bottom: 28px
+			.title-block
+				width: 360px
+				background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+				background-size: 11px 96px
+				margin-bottom: 28px
+				.title-block-left
+					float: left
+					margin-left: $title_ml
+					.zh
+						+ff
+						color: $color_red
+						font-size: 22px
+						font-weight: normal
+						letter-spacing: 4px
+						padding-top: 40px
+					.en
+						font-size: 12px
+						letter-spacing: 2px
+						color: #999
+						text-transform: none
+						margin-bottom: 0
+				.title-block-right
+					float: right
+			.content-block
+				border-left: 7px solid $color_red
+				width: 360px
+				+ff
+				p
+					padding-left: $ppl		
+		.rollerball
+			position: relative
+			float: left
+			margin-top: 80px
+			.main-img
+				max-width: 100%
+				height: auto
+				position: relative
+				z-index: 3
+				margin-bottom: 28px
+			.title-block
+				width: 360px
+				background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/dot-5-gray.png') no-repeat left center
+				background-size: 11px 96px
+				margin-bottom: 28px
+				.title-block-left
+					float: left
+					margin-left: $title_ml
+					.zh
+						+ff
+						color: $color_red
+						font-size: 22px
+						font-weight: normal
+						letter-spacing: 4px
+						padding-top: 40px
+					.en
+						font-size: 12px
+						letter-spacing: 2px
+						color: #999
+						text-transform: none
+						margin-bottom: 0
+				.title-block-right
+					float: right
+			.content-block
+				border-left: 7px solid $color_red
+				width: 360px
+				+ff
+				p
+					padding-left: $ppl
+@media only screen and (max-width:1240px)					
+	#designstudio
+		article#content2
+			.container
+				margin-left: 0px
+				margin-right: 40px
+
+@media only screen and (max-width:988px)					
+	#designstudio
+		article#content2
+			.writing
+				.subject-left
+					.bg-img
+						top: -110px
+						left: -60px
+			.container
+				margin-right: 0px
+			.sketch
+				width: $block-wd-md
+				.title-block
+					width: $block-wd-md
+				.content-block
+					width: $block-wd-md
+			.mechanical
+				width: $block-wd-md
+				margin-right: 0px
+				.title-block
+					width: $block-wd-md
+				.content-block
+					width: $block-wd-md
+			.rollerball
+				width: $block-wd-md
+				.title-block
+					width: $block-wd-md
+				.content-block
+					width: $block-wd-md
+
+@media only screen and (max-width:730px)
+	#designstudio
+		article#content2
+			.writing
+				.subject-left
+					.bg-img
+						top: -55px
+						left: -60px
+			.sketch
+				margin-top: 80px
+				width: $block-wd-sm
+				.title-block
+					width: $block-wd-sm
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					width: $block-wd-sm
+			.mechanical
+				width: $block-wd-sm
+				margin-right: 0px
+				.title-block
+					width: $block-wd-sm
+					.title-block-right
+						float: right
+						width: 21%
+						img
+							width: 100%
+
+				.content-block
+					width: $block-wd-sm
+			.rollerball
+				width: $block-wd-sm
+				.title-block
+					width: $block-wd-sm
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					width: $block-wd-sm
+
+
+@media only screen and (max-width:671px)
+	#designstudio
+		article#content2
+			.writing
+				.subject-left
+					.bg-img
+						display: none
+				.subject-right
+					width: 100%
+			.container
+				position: relative
+				top: 0
+			.sketch
+				width: $block-wd-xs
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					width: $block-wd-xs
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					width: $block-wd-xs
+			.mechanical
+				width: $block-wd-xs
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					width: $block-wd-xs
+					.title-block-right
+						float: right
+						width: 21%
+						img
+							width: 100%
+
+				.content-block
+					width: $block-wd-xs
+			.rollerball
+				width: $block-wd-xs
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					width: $block-wd-xs
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					width: $block-wd-xs
+@media only screen and (max-width:541px)
+	#designstudio
+		article#content2
+			.container
+				position: relative
+				top: 0
+			.sketch
+				width: $block-wd-xs
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					width: $block-wd-xs
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					width: $block-wd-xs
+			.mechanical
+				width: $block-wd-xs
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					width: $block-wd-xs
+					.title-block-right
+						float: right
+						width: 21%
+						img
+							width: 100%
+
+				.content-block
+					width: $block-wd-xs
+			.rollerball
+				width: $block-wd-xs
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					width: $block-wd-xs
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					width: $block-wd-xs
+@media only screen and (max-width:480px)					
+	#designstudio
+		article#content2
+			.container
+				position: relative
+				top: 0
+			.sketch
+				max-width: 100%
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					max-width: 100%
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					max-width: 100%
+			.mechanical
+				max-width: 100%
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					max-width: 100%
+					.title-block-right
+						float: right
+						width: 21%
+						img
+							width: 100%
+				.content-block
+					max-width: 100%
+			.rollerball
+				max-width: 100%
+				float: none
+				margin: 80px auto 0 auto
+				.title-block
+					max-width: 100%
+					.title-block-right
+						float: right
+						width: 30%
+						img
+							width: 100%
+				.content-block
+					max-width: 100%
+
+
+#designstudio
+	article#content3
+		margin-top: -150px
+		.ring
+			position: relative
+			overflow: visible
+			.subject-left
+				width: 45%
+				z-index: 1
+			.subject-right
+				position: absolute
+				top: -330px
+				right: 0
+				z-index: 3
+				width: 46%
+				.title-block
+					border-left: 5px solid $color_red
+					position: relative
+					padding-left: 20px
+					p
+						font-size: 14px
+					&:before
+						content: ""
+						height: 100%
+						width: 3px
+						left: 2px
+						background-color: $color_red
+						position: absolute
+		.container
+			margin-left: 140px
+			margin-right: 140px
+		.corner
+			.product-block
+				width: 420px
+				.subject-left
+					width: 45%
+					display: inline-block
+					.main-img
+					
+				.subject-right
+					width: 50%
+					margin-left: 4%
+					display: inline-block
+					.content-block
+						background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/9-2.jpg") no-repeat -15px -65px
+						background-size: 60%
+						height: 100%
+						p
+							+ff
+							font-size: 12px
+							margin: 0
+							padding-top: 50px
+			.title-block
+				margin-top: 8px
+				.zh
+					display: inline-block
+					+ff
+					color: $color_red
+					font-size: 18px
+					font-weight: normal
+					letter-spacing: 4px
+				.en
+					display: inline-block
+					font-size: 12px
+					letter-spacing: 2px
+					color: #999
+					text-transform: none
+					margin-bottom: 0
+		.polygon
+			float: right
+			margin-top: -80px
+			.product-block
+				width: 420px
+				.subject-left
+					width: 45%
+					display: inline-block
+				.subject-right
+					width: 50%
+					margin-left: 4%
+					display: inline-block
+					.content-block
+						background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/10-2.jpg") no-repeat -15px -55px
+						background-size: 60%
+						height: 100%
+						p
+							+ff
+							font-size: 12px
+							margin: 0
+							padding-top: 90px
+			.title-block
+				margin-top: 8px
+				.zh
+					display: inline-block
+					+ff
+					color: $color_red
+					font-size: 18px
+					font-weight: normal
+					letter-spacing: 4px
+				.en
+					display: inline-block
+					font-size: 12px
+					letter-spacing: 2px
+					color: #999
+					text-transform: none
+					margin-bottom: 0
+		.tatami
+			margin-top: 70px
+			.product-block
+				width: 420px
+				.subject-left
+					width: 45%
+					display: inline-block
+				.subject-right
+					width: 50%
+					margin-left: 4%
+					display: inline-block
+					.content-block
+						background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/11-2.jpg") no-repeat -15px 0px
+						background-size: 45%
+						height: 100%
+						p
+							+ff
+							font-size: 12px
+							margin: 0
+							padding-top: 90px
+			.title-block
+				margin-top: 8px
+				.zh
+					display: inline-block
+					+ff
+					color: $color_red
+					font-size: 18px
+					font-weight: normal
+					letter-spacing: 4px
+				.en
+					display: inline-block
+					font-size: 12px
+					letter-spacing: 2px
+					color: #999
+					text-transform: none
+					margin-bottom: 0
+		.twist
+			float: right
+			margin-top: -50px
+			.product-block
+				width: 420px
+				.subject-left
+					width: 45%
+					display: inline-block
+				.subject-right
+					width: 50%
+					margin-left: 4%
+					display: inline-block
+					.content-block
+						background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/12-2.jpg") no-repeat -15px -55px
+						background-size: 60%
+						height: 100%
+						p
+							+ff
+							font-size: 12px
+							margin: 0
+							padding-top: 45px
+			.title-block
+				margin-top: 8px
+				.zh
+					display: inline-block
+					+ff
+					color: $color_red
+					font-size: 18px
+					font-weight: normal
+					letter-spacing: 4px
+				.en
+					display: inline-block
+					font-size: 12px
+					letter-spacing: 2px
+					color: #999
+					text-transform: none
+					margin-bottom: 0
+
+@media only screen and (max-width:1240px)
+	#designstudio
+		article#content3
+			.container
+				margin-left: 0
+				margin-right: 40px
+@media only screen and (max-width:988px)
+	#designstudio
+		article#content3
+			.polygon
+				margin-top: 0px
+			.tatami
+				margin-top: 260px
+			.twist
+				margin-top: 20px
+@media only screen and (max-width:671px)
+	#designstudio
+		article#content3
+			margin-top: 0px
+			.ring
+				position: relative
+				.subject-left
+					display: none
+				.subject-right
+					position: relative
+					right: 0
+					top: 80px
+					z-index: 3
+					width: 100%
+					.title-block
+						border-left: 5px solid $color_red
+						position: relative
+						padding-left: 20px
+			.corner
+				margin: 120px auto 0
+				width: 420px
+			.polygon
+				float: none
+				margin: 70px auto 0
+				width: 420px
+			.tatami
+				margin: 70px auto 0
+				width: 420px
+			.twist
+				float: none
+				margin: 70px auto 0
+				width: 420px
+@media only screen and (max-width:541px)
+	#designstudio
+		article#content3
+			.container
+				margin-right: 0
+			.corner, .polygon, .tatami, .twist
+				.product-block
+					.subject-left
+						width: 35%
+					.subject-right
+						width: 62%
+						margin-left: 2%
+			.corner
+				.product-block
+					.subject-right
+						.content-block
+							background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/9-2.jpg") no-repeat -15px -45px
+							background-size: 50%
+			.polygon
+				.product-block
+					.subject-right
+						.content-block
+							background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/10-2.jpg") no-repeat -15px -33px
+							background-size: 45%
+			.tatami
+				.product-block
+					.subject-right
+						.content-block
+							background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/11-2.jpg") no-repeat -15px 36px
+							background-size: 35%
+			.twist
+				.product-block
+					.subject-right
+						.content-block
+							background: #FFF url("http://img104.addons.com.tw/media/upload/brand/22designstudio/3/12-2.jpg") no-repeat -15px -30px
+							background-size: 45%	
+@media only screen and (max-width:480px)
+	#designstudio
+		article#content3
+			.corner, .polygon, .tatami, .twist
+				width: 100%
+				position: relative
+				.product-block
+					margin: 0 auto
+					width: 100%
+					.subject-left
+						width: 100%
+						float: none
+						.main-img
+							img
+								margin: 0 auto
+					.subject-right
+						width: 100%
+						margin-left: 0%															
+						float: none
+						.content-block
+							background-image: none
+							p
+								padding-top: 60px
+				.title-block
+					position: absolute
+					top: 220px
+					left: 0
+
+#designstudio
+	footer#footer
+		margin-top: 40px
+		img
+			margin: 0 auto
+			max-width: 100%
+		.bg-img
+			margin-top: 30px
+			height: 453px
+			width: auto
+			background: #FFF url('http://img104.addons.com.tw/media/upload/brand/22designstudio/footer/22-footer.jpg') center center no-repeat
+			background-size: cover
+
+@media only screen and (max-width:730px)
+	#designstudio
+		footer#footer
+			.bg-img
+				height: 300px
+@media only screen and (max-width:480px)
+	#designstudio
+		footer#footer
+			img
+				margin: 0 auto
+				max-width: 72%
+			.bg-img
+				height: 220px				
